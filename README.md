@@ -138,6 +138,7 @@ npm run dist
 | `--selftest-panel` | 自检时截下手账全部页面，包括深色模式 |
 | `--selftest-func` | 配合 `--selftest-panel` 使用。用内置的模拟模型跑通几条真实流程：界面上加待办、聊天和工具调用、工坊审批与写文件、扩展审核与调用 |
 | `--selftest-ai` | 用模拟模型检查 AI 驱动的桌宠行为 |
+| `--selftest-crowd` | 拥挤场景：真实右键（短按、慢按、拖动）检查圆环菜单；桌宠上堆满工坊便签；手账里的长历史、几十步的工坊日志、便签夹和最小窗口；设置里的作者与项目链接 |
 
 ```bash
 npx electron . --selftest=./selftest-out --selftest-panel --selftest-func

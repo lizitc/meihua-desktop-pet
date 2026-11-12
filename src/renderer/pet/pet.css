@@ -29,6 +29,13 @@ button { font: inherit; color: inherit; border: 0; background: none; padding: 0;
 /* ---------------------------------------------------------------- speech column */
 .column { position: absolute; left: 8px; bottom: 300px; width: min(304px, calc(100vw - 16px)); display: flex; flex-direction: column; gap: 8px; justify-content: flex-end; align-items: stretch; --tail-x: 50%; }
 .column > * { flex: none; }
+/* workshop approvals and notices can pile up: they scroll inside the room above her head instead of pushing the older
+   ones out of the top of the window. Newest first in the markup + column-reverse: the scroll origin is the bottom, so
+   the newest card stays in view next to her however the room changes (a bubble appearing, the window resizing). */
+.column > .card-stack { flex: 0 1 auto; min-height: 104px; display: flex; flex-direction: column-reverse; gap: 8px; margin: -6px -10px -10px; padding: 6px 10px 10px; }
+/* a scroll box only while they do not fit (ui.frame sets .over), so nothing clips the cards' shadows otherwise */
+.column > .card-stack.over { overflow: hidden auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: var(--berry-soft) transparent; }
+.card-stack > .card { flex: none; }
 
 .bubble {
   position: relative; background: var(--paper); border-radius: 18px; padding: 13px 16px 11px; box-shadow: var(--shadow);

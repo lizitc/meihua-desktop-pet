@@ -122,7 +122,7 @@ export class Input {
     try { document.documentElement.setPointerCapture(e.pointerId); } catch { /* ignore */ }
     const part = e.button === 0 ? this.c.partAt(e.clientX, e.clientY) : null;
     this.press = {
-      button: e.button, x: e.clientX, y: e.clientY, t: performance.now(), part, moved: false, pulling: false,
+      button: e.button, x: e.clientX, y: e.clientY, sx: e.screenX, sy: e.screenY, far: false, t: performance.now(), part, moved: false, pulling: false,
       pat: { dir: 0, lastX: e.clientX, n: 0 }, rub: counter(e.clientX, e.clientY), grab: part ? part.native : null,
     };
     if (e.button === 2) {
@@ -136,6 +136,8 @@ export class Input {
     if (!p) return;
     const dist = Math.hypot(e.clientX - p.x, e.clientY - p.y);
     if (p.button === 2) {
+      // screen distance: once dragging, the window follows the pointer and client coordinates stand still
+      if (Math.hypot(e.screenX - p.sx, e.screenY - p.sy) >= MOVE_PX) p.far = true;
       if (!this.dragging && dist >= MOVE_PX) this.#startDrag();
       return;
     }
@@ -175,8 +177,11 @@ export class Input {
     clearTimeout(p.timer);
     try { document.documentElement.releasePointerCapture(e.pointerId); } catch { /* ignore */ }
     if (p.button === 2) {
+      // a short click opens the ring; so does a slow one that only turned into a drag by being held (never moved)
+      const still = !p.far && Math.hypot(e.screenX - p.sx, e.screenY - p.sy) < MOVE_PX;
+      const click = !this.dragging || (still && performance.now() - p.t < 700);
       if (this.dragging) this.#endDrag();
-      else this.ui.openRing(e.clientX, e.clientY);
+      if (click) this.ui.openRing(e.clientX, e.clientY);
       return;
     }
     const rig = this.c.rig;

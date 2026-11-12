@@ -317,6 +317,11 @@ function HotkeyInput({ path, label, failed }) {
   return html`<${Row} label=${label} hint=${taken ? html`<span class="danger-hint">${ICON.warn}已被其他程序占用，换一个组合吧</span>` : null}><input class=${`input mono hotkey ${rec ? 'rec' : ''} ${taken ? 'taken' : ''}`} readonly value=${rec ? '请按下组合键…' : value || '未设置'} onFocus=${() => setRec(true)} onBlur=${() => setRec(false)} onKeyDown=${onKey} title="点击后按下新的组合键；Backspace 清除" /><//>`;
 }
 
+const LINKS = [
+  { label: '作者 B 站主页', url: 'https://space.bilibili.com/441278737', open: '去看看' },
+  { label: '项目仓库（GitHub）', url: 'https://github.com/lizitc/meihua-desktop-pet', open: '打开仓库' },
+];
+
 function App() {
   const { data: info } = useRpc('app.info');
   const { data: failed } = useRpc('app.hotkeyStatus', [], ['hotkeys:status', 'settings:changed']);
@@ -334,6 +339,11 @@ function App() {
     <${Row} label="数据文件夹" hint=${info?.userData}><button class="btn small" onClick=${() => info && invoke('system.openPath', info.userData)}>${ICON.folder}打开</button><//>
     <${Row} label="聊天记录"><button class="btn small ghost danger-text" onClick=${clearChat}>${ICON.trash}清空</button><//>
     <${Row} label="初次设置向导"><button class="btn small" onClick=${rerun}>${ICON.refresh}重新开始</button><//>
+    <h4 class="set-sub">作者与项目</h4>
+    ${LINKS.map((l) => html`<div class="set-row link-row">
+      <div class="set-label"><span>${l.label}</span><span class="hint link-url">${l.url}</span></div>
+      <button class="btn small" title=${`在浏览器中打开 ${l.url}`} onClick=${() => invoke('system.openExternal', l.url)}>${ICON.external}${l.open}</button>
+    </div>`)}
     <p class="muted small about-line">御园莓华 Desktop ${info?.version || ''} · Electron ${info?.electron || ''} · 密钥使用 Windows DPAPI 加密保存在本机</p>`;
 }
 

@@ -183,8 +183,10 @@ export function mountUI(root, { api, getSettings, onAction }) {
     };
     const life = store.get().life;
     const on = (it) => it.toggle && !!it.toggle.split('.').reduce((o, k) => o?.[k], settings);
+    // On Windows the contextmenu event of the very right-click that opened the ring (on button release) arrives after
+    // the ring is already drawn, so it lands here too; only a later right-click puts the ring away.
     return html`<div class="ring-scrim hit" onPointerDown=${(e) => { if (e.target === e.currentTarget) store.set({ ring: null }); }}
-        onContextMenu=${(e) => { e.preventDefault(); store.set({ ring: null }); }}>
+        onContextMenu=${(e) => { e.preventDefault(); if (performance.now() - (r.t || 0) > 300) store.set({ ring: null }); }}>
       <div class="ring ${r.page === 'actions' ? 'sub' : ''}" style=${`left:${cx}px;top:${cy}px`} key=${r.page}>
         <svg class="ring-vine" viewBox="-110 -110 220 220" aria-hidden="true"><circle r=${R} /></svg>
         ${items.map((it, i) => {
@@ -250,10 +252,14 @@ export function mountUI(root, { api, getSettings, onAction }) {
     const colRef = useRef(null);
     const badgeRef = useRef(null);
     const thinkRef = useRef(null);
-    useLayoutEffect(() => { live.colEl = colRef.current; live.badgeEl = badgeRef.current; live.thinkEl = thinkRef.current; });
+    const stackRef = useRef(null);
+    useLayoutEffect(() => { live.colEl = colRef.current; live.badgeEl = badgeRef.current; live.thinkEl = thinkRef.current; live.stackEl = stackRef.current; });
+    // a new card brings the stack back to the newest end (scrollTop 0 is the bottom of a column-reverse box)
+    const newest = s.cards[s.cards.length - 1]?.id;
+    useLayoutEffect(() => { if (stackRef.current) stackRef.current.scrollTop = 0; }, [newest]);
     return html`
       <div class="column" ref=${colRef}>
-        ${s.cards.map((c) => html`<${Card} c=${c} key=${c.id} />`)}
+        ${s.cards.length ? html`<div class="card-stack hit" ref=${stackRef}>${[...s.cards].reverse().map((c) => html`<${Card} c=${c} key=${c.id} />`)}</div>` : null}
         ${s.bubble ? html`<${Bubble} b=${s.bubble} key=${s.bubble.id} />` : null}
         ${s.input ? html`<${QuickInput} s=${s} />` : null}
       </div>
@@ -341,7 +347,17 @@ export function mountUI(root, { api, getSettings, onAction }) {
     toast,
     setThinking(on) { store.set({ thinking: !!on }); },
     setAgent(agent) { store.set({ agent }); },
-    addCard(card) { store.set((s) => ({ cards: [...s.cards.filter((c) => c.id !== card.id), card].slice(-3) })); },
+    addCard(card) {
+      store.set((s) => {
+        const cards = [...s.cards.filter((c) => c.id !== card.id), card];
+        // a few at a time (the notebook's clip keeps them all); notices make room before the decisions a task waits on
+        while (cards.length > 4) {
+          const i = cards.findIndex((c) => c.kind !== 'approval' && c.kind !== 'question');
+          cards.splice(i >= 0 && i < cards.length - 1 ? i : 0, 1);
+        }
+        return { cards };
+      });
+    },
     removeCard(id) { store.set((s) => ({ cards: s.cards.filter((c) => c.id !== id) })); },
     /** Opens the quick chat (or just focuses it when it is already open); the draft is kept between openings. */
     openInput() {
@@ -370,6 +386,14 @@ export function mountUI(root, { api, getSettings, onAction }) {
         col.style.bottom = bottom + 'px';
         col.style.maxHeight = Math.max(120, anchor.y - 14) + 'px';
         col.style.setProperty('--tail-x', Math.round(Math.min(w - 26, Math.max(26, anchor.x - left))) + 'px');
+      }
+      const stack = live.stackEl;
+      if (stack?.isConnected) {
+        // the cards scroll only when they outgrow the room above her head (content box: padding 6 + 10)
+        let need = -8;
+        for (const c of stack.children) need += c.offsetHeight + 8;
+        const over = need > stack.clientHeight - 16 + 1;
+        if (over !== stack.classList.contains('over')) stack.classList.toggle('over', over);
       }
       if (live.thinkEl) { live.thinkEl.style.left = Math.round(anchor.x + 18) + 'px'; live.thinkEl.style.top = Math.round(anchor.y - 34) + 'px'; }
       if (live.badgeEl) { live.badgeEl.style.left = Math.round(Math.min(W - 120, anchor.x + 54)) + 'px'; live.badgeEl.style.top = Math.round(anchor.y + 90) + 'px'; }

@@ -760,6 +760,207 @@ async function agentScenario({ note }) {
   server.close();
 }
 
+/**
+ * Crowded screens: a real right-click on her body (through the input pipeline, not ui.openRing) must leave the ring
+ * menu open; a pile of workshop cards on the pet, a long workshop history and a full notes clip in the notebook must
+ * keep every item at its natural size and clickable.
+ */
+async function crowdScenario({ js, shot, note, panelWindow, petWindow, errors }) {
+  const { showCard } = await import('./notify.js');
+  const { broadcast } = await import('./bus.js');
+  const { agents } = await import('./agent/agent.js');
+  const { userDir } = await import('./paths.js');
+  await js(`__meihua.behavior.nextIdle = 1e9; 1`);
+  await sleep(1500);
+  const wc = petWindow.win.webContents;
+  // the OS cursor as main sees it (window drags follow it): pinned to the synthetic pointer while clicking
+  const { screen } = await import('electron');
+  const origCursor = screen.getCursorScreenPoint, realCursor = origCursor.bind(screen);
+  let fakeCursor = null;
+  screen.getCursorScreenPoint = () => fakeCursor || realCursor();
+  // a point on her body under the pointer (the hit test runs every frame, so hover first and ask the input layer)
+  const bodyPoint = async () => {
+    const g = await js(`(() => { const c = __meihua.character, a = c.anchor(), f = c.foot(); return { ax: a.x, ay: a.y, fy: f.y }; })()`);
+    for (const k of [0.5, 0.42, 0.6, 0.35, 0.68, 0.28]) {
+      const pt = { x: Math.round(g.ax), y: Math.round(g.ay + (g.fy - g.ay) * k) };
+      wc.sendInputEvent({ type: 'mouseMove', x: pt.x, y: pt.y });
+      await sleep(160);
+      if (await js(`__meihua.input.overChar`)) return pt;
+    }
+    return null;
+  };
+  const rightClick = async (tag, holdMs = 90) => {
+    await js(`__meihua.ui.closeTransient(); 1`);
+    await sleep(250);
+    const pt = await bodyPoint();
+    if (!pt) { note(`right-click ${tag}: no solid point found`); return false; }
+    if (process.argv.includes('--selftest-trace')) await js(`(() => { const log = window.__ev = []; const t0 = performance.now();
+      for (const type of ['pointerdown', 'pointerup', 'mousedown', 'mouseup', 'contextmenu', 'pointercancel']) window.addEventListener(type, (e) => log.push([type, e.button, e.target?.className?.baseVal ?? e.target?.className ?? e.target?.tagName, Math.round(performance.now() - t0), !!document.querySelector('.ring'), e.defaultPrevented]), true);
+      const st = __meihua.ui.store, set = st.set; st.set = (p) => { const before = !!st.get().ring; set(p); const after = !!st.get().ring; if (before !== after) log.push(['ring', after, Math.round(performance.now() - t0), new Error().stack.split('\\n').slice(2, 5).join(' | ')]); };
+      return 1; })()`);
+    // main replaces a pointer that has not moved for 120 ms with the real cursor, so hover again right before pressing;
+    // screen coordinates are given explicitly (a held press starts a window drag that follows the real cursor)
+    const [wx, wy] = petWindow.win.getPosition();
+    const at = { x: pt.x, y: pt.y, globalX: wx + pt.x, globalY: wy + pt.y };
+    fakeCursor = { x: at.globalX, y: at.globalY };
+    wc.sendInputEvent({ type: 'mouseMove', ...at });
+    for (let i = 0; i < 20 && !(await js(`__meihua.input.overChar`)); i++) await sleep(30);
+    wc.sendInputEvent({ type: 'mouseDown', ...at, button: 'right', clickCount: 1 });
+    await sleep(holdMs);
+    wc.sendInputEvent({ type: 'mouseUp', ...at, button: 'right', clickCount: 1 });
+    await sleep(600);
+    const open = await js(`!!document.querySelector('.ring')`);
+    note(`right-click ${tag} at ${JSON.stringify(pt)} held ${holdMs} ms → ring open: ${open}`);
+    if (process.argv.includes('--selftest-trace')) note('  events ' + JSON.stringify(await js(`window.__ev`)) + ' press=' + (await js(`JSON.stringify(__meihua.input.press && { b: __meihua.input.press.button }) + ' dragging=' + __meihua.input.dragging + ' overChar=' + __meihua.input.overChar + ' interactive=' + __meihua.input.interactive`)));
+    await shot(`c-ring-${tag}`);
+    // a second right-click while it is open puts it away again
+    if (open) {
+      wc.sendInputEvent({ type: 'mouseMove', x: pt.x, y: pt.y });
+      await sleep(60);
+      wc.sendInputEvent({ type: 'mouseDown', x: pt.x, y: pt.y, button: 'right', clickCount: 1 });
+      await sleep(80);
+      wc.sendInputEvent({ type: 'mouseUp', x: pt.x, y: pt.y, button: 'right', clickCount: 1 });
+      await sleep(500);
+      note(`right-click ${tag} again → ring open: ${await js(`!!document.querySelector('.ring')`)}`);
+    }
+    fakeCursor = null;
+    await js(`__meihua.ui.closeTransient(); 1`);
+    return open;
+  };
+  // every card on the pet at a usable size, on screen, and its buttons the topmost element at their centre
+  const petCards = () => js(`(() => { const col = document.querySelector('.column'), cr = col.getBoundingClientRect();
+    return { col: [Math.round(cr.top), Math.round(cr.height), col.scrollHeight, getComputedStyle(col).overflowY], cards: [...col.querySelectorAll('.card')].map((c) => {
+      const r = c.getBoundingClientRect(), btns = [...c.querySelectorAll('.card-actions .chip')];
+      return { top: Math.round(r.top), h: Math.round(r.height), natural: c.scrollHeight, clickable: btns.map((b) => { const q = b.getBoundingClientRect(); const el = document.elementFromPoint(q.left + q.width / 2, q.top + q.height / 2); return !!el && (el === b || b.contains(el)); }) }; }) }; })()`);
+
+  await rightClick('plain');
+  await rightClick('slow', 300);
+  // a real drag (the pointer travels on screen) must not open the ring when let go
+  {
+    await js(`__meihua.ui.closeTransient(); 1`); await sleep(250);
+    const pt = await bodyPoint();
+    const [wx, wy] = petWindow.win.getPosition();
+    const ev = (type, dx, extra = {}) => { fakeCursor = { x: wx + pt.x + dx, y: wy + pt.y }; wc.sendInputEvent({ type, x: pt.x, y: pt.y, globalX: wx + pt.x + dx, globalY: wy + pt.y, ...extra }); };
+    ev('mouseMove', 0);
+    await sleep(60);
+    ev('mouseDown', 0, { button: 'right', clickCount: 1 });
+    for (let k = 1; k <= 6; k++) { await sleep(45); ev('mouseMove', k * 12, { modifiers: ['rightButtonDown'] }); }
+    await sleep(60);
+    ev('mouseUp', 72, { button: 'right', clickCount: 1 });
+    await sleep(700);
+    note(`right-drag (pointer moved 72 px on screen) → ring open: ${await js(`!!document.querySelector('.ring')`)}, window moved ${petWindow.win.getPosition()[0] - wx} px`);
+    fakeCursor = null;
+    await js(`__meihua.ui.closeTransient(); 1`);
+  }
+
+  // ---- a crowd of workshop cards (approvals from several tasks, finished-task notes) plus a bubble and the badge
+  const code = 'Get-ChildItem -Recurse D:\\照片\\未整理 | Where-Object { $_.Length -gt 10MB } | Move-Item -Destination D:\\大文件';
+  for (let i = 0; i < 6; i++) {
+    showCard(i % 3 === 2
+      ? { kind: 'agent', label: '工坊任务完成', title: `整理任务 ${i + 1}`, body: '整理好了 1,284 张照片：按「年\\月」放进了对应文件夹，没有拍摄日期的 37 张按修改时间归档。', actions: [{ id: 'open', label: '查看详情', style: 'primary' }, { id: 'folder', label: '打开文件夹' }, { id: 'ok', label: '好的' }] }
+      : { kind: 'approval', label: '需要你的确认', title: `工坊任务 ${i + 1} 想执行命令`, body: '这条命令会移动工作目录外的文件，确认后才会继续。', code, actions: [{ id: 'allow', label: '允许', style: 'primary' }, { id: 'deny', label: '拒绝', style: 'danger' }], dismissible: false });
+    await sleep(120);
+  }
+  broadcast('agent:status', { running: 4, title: '整理任务 1' });
+  await js(`__meihua.ui.say('主人，工坊这边有好几个任务在等你确认哦，看一下吧～', { hold: 40 })`);
+  await sleep(2200);
+  note('pet cards ' + JSON.stringify(await petCards()));
+  note('card stack ' + JSON.stringify(await js(`(() => { const s = document.querySelector('.card-stack'); if (!s) return null; const cs = getComputedStyle(s), r = s.getBoundingClientRect();
+    return { rect: [Math.round(r.top), Math.round(r.height)], scroll: [s.scrollTop, s.scrollHeight, s.clientHeight], flex: cs.flex, minH: cs.minHeight, overflow: cs.overflowY, parent: s.parentElement.className, sheets: [...document.styleSheets].map((x) => x.href) }; })()`)));
+  await shot('c-cards');
+  await rightClick('with-cards');
+  screen.getCursorScreenPoint = origCursor;
+  if (process.argv.includes('--selftest-pet-only')) return;
+
+  // ---- the notebook: a long workshop history and the notes clip full of pending cards
+  const now = Date.now(), HR = 3600000;
+  const STATES = ['running', 'waiting', 'queued', 'done', 'failed', 'cancelled', 'interrupted', 'paused', 'done', 'done'];
+  for (let i = 0; i < 48; i++) {
+    const id = `job_crowd${i}`, status = STATES[i % STATES.length], at = now - i * 2.5 * HR;
+    const task = {
+      id, title: `批量任务 ${i + 1}：整理第 ${i + 1} 个文件夹里的照片和文档`, instructions: `把 D:\\资料\\${i + 1} 里的文件按类型整理好，重复文件列出来给我确认。`,
+      workspace: path.join(selftestDir(), 'workshop', id), source: i % 2 ? 'chat' : 'panel', status, createdAt: at - 20 * 60000, updatedAt: at,
+      plan: [['扫描文件夹', 'done'], ['按类型分类', i % 3 ? 'done' : 'in_progress'], ['列出重复文件', 'pending']].map(([text, s]) => ({ text, status: s })),
+      steps: [{ kind: 'text', text: '好的，我先看看文件夹里都有些什么。', ts: at - 10 * 60000 }], stepCount: 1, result: status === 'done' ? '整理完成' : '', messages: [],
+    };
+    // one task with a long log: many tool rows (the rows that used to squeeze each other flat)
+    if (i === 1) {
+      const tools = [['list_dir', 'D:\\资料\\2'], ['read_file', 'notes/2024-清单.md'], ['grep', 'TODO (*.md)'], ['run_command', 'Get-ChildItem -Recurse | Measure-Object'], ['write_file', 'report.md']];
+      for (let k = 0; k < 40; k++) {
+        const [tool, input] = tools[k % tools.length];
+        task.steps.push({ kind: 'tool', tool, input, status: k === 39 ? 'running' : 'done', output: k === 39 ? '' : `第 ${k + 1} 步的输出\n共 ${k * 7 + 3} 项`, ts: at - (40 - k) * 15000 });
+        if (k % 8 === 7) task.steps.push({ kind: 'text', text: `已经检查了 ${k + 1} 个位置，继续往下看。`, ts: at - (40 - k) * 15000 });
+      }
+      task.stepCount = task.steps.length;
+    }
+    fs.writeFileSync(path.join(userDir('data', 'agent'), `${id}.json`), JSON.stringify(task));
+    agents.index.data.tasks = agents.index.data.tasks.filter((t) => t.id !== id);
+    agents.index.data.tasks.push(agents.summary(task));
+  }
+  agents.index.data.tasks.sort((a, b) => b.updatedAt - a.updatedAt);
+  agents.index.save();
+  panelWindow.open('workshop/new');
+  for (let i = 0; i < 40 && !panelWindow.win; i++) await sleep(100);
+  const win = panelWindow.win;
+  win.webContents.on('console-message', (e) => { if (e.level === 'error' || e.level === 3) errors.push('[panel] ' + e.message); });
+  await panelLoaded(win);
+  const pjs = (code) => win.webContents.executeJavaScript(code, true);
+  for (let i = 0; i < 40 && !(await pjs(`document.querySelectorAll('.shelf-item').length`)); i++) await sleep(150);
+  await sleep(600);
+  const listMetrics = `(() => { const list = document.querySelector('.shelf-list'); if (!list) return null; const items = [...list.querySelectorAll('.shelf-item')];
+    const hs = items.map((e) => Math.round(e.getBoundingClientRect().height)), nat = items.map((e) => e.scrollHeight);
+    const squeezed = items.filter((e) => e.getBoundingClientRect().height + 1 < e.scrollHeight).length;
+    return { items: items.length, list: [list.clientHeight, list.scrollHeight, getComputedStyle(list).overflowY], minH: Math.min(...hs), maxH: Math.max(...hs), squeezed,
+      shelf: Math.round(document.querySelector('.history').getBoundingClientRect().height), page: Math.round(document.querySelector('.workshop').getBoundingClientRect().height) }; })()`;
+  note('workshop history ' + JSON.stringify(await pjs(listMetrics)));
+  await shotWin(win, 'c-ws-history');
+  // the window at its smallest
+  const [w0, h0] = win.getSize();
+  const [mw, mh] = win.getMinimumSize();
+  win.setSize(Math.max(mw, 860), Math.max(mh, 560));
+  await sleep(900);
+  note(`workshop history at ${win.getSize().join('x')} ` + JSON.stringify(await pjs(listMetrics)));
+  await shotWin(win, 'c-ws-history-small');
+  const clipMetrics = `(() => { const list = document.querySelector('.clip-list'); if (!list) return { clip: !!document.querySelector('.clip') }; const notes = [...list.querySelectorAll('.note')];
+    return { list: [list.clientHeight, list.scrollHeight, getComputedStyle(list).overflowY], notes: notes.map((n) => { const r = n.getBoundingClientRect(), b = n.querySelector('.note-actions .btn');
+      const q = b?.getBoundingClientRect(); const el = q && document.elementFromPoint(q.left + q.width / 2, q.top + q.height / 2);
+      return [Math.round(r.height), n.scrollHeight, !!el && (el === b || b.contains(el))]; }) }; })()`;
+  note('notes clip ' + JSON.stringify(await pjs(clipMetrics)));
+  await shotWin(win, 'c-ws-clip-small');
+  // fold the clip to see what is under it: the new-task view's composer foot in a narrow window
+  await pjs(`document.querySelector('.clip-head')?.click(); 1`);
+  await sleep(400);
+  note('composer foot ' + JSON.stringify(await pjs(`[...document.querySelectorAll('.ws-composer-foot > *')].map((e) => [e.textContent.trim(), Math.round(e.getBoundingClientRect().height)])`)));
+  await shotWin(win, 'c-ws-new-small');
+  await pjs(`location.hash = '#workshop/job_crowd1'; 1`);
+  await sleep(1300);
+  const stepMetrics = `(() => { const sc = document.querySelector('.task-scroll'); if (!sc) return null; const rows = [...sc.querySelectorAll(':scope > .step.tool')];
+    const hs = rows.map((e) => e.getBoundingClientRect().height); const squeezed = rows.filter((e) => e.getBoundingClientRect().height + 1 < e.scrollHeight).length;
+    return { pane: document.querySelector('.ws-main').clientWidth, logW: sc.clientWidth, toolRows: rows.length, view: [sc.clientHeight, sc.scrollHeight], minH: +Math.min(...hs).toFixed(1), maxH: +Math.max(...hs).toFixed(1), squeezed }; })()`;
+  note('long task log ' + JSON.stringify(await pjs(stepMetrics)));
+  await shotWin(win, 'c-ws-task-small');
+  // the same log without the fix (rows allowed to shrink, as before) for comparison
+  await pjs(`(() => { const st = document.createElement('style'); st.id = 'unfix'; st.textContent = '.task-scroll > * { flex-shrink: 1 !important; }'; document.head.append(st); return 1; })()`);
+  await sleep(300);
+  note('long task log without the fix ' + JSON.stringify(await pjs(stepMetrics)));
+  await shotWin(win, 'c-ws-task-small-unfixed');
+  await pjs(`document.getElementById('unfix')?.remove(); 1`);
+  // settings → 外观与应用: the author and project links at the bottom
+  await pjs(`location.hash = '#settings/app'; 1`);
+  await sleep(1000);
+  await pjs(`(() => { for (const el of document.querySelectorAll('.page, .set-page, main')) el.scrollTo?.(0, 99999); return 1; })()`);
+  await sleep(300);
+  note('settings links ' + JSON.stringify(await pjs(`[...document.querySelectorAll('.set-row')].filter((r) => r.querySelector('.link-url')).map((r) => r.querySelector('.set-label > span').textContent + ' → ' + r.querySelector('.link-url').textContent + ' [' + r.querySelector('.btn').textContent.trim() + ']')`)));
+  await shotWin(win, 'c-settings-app');
+  win.setSize(w0, h0);
+  await sleep(600);
+  await shotWin(win, 'c-settings-app-full');
+  await pjs(`location.hash = '#workshop/job_crowd1'; 1`);
+  await sleep(1300);
+  note(`long task log at ${win.getSize().join('x')} ` + JSON.stringify(await pjs(stepMetrics)));
+  await shotWin(win, 'c-ws-task-full');
+}
+
 let shotWin = async () => {};
 
 /**
@@ -866,6 +1067,13 @@ export async function runSelftest({ outDir, petWindow, panelWindow }) {
     }
     if (process.argv.includes('--selftest-motion')) {
       await motionScenario({ js, shot, note, panelWindow, petWindow, errors });
+      note('renderer errors: ' + JSON.stringify(errors.slice(0, 30)));
+      fs.writeFileSync(path.join(outDir, 'log.txt'), log.join('\n'));
+      app.exit(0);
+      return;
+    }
+    if (process.argv.includes('--selftest-crowd')) {
+      await crowdScenario({ js, shot, note, panelWindow, petWindow, errors });
       note('renderer errors: ' + JSON.stringify(errors.slice(0, 30)));
       fs.writeFileSync(path.join(outDir, 'log.txt'), log.join('\n'));
       app.exit(0);
