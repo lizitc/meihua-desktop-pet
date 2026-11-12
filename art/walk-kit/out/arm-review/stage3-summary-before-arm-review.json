@@ -1,0 +1,157 @@
+{
+  "stage": 3,
+  "odd_frames": 8,
+  "odd_frames_passed": 8,
+  "all_targeted_frames_passed": 12,
+  "approved_keys_changed": 0,
+  "protected_file_count": 71,
+  "imagegen_calls": 19,
+  "retries": 11,
+  "all_final_pngs_original_generated_pixels": true,
+  "attempts": [
+    {
+      "frame": "W03",
+      "attempt_count": 5,
+      "retries": 4,
+      "selected_attempt": 5
+    },
+    {
+      "frame": "W11",
+      "attempt_count": 1,
+      "retries": 0,
+      "selected_attempt": 1
+    },
+    {
+      "frame": "W05",
+      "attempt_count": 4,
+      "retries": 3,
+      "selected_attempt": 4
+    },
+    {
+      "frame": "W13",
+      "attempt_count": 1,
+      "retries": 0,
+      "selected_attempt": 1
+    },
+    {
+      "frame": "W01",
+      "attempt_count": 1,
+      "retries": 0,
+      "selected_attempt": 1
+    },
+    {
+      "frame": "W09",
+      "attempt_count": 1,
+      "retries": 0,
+      "selected_attempt": 1
+    },
+    {
+      "frame": "W07",
+      "attempt_count": 3,
+      "retries": 2,
+      "selected_attempt": 3
+    },
+    {
+      "frame": "W15",
+      "attempt_count": 3,
+      "retries": 2,
+      "selected_attempt": 3
+    }
+  ],
+  "review": {
+    "frame_order": [
+      "W00",
+      "W01",
+      "W02",
+      "W03",
+      "W04",
+      "W05",
+      "W06",
+      "W07",
+      "W08",
+      "W09",
+      "W10",
+      "W11",
+      "W12",
+      "W13",
+      "W14",
+      "W15"
+    ],
+    "source_paths": [
+      "out/2-keys/W00.png",
+      "out/3-inbetweens/W01.png",
+      "out/2-keys/W02.png",
+      "out/3-inbetweens/W03.png",
+      "out/2-keys/W04.png",
+      "out/3-inbetweens/W05.png",
+      "out/2-keys/W06.png",
+      "out/3-inbetweens/W07.png",
+      "out/2-keys/W08.png",
+      "out/3-inbetweens/W09.png",
+      "out/2-keys/W10.png",
+      "out/3-inbetweens/W11.png",
+      "out/2-keys/W12.png",
+      "out/3-inbetweens/W13.png",
+      "out/2-keys/W14.png",
+      "out/3-inbetweens/W15.png"
+    ],
+    "frame_count": 16,
+    "size": [
+      512,
+      768
+    ],
+    "nominal_fps": 14,
+    "durations_ms": [
+      70,
+      70,
+      70,
+      80,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      80,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop_duration_ms": 1140,
+    "average_fps": 14.035087719298245,
+    "ideal_loop_duration_ms": 1142.857142857143,
+    "loop": 0,
+    "background": "white",
+    "all_decoded_frame_corners_pure_white": true,
+    "source_pngs_modified": false,
+    "alignment": "original canvas, no per-frame translation or registration",
+    "contact_sheet_size": [
+      3072,
+      1232
+    ],
+    "contact_sheet_rows": [
+      [
+        "W00",
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07"
+      ],
+      [
+        "W08",
+        "W09",
+        "W10",
+        "W11",
+        "W12",
+        "W13",
+        "W14",
+        "W15"
+      ]
+    ]
+  }
+}

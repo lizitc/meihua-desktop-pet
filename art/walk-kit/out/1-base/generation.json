@@ -1,0 +1,71 @@
+{
+  "stage": 1,
+  "tool": "built-in image_gen.imagegen",
+  "reference_images_in_order": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\ich01A_101.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\portrait.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-BASE.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\scale-reference.png"
+  ],
+  "base_prompt_file": "prompt.txt",
+  "ear_clarification_file": "prompt-ear-clarification.txt",
+  "candidate4_extra": "SOURCE FIDELITY EMPHASIS for this candidate: closely preserve the exact upper-eyelid contour, violet-to-pink iris gradients, small nose, delicate closed-mouth smile and soft calm expression from References 1 and 2, translated into the requested three-quarter-right angle. Keep the original silhouette and amount of hair detail. Legs are straight and relaxed, feet together and both resting flat, no crossed legs.",
+  "generations": [
+    {
+      "candidate": 1,
+      "attempt": 1,
+      "prompt_parts": [
+        "prompt.txt"
+      ],
+      "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-fe00ce9c-ea32-46a3-b1fb-73df649237e2.png",
+      "saved_as": "attempts/base-1-try-1.png",
+      "accepted": false,
+      "reason": "Both bows were on the far ear; task requires the near ear."
+    },
+    {
+      "candidate": 1,
+      "attempt": 2,
+      "prompt_parts": [
+        "prompt.txt",
+        "prompt-ear-clarification.txt"
+      ],
+      "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-079e4dd3-cf70-4bef-81c7-eacb9ce3e03f.png",
+      "saved_as": "base-1.png",
+      "accepted": true
+    },
+    {
+      "candidate": 2,
+      "attempt": 1,
+      "prompt_parts": [
+        "prompt.txt",
+        "prompt-ear-clarification.txt"
+      ],
+      "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-ed6c7a51-9041-4ef6-a234-c8a5998c6d11.png",
+      "saved_as": "base-2.png",
+      "accepted": true
+    },
+    {
+      "candidate": 3,
+      "attempt": 1,
+      "prompt_parts": [
+        "prompt.txt",
+        "prompt-ear-clarification.txt"
+      ],
+      "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-e8e84e3f-313f-4043-991c-906f6bb876f1.png",
+      "saved_as": "base-3.png",
+      "accepted": true
+    },
+    {
+      "candidate": 4,
+      "attempt": 1,
+      "prompt_parts": [
+        "prompt.txt",
+        "prompt-ear-clarification.txt",
+        "candidate4_extra"
+      ],
+      "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-99811072-1001-45f4-b4ef-e5f46eeeaa0d.png",
+      "saved_as": "base-4.png",
+      "accepted": true
+    }
+  ]
+}

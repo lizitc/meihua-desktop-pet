@@ -1,0 +1,13 @@
+{
+  "frame": "W13",
+  "visual_review_roi": [
+    480,
+    1300,
+    600,
+    1401
+  ],
+  "near_foot_lowest_row": 1392,
+  "ground": 1456,
+  "lift_px": 64,
+  "method": "Read-only crop confirmed visually to contain the near floating foot, excluding the grounded far foot."
+}

@@ -1,0 +1,63 @@
+{
+  "near_centroid_steps_px": [
+    12.73,
+    2.87,
+    13.86,
+    14.89,
+    46.37,
+    31.73,
+    28.38,
+    26.53,
+    36.99,
+    18.56,
+    44.13,
+    26.87,
+    9.21,
+    5.61,
+    1.98,
+    1.84
+  ],
+  "odd_near_midpoint_errors": [
+    {
+      "frame": "W01",
+      "centroid_midpoint_error_px": 7.26
+    },
+    {
+      "frame": "W03",
+      "centroid_midpoint_error_px": 14.36
+    },
+    {
+      "frame": "W05",
+      "centroid_midpoint_error_px": 11.85
+    },
+    {
+      "frame": "W07",
+      "centroid_midpoint_error_px": 13.83
+    },
+    {
+      "frame": "W09",
+      "centroid_midpoint_error_px": 9.35
+    },
+    {
+      "frame": "W11",
+      "centroid_midpoint_error_px": 8.66
+    },
+    {
+      "frame": "W13",
+      "centroid_midpoint_error_px": 3.22
+    },
+    {
+      "frame": "W15",
+      "centroid_midpoint_error_px": 1.19
+    }
+  ],
+  "loop_step_px": 1.84,
+  "visual_review": {
+    "all_16_checked": true,
+    "near_small_swing_back_neutral_forward_neutral_back": true,
+    "far_opposite_swing_and_gradual_occlusion": true,
+    "no_extra_fused_or_ghost_arms": true,
+    "critical_W05_W06_and_W10_W11_phase_jumps_removed": true
+  },
+  "limitations": "Color-component centroids are read-only diagnostics, not anatomical joint tracking; far hand can be occluded. Complete arm phase/anatomy/occlusion also reviewed visually."
+}

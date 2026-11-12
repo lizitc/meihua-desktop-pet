@@ -1,0 +1,119 @@
+{
+  "status": "resolved",
+  "scope": "16-frame arm continuity and guide conformance",
+  "method": "Visual inspection of all 16 original frames against same-index pose guides; no automated arm measurement or numerical joint accuracy claim.",
+  "source_art": "Even frames: out/2-keys; odd frames: out/3-inbetweens",
+  "critical_transitions": [
+    "W05 -> W06",
+    "W10 -> W11"
+  ],
+  "wrong_neutral_keys": [
+    "W04",
+    "W12"
+  ],
+  "sequence_required": "W00 back -> W04 neutral -> W08 front -> W12 neutral -> W00 back, with far arm opposite; relaxed open hands and small swing.",
+  "source_generation_problem": "The accepted W07 prompt explicitly told the generator to keep BOTH ARMS AND HANDS essentially unchanged. Other passing notes verified limbs/feet but did not independently verify shoulder-elbow-wrist continuity.",
+  "foot_measurement_result": "Unchanged. Eight odd frames pass feet_check.py; that tool does not inspect arms.",
+  "frames": [
+    {
+      "frame": "W00",
+      "guide_phase": "near back / far forward",
+      "observation": "后摆与前摆幅度过大，双手向两侧摊开；相对 guide 应收窄。",
+      "priority": "anchor"
+    },
+    {
+      "frame": "W01",
+      "guide_phase": "leaving back extreme",
+      "observation": "基本沿用 W00 的双臂形状，变化不足；不能仅因脚跟通过而认可整帧。",
+      "priority": "inbetween"
+    },
+    {
+      "frame": "W02",
+      "guide_phase": "moving toward neutral",
+      "observation": "双臂仍接近 W00，回摆幅度不足。",
+      "priority": "key"
+    },
+    {
+      "frame": "W03",
+      "guide_phase": "approaching neutral",
+      "observation": "继续保持后摆造型，没有充分趋向 W04 应有的垂落姿态。",
+      "priority": "inbetween"
+    },
+    {
+      "frame": "W04",
+      "guide_phase": "near neutral / far neutral",
+      "observation": "Passing 参考要求手臂靠近体侧，成图仍近侧后摆、远侧前伸。",
+      "priority": "key-critical"
+    },
+    {
+      "frame": "W05",
+      "guide_phase": "crossing neutral toward front",
+      "observation": "应在 W04→W06 之间轻微前移，成图却再次使用后摆姿态；到 W06 突然跳变。",
+      "priority": "inbetween-critical"
+    },
+    {
+      "frame": "W06",
+      "guide_phase": "approaching front extreme",
+      "observation": "近侧臂前伸、远侧臂后摆方向成立，但前伸幅度大；与前帧不连续。",
+      "priority": "key"
+    },
+    {
+      "frame": "W07",
+      "guide_phase": "near front extreme",
+      "observation": "几乎保持 W06 的双臂，补帧运动量不足；原提示词明确要求双臂保持不变。",
+      "priority": "inbetween"
+    },
+    {
+      "frame": "W08",
+      "guide_phase": "near front / far back",
+      "observation": "前摆极值方向成立，但前伸与后摆过大，形状与 W06/W10 过于相似。",
+      "priority": "anchor"
+    },
+    {
+      "frame": "W09",
+      "guide_phase": "leaving front extreme",
+      "observation": "基本冻结在 W08 的前伸姿势，缺少小幅回摆。",
+      "priority": "inbetween"
+    },
+    {
+      "frame": "W10",
+      "guide_phase": "moving back toward neutral",
+      "observation": "仍接近 W08 的前伸姿势，向体侧回收不足。",
+      "priority": "key"
+    },
+    {
+      "frame": "W11",
+      "guide_phase": "approaching neutral from front",
+      "observation": "应由前摆回到垂落中间位置，成图已经切到后摆；W10→W11 明显跳变。",
+      "priority": "inbetween-critical"
+    },
+    {
+      "frame": "W12",
+      "guide_phase": "near neutral / far neutral",
+      "observation": "Passing 参考要求靠近体侧，成图仍近侧后摆、远侧前伸，不能作正确补帧锚点。",
+      "priority": "key-critical"
+    },
+    {
+      "frame": "W13",
+      "guide_phase": "crossing neutral toward back",
+      "observation": "继续复用后摆模板；应从 W12 中立姿势逐步后摆。",
+      "priority": "inbetween"
+    },
+    {
+      "frame": "W14",
+      "guide_phase": "approaching back extreme",
+      "observation": "方向基本成立，但两臂张开偏大；应在统一摆幅后重建位置。",
+      "priority": "key"
+    },
+    {
+      "frame": "W15",
+      "guide_phase": "near back extreme, closing loop",
+      "observation": "与 W14 相比近侧变化很小，远侧手的横向位置又有漂移；需要连同 W00 检查首尾衔接。",
+      "priority": "inbetween"
+    }
+  ],
+  "correction_scope": "Re-establish a coherent small arm swing in key poses first, then redraw in-betweens halfway in shoulder/elbow/wrist position; preserve face, head, costume, leg identity and measured foot placements. Use side-by-side/onion-skin and slow playback plus all existing feet checks. Do not try to solve wrong key-arm anchors by changing odd frames alone.",
+  "images_modified": false,
+  "historical_status": "failed",
+  "resolved_by": "out/arm-fix/REPORT.md"
+}

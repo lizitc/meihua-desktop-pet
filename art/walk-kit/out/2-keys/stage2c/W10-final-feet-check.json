@@ -1,0 +1,20 @@
+{
+  "file": "out\\2-keys\\W10.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "ground": 1469,
+  "floor_runs": [
+    [
+      533,
+      678
+    ]
+  ],
+  "stance_toe": 678,
+  "stance_width": 146,
+  "frame": "W10",
+  "pass": true,
+  "score": 0,
+  "fails": []
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "Hash": "7A64E1EEBF3BAF170D0F8390EBE975047F8C5F80E2830081207A9E190301DC1F"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+    "Hash": "AC5E38878B4DAF5055DAFF38C961F2484BAD99A505BA8B82DB60BCD5C649105B"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W10.png",
+    "Hash": "77DF3CB85CB0F804CE99D67A67D89357F1E57909C319ED608C71F1803973379F"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W12.png",
+    "Hash": "F1A70ED5313EC0B2FB32B37DBCA04102790E0827B65E098B28B77AA6A01AC1EE"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\ich01A_101.png",
+    "Hash": "E036963AF5FFDD0B06FD0FC2B257B25619DD39BCF304DDA34764F10F96759AE0"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\portrait.png",
+    "Hash": "50A2B220A0C1760A70BD5A107DA50C1E1BADB278A0081995349E2B626BB8E98B"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\scale-reference.png",
+    "Hash": "D46B203F7AF98E7489FD488AF1801BDD9248E2FA924AD69D6509FB04473E9870"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "Hash": "2201AF85A7568980D796CB76532D63A4B24AD2E5B2B329607962D6057E166DE5"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\manifest-before-walk7.json",
+    "Hash": "56F00767597A534F5ED9F6DD404109CBEDDE6BEC55AEB6E7B5DAB7E2F3DE6939"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\report.json",
+    "Hash": "E322CF54B3C3AA87B0F78F890E00DB8F80BA11F0F60126AFF541CC3D21FD3CB7"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-checker.png",
+    "Hash": "F5C11B18282947FFD7E7A0884D9B62E11E33EED151BD3FCD17DE2DFA72AAAAAD"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-dark.png",
+    "Hash": "56489A6C3903E0F81156D7485C9EC474D2C00D80B491AE7CE74B11B63DA39EC1"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-guides.png",
+    "Hash": "5F02A2BCCECE9B3A310C540D0E6510CF26AE78B74C22AB57FEBE66439DB0CC28"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W00.png",
+    "Hash": "83644A6FE90C3F75CE88BAE6238B8D2E226B4CDE26658DC5E5E23E65D1EB43D5"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W02.png",
+    "Hash": "08620C73F0ED820A31816EB7669A10E4809578D342A474EA01CC576E62718CA0"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W04.png",
+    "Hash": "0A638C832F198340E60E6FCE60D6B8ABEA2D896A42F82075FF97BEED55DE7C14"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W06.png",
+    "Hash": "F949F06780418666A25A438C863F2E0429EBF99AED4F0B247C00B08B5AF17480"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W08.png",
+    "Hash": "E9CFF9F4ACCD9AD727105A07E26FD392D8684AF336FC2A48E357044BF8C117FD"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W10.png",
+    "Hash": "E7EF432C13678EDE7CDE34E945B35A9B8324B14FF691449D32D3E1D49DE1AD9F"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W12.png",
+    "Hash": "DE895985757C5D35D2A52460B2FD93ADD610A7BF42CFCD863A07E7926D6B6D5A"
+  },
+  {
+    "Path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W14.png",
+    "Hash": "5F20AA1A5F2A7A7A376C5CEB4A347A56B413A1E6CD9C244BC825D6AAC972DF65"
+  }
+]

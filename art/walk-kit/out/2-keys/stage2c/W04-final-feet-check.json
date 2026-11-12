@@ -1,0 +1,20 @@
+{
+  "file": "out\\2-keys\\W04.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "ground": 1478,
+  "floor_runs": [
+    [
+      364,
+      515
+    ]
+  ],
+  "stance_toe": 515,
+  "stance_width": 152,
+  "frame": "W04",
+  "pass": true,
+  "score": 0,
+  "fails": []
+}

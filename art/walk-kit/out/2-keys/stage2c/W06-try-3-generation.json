@@ -1,0 +1,41 @@
+{
+  "frame": "W06",
+  "attempt": 3,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-bb341998-addf-4981-8517-d44677631919.png",
+  "prompt": "Use case: professional 2D hand-drawn animation key drawing, identity-locked correction of the legs.\nReference 1 is the approved three-quarter-right model. Reference 3 (W00) is an approved frame of this walk and the exact standard for face, hair, costume, rendering, head size, skirt length and stocking thickness. Reference 2 is the pose diagram (diagram only; dark blue = NEAR leg/arm, light blue = FAR leg/arm, black = floor, dashed vertical line = the hips' centre line). Reference 4 is the approved drawing just before this one in time. Reference 5 is named in the pose text.\nDraw frame W06 of the walk toward screen RIGHT, same three-quarter view, not mirrored. Keep the head, face, upper body, arms and costume identical in style and size to reference 3, and keep the head at the same place on the canvas. What changes is WHERE THE FEET STAND: follow the horizontal foot positions below precisely.\nW06 UP: The two feet are CLOSE together, a narrow stance, much narrower than the contact pose in reference 5. The NEAR leg is just behind the hips, almost straight, standing only on the ball and toes, heel lifted; the tip of its toes is less than one foot-length behind the dashed centre line. The FAR leg swings forward, knee slightly bent, the whole foot IN THE AIR and low (20-55 px above the floor), its toes about 1.5 foot-lengths ahead of the centre line. It has not landed yet: it lands in reference 5, slightly further forward than it is now.\nExactly two complete legs and two complete socked feet; where the legs overlap, the far leg is partly hidden behind the near leg.\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n\nMeasured foot-placement acceptance criteria (absolute canvas pixels, hips stay at x=512): Use a genuinely NARROW up stance. The NEAR rear support toe's RIGHTMOST tip is x=415 (allowed395-435), ONLY the ball/toes touch, heel lifted. This toe is just97px left of hip center512, not far behind at315. FAR forward foot is completely airborne, rightmost toe tip x=705 (allowed670-740) and lowest point35px above the grounded toe (allowed20-55). Keep the legs close; do not repeat the wide contact pose. Exactly one foot touches. Do not move the entire character horizontally to meet this: keep the head/hips placement and change the leg angles and foot locations. Keep exactly two anatomically complete legs and two hands, the approved face and costume unchanged. Do not draw any measurement line, coordinate marker, text or guide colors.\n\nKeep the successful narrow leg geometry: NEAR rear support toe x=415-420, heel lifted with only50-70px of toe/ball contact; FAR forward airborne toe x=705-720 and entire far foot about35-45px above ground. Correct supporting leg is the near foreground leg, far swing leg is behind it. ARM CONNECTION CLARITY: the visible NEAR sleeve starts at the LEFT shoulder and swings FORWARD, ending in one relaxed open hand across the side/front of apron near x=560,y=900. The FAR sleeve swings BACK behind body/hair and ends in one small hand near the LEFT back edge of skirt x=270,y=890. No sleeve or hand sticks out to the RIGHT of the skirt. Exactly two arms and hands, no duplicated hand at the hem. Do not change head, face, hips, scale, or the narrow toe positions while setting the arm swing.",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W06.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W08.png"
+  ],
+  "feet_check": {
+    "file": "out\\2-keys\\attempts\\W06-2c-try-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1473,
+    "floor_runs": [
+      [
+        390,
+        447
+      ]
+    ],
+    "stance_toe": 447,
+    "stance_width": 58,
+    "swing_toe": 695,
+    "swing_lift": 63,
+    "frame": "W06",
+    "pass": false,
+    "score": 20,
+    "fails": [
+      "stance_toe 447 (want 395-435)",
+      "swing_lift 63 (want 20-55)"
+    ]
+  },
+  "visual_correct": true,
+  "status": "rejected",
+  "visual_review": "Opposing arm swing now correct; near rear toe supports in foreground and far swing leg passes behind, but support toe and air gap outside allowed limits."
+}

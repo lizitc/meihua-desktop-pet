@@ -1,0 +1,196 @@
+<!doctype html>
+<html><head><meta charset="utf-8"></head><body>
+<script>
+// Walk-cycle pose guides for image generation.
+// Units "u" = native px of the approved 508x1000 standing art (ground at 969).
+// Output frames are 1024x1536: ground at y=1480, pelvis anchor x=512, scale 1.45.
+const W = 1024, H = 1536, G = 1480, CX = 512, S = 1.45, K = 0.86; // K: 3/4-view stride foreshortening
+const N = 16;
+// Body measurements taken from ich01A_101 (u)
+const L1 = 178, L2 = 166, ANKLE_SOLE = 32, HEEL = 14, TOE = 58;
+const TORSO = 290, ARM1 = 145, ARM2 = 124, HEAD_R = 104;
+const rad = (d) => d * Math.PI / 180;
+
+// Near leg (viewer side) per frame; far leg = same table shifted by N/2.
+// Frames 0..8 are stance: the thigh angle is solved so the ground-contact point (heel, then toe
+// from frame 6) slides back at constant speed -> even root motion when walking across the screen.
+//            knee flex                                   foot (toe up +)
+const KNEE  = [  2, 14, 28, 20, 10,  5,  4,   8,  14,  30, 47, 56, 54, 40, 20,  6];
+const FOOT  = [ 12,  4,  0,  0,  0, -4, -16, -26, -34, -42, -46, -32, -16, -6,  6, 11];
+const SWING = { 9: -14, 10: -6, 11: 3, 12: 11, 13: 17, 14: 20, 15: 21 }; // thigh angles in swing
+const HEEL_CONTACT_X = 66, FOOT_LEN = (HEEL + TOE) * 0.86, STEP_X = (HEEL_CONTACT_X + FOOT_LEN + 96) / 8;
+const THIGH = (() => {
+  const out = [];
+  for (let j = 0; j < 16; j++) {
+    if (j > 8) { out.push(SWING[j]); continue; }
+    const target = j < 6 ? HEEL_CONTACT_X - j * STEP_X : HEEL_CONTACT_X + FOOT_LEN - j * STEP_X;
+    let lo = -45, hi = 45;
+    for (let k = 0; k < 40; k++) {
+      const mid = (lo + hi) / 2;
+      const l = legAt({ x: 0, y: 0 }, mid, KNEE[j], FOOT[j]);
+      const x = j < 6 ? l.heel.x : l.toe.x;
+      if (x < target) lo = mid; else hi = mid;
+    }
+    out.push(+((lo + hi) / 2).toFixed(2));
+  }
+  return out;
+})();
+const NAMES = {
+  0: 'CONTACT - near leg forward, far leg back on toes',
+  2: 'DOWN - weight on near leg, far foot lifts',
+  4: 'PASSING - near leg supports, far leg passes',
+  6: 'UP - near leg pushes on toes, far leg reaches',
+  8: 'CONTACT - far leg forward, near leg back on toes',
+  10: 'DOWN - weight on far leg, near foot lifts',
+  12: 'PASSING - far leg supports, near leg passes',
+  14: 'UP - far leg pushes on toes, near leg reaches',
+};
+const at = (arr, i) => arr[((i % N) + N) % N];
+
+function leg(hip, i) { return legAt(hip, at(THIGH, i), at(KNEE, i), at(FOOT, i)); }
+function legAt(hip, thigh, kneeFlex, footAngle) {
+  const t = rad(thigh), sh = rad(thigh - kneeFlex), f = rad(footAngle);
+  const knee = { x: hip.x + Math.sin(t) * L1 * K, y: hip.y - Math.cos(t) * L1 };
+  const ankle = { x: knee.x + Math.sin(sh) * L2 * K, y: knee.y - Math.cos(sh) * L2 };
+  const rot = (dx, dy) => ({ x: ankle.x + (dx * Math.cos(f) - dy * Math.sin(f)) * K, y: ankle.y + dx * Math.sin(f) + dy * Math.cos(f) });
+  const heel = rot(-HEEL, -ANKLE_SOLE), toe = rot(TOE, -ANKLE_SOLE), top = rot(TOE * 0.55, -ANKLE_SOLE * 0.25);
+  return { hip, knee, ankle, heel, toe, top, low: Math.min(heel.y, toe.y) };
+}
+
+function pose(i, base = false) {
+  const nearHip = { x: -8, y: 0 }, farHip = { x: 10, y: 0 };
+  let a = base ? legAt(nearHip, 1, 3, 0) : leg(nearHip, i), b = base ? legAt(farHip, -3, 3, 0) : leg(farHip, i + N / 2);
+  const lift = -Math.min(a.low, b.low);
+  const sh = (p) => ({ x: p.x, y: p.y + lift });
+  const mv = (l) => Object.fromEntries(Object.entries(l).map(([k, v]) => [k, typeof v === 'object' ? sh(v) : v]));
+  a = mv(a); b = mv(b);
+  const pelvis = { x: 0, y: lift };
+  const lean = rad(3);
+  const neck = { x: pelvis.x + Math.sin(lean) * TORSO, y: pelvis.y + TORSO };
+  const head = { x: neck.x + 6, y: neck.y + 165 };
+  const arm = (shoulder, legIdx, still) => {
+    const sw = base ? still : -0.55 * at(THIGH, legIdx - 1);
+    const el = 14 + Math.max(0, sw) * 0.9;
+    const u = rad(sw), f = rad(sw + el);
+    const elbow = { x: shoulder.x + Math.sin(u) * ARM1 * K, y: shoulder.y - Math.cos(u) * ARM1 };
+    const hand = { x: elbow.x + Math.sin(f) * ARM2 * K, y: elbow.y - Math.cos(f) * ARM2 };
+    return { shoulder, elbow, hand };
+  };
+  const nearArm = arm({ x: neck.x - 26, y: neck.y - 14 }, i, -4);
+  const farArm = arm({ x: neck.x + 24, y: neck.y - 8 }, i + N / 2, 6);
+  const phase = base ? Math.PI / 4 : i / N * Math.PI * 2;
+  return { a, b, pelvis, neck, head, nearArm, farArm, sway: Math.sin(phase * 2 - 0.9), tailSway: Math.sin(phase * 2 + 0.6) };
+}
+
+const X = (x) => CX + x * S, Y = (y) => G - y * S;
+
+function limb(ctx, pts, width, color) {
+  ctx.strokeStyle = color; ctx.lineWidth = width * S; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.beginPath(); pts.forEach((p, j) => (j ? ctx.lineTo(X(p.x), Y(p.y)) : ctx.moveTo(X(p.x), Y(p.y)))); ctx.stroke();
+}
+function foot(ctx, l, color) {
+  ctx.fillStyle = color; ctx.strokeStyle = color; ctx.lineWidth = 30 * S; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(X(l.heel.x), Y(l.heel.y + 12)); ctx.lineTo(X(l.toe.x), Y(l.toe.y + 12)); ctx.stroke();
+  limb(ctx, [l.ankle, l.top], 34, color);
+}
+function drawLeg(ctx, l, color) { limb(ctx, [l.hip, l.knee, l.ankle], 52, color); foot(ctx, l, color); }
+function drawArm(ctx, a, color) {
+  limb(ctx, [a.shoulder, a.elbow, a.hand], 30, color);
+  ctx.fillStyle = color; ctx.beginPath(); ctx.arc(X(a.hand.x), Y(a.hand.y), 21 * S, 0, Math.PI * 2); ctx.fill();
+}
+
+function drawFrame(ctx, i, opts = {}) {
+  const p = pose(i, opts.base);
+  const NEAR = '#2f5bd3', FAR = '#a9bceb', BODY = '#c9ced8', LINE = '#7d8494';
+  if (!opts.bare) {
+    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
+    // grid + ground + anchor
+    ctx.strokeStyle = '#eef0f4'; ctx.lineWidth = 1;
+    for (let y = G; y > 0; y -= 100) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+    ctx.strokeStyle = '#3a3f4b'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(0, G); ctx.lineTo(W, G); ctx.stroke();
+    ctx.setLineDash([10, 10]); ctx.strokeStyle = '#b3b8c4'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(CX, 0); ctx.lineTo(CX, G); ctx.stroke(); ctx.setLineDash([]);
+  }
+  // hair mass + tail behind everything
+  const hx = p.head.x - 30, hy = p.head.y;
+  ctx.fillStyle = 'rgba(150,155,170,0.16)';
+  ctx.beginPath(); ctx.ellipse(X(hx - 25 - p.sway * 6), Y(hy - 230), 150 * S, 280 * S, rad(4), 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = 'rgba(150,150,160,0.45)'; ctx.lineWidth = 40 * S; ctx.lineCap = 'round';
+  const tb = { x: p.pelvis.x - 70, y: p.pelvis.y + 40 };
+  ctx.beginPath(); ctx.moveTo(X(tb.x), Y(tb.y));
+  ctx.quadraticCurveTo(X(tb.x - 90), Y(tb.y - 10 + p.tailSway * 18), X(tb.x - 120 - p.tailSway * 10), Y(tb.y - 90 + p.tailSway * 30)); ctx.stroke();
+  // far limbs
+  drawArm(ctx, p.farArm, FAR);
+  drawLeg(ctx, p.b, FAR);
+  // torso + skirt
+  limb(ctx, [p.pelvis, p.neck], 120, BODY);
+  const waistY = p.pelvis.y + 170, hemY = p.pelvis.y - 28, swing = -p.sway * 10;
+  ctx.fillStyle = 'rgba(236,120,160,0.30)'; ctx.strokeStyle = '#e46c93'; ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(X(p.pelvis.x - 62), Y(waistY)); ctx.lineTo(X(p.pelvis.x + 62), Y(waistY));
+  ctx.quadraticCurveTo(X(p.pelvis.x + 172 + swing), Y(hemY + 60), X(p.pelvis.x + 172 + swing * 1.4), Y(hemY));
+  ctx.lineTo(X(p.pelvis.x - 172 + swing * 1.4), Y(hemY));
+  ctx.quadraticCurveTo(X(p.pelvis.x - 172 + swing), Y(hemY + 60), X(p.pelvis.x - 62), Y(waistY));
+  ctx.closePath(); ctx.fill(); ctx.stroke();
+  // near limbs
+  drawLeg(ctx, p.a, NEAR);
+  drawArm(ctx, p.nearArm, NEAR);
+  // head with facing marker
+  ctx.fillStyle = BODY; ctx.beginPath(); ctx.arc(X(p.head.x), Y(p.head.y), HEAD_R * S, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = LINE; ctx.beginPath();
+  ctx.moveTo(X(p.head.x + HEAD_R + 22), Y(p.head.y - 10)); ctx.lineTo(X(p.head.x + HEAD_R - 6), Y(p.head.y + 6)); ctx.lineTo(X(p.head.x + HEAD_R - 6), Y(p.head.y - 26)); ctx.fill();
+  if (!opts.bare) {
+    // eye-level line + head box (bob reference)
+    ctx.setLineDash([6, 8]); ctx.strokeStyle = '#e46c93'; ctx.lineWidth = 2;
+    const top = Y(p.head.y + HEAD_R + 40);
+    ctx.beginPath(); ctx.moveTo(X(p.head.x - 130), top); ctx.lineTo(X(p.head.x + 130), top); ctx.stroke(); ctx.setLineDash([]);
+    // labels live in the empty strip on the left and under the ground line
+    const tag = (s) => String(s).padStart(2, '0');
+    ctx.fillStyle = '#3a3f4b'; ctx.font = 'bold 40px Segoe UI, sans-serif'; ctx.fillText(opts.base ? 'BASE' : `W${tag(i)}`, 24, 250);
+    ctx.font = 'bold 22px Segoe UI, sans-serif'; ctx.fillText(opts.base ? 'MODEL SHEET' : i % 2 ? 'IN-BETWEEN' : 'KEY', 24, 284);
+    const desc = opts.base ? ['STANDING STILL', '3/4 view facing right, feet together, arms relaxed']
+      : NAMES[i] ? NAMES[i].split(' - ') : ['IN-BETWEEN', `halfway from W${tag(i - 1)} to W${tag((i + 1) % N)}`];
+    ctx.font = '20px Segoe UI, sans-serif'; ctx.fillStyle = '#5b6170';
+    let ty = 322;
+    for (const part of [desc[0], ...desc[1].split(', ')]) { ctx.fillText(part, 24, ty); ty += 28; }
+    ctx.font = '17px Segoe UI, sans-serif'; ctx.fillStyle = '#5b6170';
+    ctx.fillText('dark blue = NEAR leg/arm (viewer side) · light blue = FAR leg/arm · pink dashed = top of head · black = ground', 24, 1514);
+  }
+  return p;
+}
+
+function canvas(w = W, h = H) { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; }
+
+window.render = async (standUrl) => {
+  const out = {};
+  const stats = [];
+  for (let i = 0; i < N; i++) {
+    const c = canvas(); const p = drawFrame(c.getContext('2d'), i);
+    out[`guides/guide-W${String(i).padStart(2, '0')}.png`] = c.toDataURL('image/png');
+    const near = i <= 8 ? (i < 6 ? p.a.heel : p.a.toe) : null, far = i >= 8 || i === 0 ? ((i + 8) % 16 < 6 ? p.b.heel : p.b.toe) : null;
+    stats.push({ i, thigh: THIGH[i], pelvis: +p.pelvis.y.toFixed(1), nearContactX: near && +near.x.toFixed(1), nearLow: +p.a.low.toFixed(1), farContactX: far && +far.x.toFixed(1), farLow: +p.b.low.toFixed(1) });
+  }
+  { const c = canvas(); drawFrame(c.getContext('2d'), 0, { base: true }); out['guides/guide-BASE.png'] = c.toDataURL('image/png'); }
+  // overview sheet: 8 x 2 at quarter size
+  const ov = canvas(256 * 8, 384 * 2); const o = ov.getContext('2d');
+  for (let i = 0; i < N; i++) { const c = canvas(); drawFrame(c.getContext('2d'), i); o.drawImage(c, (i % 8) * 256, Math.floor(i / 8) * 384, 256, 384); }
+  out['guides/overview.png'] = ov.toDataURL('image/png');
+  // onion skin: all near legs
+  const on = canvas(); const oc = on.getContext('2d'); oc.fillStyle = '#fff'; oc.fillRect(0, 0, W, H);
+  oc.globalAlpha = 0.18; for (let i = 0; i < N; i++) drawFrame(oc, i, { bare: true }); oc.globalAlpha = 1;
+  out['guides/onion.png'] = on.toDataURL('image/png');
+  // approved standing art at the same scale / ground as the guides
+  if (standUrl) {
+    const img = new Image(); img.src = standUrl; await img.decode();
+    const c = canvas(); const ctx = c.getContext('2d');
+    ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, W, H);
+    ctx.drawImage(img, CX - 254 * S, G - 969 * S, img.width * S, img.height * S);
+    ctx.strokeStyle = '#3a3f4b'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(0, G); ctx.lineTo(W, G); ctx.stroke();
+    ctx.setLineDash([10, 10]); ctx.strokeStyle = '#b3b8c4'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(CX, 0); ctx.lineTo(CX, G); ctx.stroke();
+    out['refs/scale-reference.png'] = c.toDataURL('image/png');
+  }
+  out['guides/stats.json'] = 'data:application/json;base64,' + btoa(JSON.stringify({ frames: N, units: 'native px of 508x1000 standing art', output: { width: W, height: H, groundY: G, anchorX: CX, scale: S }, stats }, null, 1));
+  return out;
+};
+</script>
+</body></html>

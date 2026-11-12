@@ -1,0 +1,11 @@
+# dependencies and build output (npm install / npm run dist recreate them)
+node_modules/
+dist/
+
+# the promo film project is not part of this repository
+video/
+video-kit/
+
+# logs and local test output
+*.log
+selftest-out/

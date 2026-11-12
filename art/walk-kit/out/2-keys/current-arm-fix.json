@@ -1,0 +1,15 @@
+{
+  "modified_keys": [
+    "W00",
+    "W02",
+    "W04",
+    "W06",
+    "W08",
+    "W10",
+    "W12",
+    "W14"
+  ],
+  "handoff": "HANDOFF.md",
+  "manifest": "out/arm-fix/generation.json",
+  "status": "passed"
+}

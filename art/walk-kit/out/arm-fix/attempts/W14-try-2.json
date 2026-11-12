@@ -1,0 +1,171 @@
+{
+  "frame": "W14",
+  "attempt": 2,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-e3fb33e8-0937-46de-a521-a6a4739fe7f6.png",
+  "prompt": "Use case: precise-object-edit. EDIT ONLY THE NEAR ARM of image1 W14, using image2's natural hanging arm as geometry reference. Preserve all other regions of image1 exactly, especially both legs/feet, face, hair, skirt, FAR ARM and FAR HAND.\nThe near forearm/hand is still too far behind: measured near wrist328,840. Bring it INWARD to wrist400,850, exactly72px RIGHT and10px DOWN. Redraw the long sleeve so it hangs ALMOST VERTICALLY below the puff sleeve, as in image2. Elbow414,730, wrist400,850, relaxed palm395,890, fingertips gently down. It should be only7px to the left of image2's neutral wrist407. This is almost neutral, NOT a diagonal backward reach toward the tail. KEEP THE HAND CLOSE TO THE LEFT EDGE OF APRON, not at the left skirt hem. Do not leave the hand atx328 or350.\nSame thin soft warm pink-gray sleeve outlines, no green or blue colored edge line. Keep far hand exactly as image1 at wrist705. Keep original far rear support toe474 and near front airborne toe663,55px clearance, ground1473. Do not move the feet or change knee angles. One full1024x1536 clean single drawing on flat green.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W14-try-1.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W12.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W14-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1473,
+    "floor_runs": [
+      [
+        422,
+        474
+      ]
+    ],
+    "stance_toe": 474,
+    "stance_heel": 422,
+    "stance_width": 53,
+    "swing_toe": 663,
+    "swing_lift": 54,
+    "frame": "W14",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W14-try-2.png",
+    "frame": "W14",
+    "near": {
+      "selected": {
+        "area": 3429,
+        "centroid": [
+          422.02,
+          891.95
+        ],
+        "bbox": [
+          395,
+          853,
+          452,
+          940
+        ],
+        "wrist_proxy": [
+          425.12,
+          853
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3429,
+          "centroid": [
+            422.02,
+            891.95
+          ],
+          "bbox": [
+            395,
+            853,
+            452,
+            940
+          ],
+          "wrist_proxy": [
+            425.12,
+            853
+          ]
+        },
+        {
+          "area": 995,
+          "centroid": [
+            472.66,
+            929.13
+          ],
+          "bbox": [
+            442,
+            912,
+            499,
+            940
+          ],
+          "wrist_proxy": [
+            475.68,
+            912
+          ]
+        },
+        {
+          "area": 585,
+          "centroid": [
+            546.72,
+            852.12
+          ],
+          "bbox": [
+            532,
+            837,
+            566,
+            865
+          ],
+          "wrist_proxy": [
+            544.99,
+            837
+          ]
+        },
+        {
+          "area": 514,
+          "centroid": [
+            514.78,
+            841.65
+          ],
+          "bbox": [
+            500,
+            828,
+            529,
+            854
+          ],
+          "wrist_proxy": [
+            517.53,
+            828
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2071,
+        "centroid": [
+          714.57,
+          854.16
+        ],
+        "bbox": [
+          684,
+          807,
+          740,
+          908
+        ],
+        "wrist_proxy": [
+          706.48,
+          807
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2071,
+          "centroid": [
+            714.57,
+            854.16
+          ],
+          "bbox": [
+            684,
+            807,
+            740,
+            908
+          ],
+          "wrist_proxy": [
+            706.48,
+            807
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 1,
+  "lower_body_ground_delta": -1,
+  "lower_body_preserved": true,
+  "visual_correct": false,
+  "accepted": false,
+  "notes": "Forearm successfully upright, but cuff overshot inward/right to about425, giving a forward/neutral phase. Needs copy of corrected W00's small back position, keeping far hand and legs."
+}

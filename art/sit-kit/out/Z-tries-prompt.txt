@@ -1,0 +1,18 @@
+Built-in image generation edit mode. The same prompt and ordered references were used in three separate calls.
+
+EDIT IMAGE 1 ONLY. Three input images are attached IN THIS ORDER:
+1. sleep-green.png: THE EDIT TARGET. Preserve its exact 1024x1536 portrait canvas, sleeping pose, all figure contours, part positions, size, head size, composition, and flat green background.
+2. stand-green.png: APPROVED STYLE AND CHARACTER REFERENCE. Match this exact artist's rendering, face proportions, line quality, hair, shading, outfit colors, and details.
+3. ich01A_101.png: IDENTITY REFERENCE ONLY.
+
+Produce exactly ONE 1024x1536 opaque PNG illustration, one complete character and nothing else. This is a rendering-style correction of the sleeping drawing. Change ONLY HOW the existing character is drawn. Do not re-pose, zoom, reframe, enlarge, translate, or crop anything. Keep every part and the figure silhouette within a few pixels of image 1. Keep the large empty green area ABOVE her. She stays curled horizontally at the BOTTOM of the tall portrait canvas, with head at screen-left resting on folded arms, eyes closed, bent legs to screen-right, tail at right, long hair spread around. Preserve image 1's figure bounds (approximately x=62 through x=962, top y=1033, lowest point y=1480); horizontally centered at x=512. Maintain the head size of image 1 and approved standing art, headband-to-chin about 300 px. Never crop hair, ears, tail, hands or feet. DO NOT center her vertically or fill the canvas with her.
+
+Character: Misono Meihua, petite dog-girl, instantly recognizable as the girl in image 2. Soft floppy WHITE DOG EARS hanging beside her face, not rabbit ears. The ear on the SCREEN-RIGHT side of her head has a tiny navy-blue bow ABOVE a tiny peach bow, positioned as in image 1; the other ear has no bow. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Fluffy white DOG tail at right. White blouse, puffed short over-sleeves, fitted long sleeves, pink ribbons on sleeves, red bow tie at collar. Pink high-waisted suspender skirt, white frilled hem. Pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES. Stocking feet smooth, softly rounded, no toe lines. Small soft hands with five fingers.
+
+Face: preserve the sleeping pose but match image 2's exact face size and proportions, eyelid positions, eye size and shape (moderately large, slightly droopy, never bigger or rounder), thin eyebrows, tiny nose, small mouth, and gentle light blush. Eyes are CLOSED soft curved lash lines in the precise style of image 2; peaceful sleeping expression. Keep the closed eyelids, no visible irises. If any eye detail is suggested, its violet color must match image 2.
+
+Style: identical to image 2, soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft CEL shading, same palette and same detail level. Clean defined hair strands and light cel-shaped hair shading matching standing art. Correct image 1's slightly off-model rendering and face/outfit details while preserving all geometry. No painterly rendering, sketchiness, 3D, blur, or extra decoration.
+
+Background: perfectly flat opaque PURE GREEN #00FF00 (RGB 0,255,0) everywhere outside the character, including EVERY enclosed or open gap between hair strands, arms, clothing and legs. No gradient, floor, cast shadow, glow, rim light, texture, green tint, or reflected green on the character. No text, letters, signature, or watermark.
+Return the single edited illustration only.
+

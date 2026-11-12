@@ -1,0 +1,1468 @@
+{
+  "schema": 1,
+  "character": "御园莓华",
+  "generated": "2026-11-11T10:20:23.578Z",
+  "world": {
+    "unit": "native px of approved standing art",
+    "standHeight": 964,
+    "faceAnchor": {
+      "x": 240,
+      "y": 172
+    }
+  },
+  "scales": {
+    "stand": 1,
+    "walk": 0.6897,
+    "tr": 0.6897,
+    "sit": 1.8527,
+    "sleep": 1.2154
+  },
+  "rigs": {
+    "stand": {
+      "rig": "rigs/stand/rig.json",
+      "width": 508,
+      "height": 1000,
+      "scale": 1,
+      "baseline": 969,
+      "originX": 254,
+      "family": "stand",
+      "anchor": [
+        239,
+        5
+      ]
+    },
+    "sit": {
+      "rig": "rigs/sit/rig.json",
+      "width": 512,
+      "height": 384,
+      "scale": 1.8527,
+      "baseline": 360,
+      "originX": 256,
+      "family": "sit",
+      "anchor": [
+        234,
+        30
+      ]
+    },
+    "sleep": {
+      "rig": "rigs/sleep/rig.json",
+      "width": 512,
+      "height": 384,
+      "scale": 1.2154,
+      "baseline": 360,
+      "originX": 256,
+      "family": "sleep",
+      "anchor": [
+        102,
+        123
+      ]
+    }
+  },
+  "sequences": {
+    "walk-right": {
+      "path": "seq/walk7-right/frame-{i}.png",
+      "frames": 16,
+      "width": 748,
+      "height": 1403,
+      "baseline": 1398,
+      "originX": 411,
+      "scale": 0.6897,
+      "duration": 1.12,
+      "loop": true,
+      "facing": 1,
+      "rootMotion": [
+        57.31,
+        55.6,
+        48.56,
+        48.29,
+        46.29,
+        48.81,
+        52.77,
+        58.29,
+        61.76,
+        53.54,
+        47.21,
+        51.8,
+        54.11,
+        55.18,
+        56.91,
+        60.01
+      ],
+      "passingFrames": [
+        4,
+        12
+      ],
+      "turn": "turn-right",
+      "entryFrames": [
+        4,
+        12
+      ],
+      "crop": [
+        0,
+        0,
+        748,
+        1403
+      ],
+      "bounds": [
+        [
+          51,
+          31,
+          643,
+          1398,
+          417
+        ],
+        [
+          45,
+          30,
+          618,
+          1398,
+          417
+        ],
+        [
+          41,
+          38,
+          617,
+          1398,
+          415
+        ],
+        [
+          44,
+          25,
+          607,
+          1398,
+          416
+        ],
+        [
+          50,
+          27,
+          593,
+          1398,
+          417
+        ],
+        [
+          19,
+          26,
+          603,
+          1398,
+          417
+        ],
+        [
+          8,
+          15,
+          633,
+          1398,
+          417
+        ],
+        [
+          6,
+          16,
+          656,
+          1398,
+          417
+        ],
+        [
+          13,
+          29,
+          680,
+          1398,
+          417
+        ],
+        [
+          15,
+          29,
+          627,
+          1399,
+          417
+        ],
+        [
+          16,
+          38,
+          595,
+          1398,
+          417
+        ],
+        [
+          27,
+          27,
+          607,
+          1398,
+          416
+        ],
+        [
+          51,
+          26,
+          593,
+          1398,
+          417
+        ],
+        [
+          45,
+          21,
+          609,
+          1398,
+          417
+        ],
+        [
+          56,
+          16,
+          609,
+          1399,
+          417
+        ],
+        [
+          46,
+          16,
+          619,
+          1398,
+          417
+        ]
+      ],
+      "source": "art/walk-kit (16 drawings)"
+    },
+    "walk-left": {
+      "path": "seq/walk7-left/frame-{i}.png",
+      "frames": 16,
+      "width": 748,
+      "height": 1403,
+      "baseline": 1398,
+      "originX": 336,
+      "scale": 0.6897,
+      "duration": 1.12,
+      "loop": true,
+      "facing": -1,
+      "rootMotion": [
+        57.31,
+        55.6,
+        48.56,
+        48.29,
+        46.29,
+        48.81,
+        52.77,
+        58.29,
+        61.76,
+        53.54,
+        47.21,
+        51.8,
+        54.11,
+        55.18,
+        56.91,
+        60.01
+      ],
+      "passingFrames": [
+        4,
+        12
+      ],
+      "turn": "turn-left",
+      "entryFrames": [
+        4,
+        12
+      ],
+      "crop": [
+        0,
+        0,
+        748,
+        1403
+      ],
+      "bounds": [
+        [
+          104,
+          31,
+          696,
+          1398,
+          330
+        ],
+        [
+          129,
+          30,
+          702,
+          1398,
+          330
+        ],
+        [
+          130,
+          38,
+          706,
+          1398,
+          332
+        ],
+        [
+          140,
+          25,
+          703,
+          1398,
+          331
+        ],
+        [
+          154,
+          27,
+          697,
+          1398,
+          330
+        ],
+        [
+          144,
+          26,
+          728,
+          1398,
+          330
+        ],
+        [
+          114,
+          15,
+          739,
+          1398,
+          330
+        ],
+        [
+          91,
+          16,
+          741,
+          1398,
+          330
+        ],
+        [
+          67,
+          29,
+          734,
+          1398,
+          330
+        ],
+        [
+          120,
+          29,
+          732,
+          1399,
+          330
+        ],
+        [
+          152,
+          38,
+          731,
+          1398,
+          330
+        ],
+        [
+          140,
+          27,
+          720,
+          1398,
+          331
+        ],
+        [
+          154,
+          26,
+          696,
+          1398,
+          330
+        ],
+        [
+          138,
+          21,
+          702,
+          1398,
+          330
+        ],
+        [
+          138,
+          16,
+          691,
+          1399,
+          330
+        ],
+        [
+          128,
+          16,
+          701,
+          1398,
+          330
+        ]
+      ],
+      "source": "art/walk-kit (16 drawings)"
+    },
+    "turn-right": {
+      "path": "seq/turn7-right/frame-{i}.png",
+      "frames": 4,
+      "width": 748,
+      "height": 1403,
+      "baseline": 1398,
+      "originX": 411,
+      "scale": 0.6897,
+      "duration": 0.29,
+      "loop": false,
+      "facing": 1,
+      "holds": [
+        0.085,
+        0.075,
+        0.07,
+        0.06
+      ],
+      "crop": [
+        0,
+        0,
+        748,
+        1403
+      ],
+      "bounds": [
+        [
+          66,
+          7,
+          728,
+          1398,
+          399
+        ],
+        [
+          67,
+          12,
+          711,
+          1398,
+          404
+        ],
+        [
+          52,
+          17,
+          638,
+          1399,
+          415
+        ],
+        [
+          51,
+          22,
+          650,
+          1398,
+          417
+        ]
+      ],
+      "source": "art/walk-kit Stage 4 (T1, T2, T3, B)"
+    },
+    "turn-left": {
+      "path": "seq/turn7-left/frame-{i}.png",
+      "frames": 4,
+      "width": 748,
+      "height": 1403,
+      "baseline": 1398,
+      "originX": 336,
+      "scale": 0.6897,
+      "duration": 0.29,
+      "loop": false,
+      "facing": -1,
+      "holds": [
+        0.085,
+        0.075,
+        0.07,
+        0.06
+      ],
+      "crop": [
+        0,
+        0,
+        748,
+        1403
+      ],
+      "bounds": [
+        [
+          7,
+          7,
+          682,
+          1398,
+          320
+        ],
+        [
+          44,
+          12,
+          679,
+          1398,
+          328
+        ],
+        [
+          94,
+          17,
+          692,
+          1398,
+          327
+        ],
+        [
+          97,
+          22,
+          696,
+          1398,
+          330
+        ]
+      ],
+      "source": "art/walk-kit Stage 4 (T1L, T2L, T3L, B)"
+    }
+  },
+  "transitions": {
+    "stand-sit": {
+      "path": "seq/tr2/stand-sit/frame-{i}.png",
+      "frames": 5,
+      "width": 706,
+      "height": 1408,
+      "baseline": 1402,
+      "originX": 355,
+      "scale": 0.6897,
+      "duration": 1.07,
+      "from": "stand",
+      "to": "sit",
+      "preMirrored": false,
+      "internal": false,
+      "gaitFrom": null,
+      "keys": {
+        "holds": [
+          0,
+          0.1,
+          0.11,
+          0.1,
+          0
+        ],
+        "blends": [
+          0.16,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "anchors": [
+          [
+            309.7,
+            384.2
+          ],
+          [
+            327,
+            497.1
+          ],
+          [
+            333.8,
+            761.9
+          ],
+          [
+            334.4,
+            726.3
+          ],
+          [
+            325.3,
+            879.9
+          ]
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        706,
+        1408
+      ],
+      "bounds": [
+        [
+          7,
+          4,
+          695,
+          1400,
+          332
+        ],
+        [
+          26,
+          152,
+          686,
+          1402,
+          317
+        ],
+        [
+          40,
+          425,
+          672,
+          1402,
+          323
+        ],
+        [
+          19,
+          364,
+          695,
+          1403,
+          322
+        ],
+        [
+          14,
+          515,
+          700,
+          1402,
+          316
+        ]
+      ],
+      "source": "art/sit-kit (standing art, K1-try-2, K2-try-2, K3-try-2, S-try-2)"
+    },
+    "sit-sleep": {
+      "path": "seq/tr2/sit-sleep/frame-{i}.png",
+      "frames": 4,
+      "width": 898,
+      "height": 898,
+      "baseline": 892,
+      "originX": 467,
+      "scale": 0.6897,
+      "duration": 1.5,
+      "from": "sit",
+      "to": "sleep",
+      "preMirrored": false,
+      "internal": false,
+      "gaitFrom": null,
+      "keys": {
+        "holds": [
+          0,
+          0.2,
+          0.26,
+          0
+        ],
+        "blends": [
+          0.32,
+          0.34,
+          0.38
+        ],
+        "anchors": [
+          [
+            437.3,
+            369.9
+          ],
+          [
+            380.2,
+            433.8
+          ],
+          [
+            304.1,
+            669.6
+          ],
+          [
+            334.5,
+            760.1
+          ]
+        ]
+      },
+      "crop": [
+        0,
+        0,
+        898,
+        898
+      ],
+      "bounds": [
+        [
+          126,
+          5,
+          812,
+          892,
+          428
+        ],
+        [
+          5,
+          92,
+          855,
+          892,
+          283
+        ],
+        [
+          43,
+          363,
+          892,
+          892,
+          246
+        ],
+        [
+          43,
+          472,
+          890,
+          892,
+          367
+        ]
+      ],
+      "source": "art/sit-kit (S-try-2, L1-try-2, L2-try-3, Z-try-2)"
+    }
+  },
+  "expressions": {
+    "default": "101",
+    "catalogue": {
+      "101": {
+        "tag": "calm",
+        "label": "平静微笑"
+      },
+      "102": {
+        "tag": "happy",
+        "label": "眯眼笑"
+      },
+      "103": {
+        "tag": "joy",
+        "label": "开怀笑"
+      },
+      "104": {
+        "tag": "talk",
+        "label": "说话"
+      },
+      "105": {
+        "tag": "cheerful",
+        "label": "眯眼说话"
+      },
+      "301": {
+        "tag": "pensive",
+        "label": "思索"
+      },
+      "302": {
+        "tag": "relaxed",
+        "label": "闭眼放松"
+      },
+      "401": {
+        "tag": "excited",
+        "label": "惊喜"
+      },
+      "402": {
+        "tag": "puzzled",
+        "label": "疑惑"
+      },
+      "403": {
+        "tag": "surprised",
+        "label": "小吃惊"
+      },
+      "501": {
+        "tag": "shy",
+        "label": "害羞"
+      },
+      "502": {
+        "tag": "shy_talk",
+        "label": "害羞说话"
+      },
+      "601": {
+        "tag": "neutral",
+        "label": "平常"
+      },
+      "602": {
+        "tag": "eyes_closed",
+        "label": "闭眼"
+      },
+      "603": {
+        "tag": "attentive",
+        "label": "认真"
+      },
+      "604": {
+        "tag": "neutral_talk",
+        "label": "平常说话"
+      },
+      "701": {
+        "tag": "flustered",
+        "label": "慌张脸红"
+      },
+      "901": {
+        "tag": "sleepy",
+        "label": "半睁眼"
+      },
+      "902": {
+        "tag": "pout",
+        "label": "小抱怨"
+      },
+      "101a": {
+        "tag": "calm_blush",
+        "label": "平静·脸红"
+      },
+      "102a": {
+        "tag": "happy_blush",
+        "label": "眯眼笑·脸红"
+      },
+      "104a": {
+        "tag": "talk_blush",
+        "label": "说话·脸红"
+      },
+      "105a": {
+        "tag": "cheerful_blush",
+        "label": "眯眼说话·脸红"
+      },
+      "301a": {
+        "tag": "pensive_blush",
+        "label": "思索·脸红"
+      },
+      "401a": {
+        "tag": "excited_blush",
+        "label": "惊喜·脸红"
+      },
+      "402a": {
+        "tag": "puzzled_blush",
+        "label": "疑惑·脸红"
+      },
+      "403a": {
+        "tag": "surprised_blush",
+        "label": "小吃惊·脸红"
+      },
+      "604a": {
+        "tag": "neutral_talk_blush",
+        "label": "平常说话·脸红"
+      },
+      "701a": {
+        "tag": "flustered_more",
+        "label": "超级脸红"
+      }
+    },
+    "emotions": {
+      "calm": "101",
+      "happy": "102",
+      "joy": "103",
+      "cheerful": "105",
+      "excited": "401",
+      "surprised": "403",
+      "puzzled": "402",
+      "curious": "104",
+      "shy": "501",
+      "flustered": "701",
+      "embarrassed": "101a",
+      "pensive": "301",
+      "thinking": "301",
+      "relaxed": "302",
+      "sleepy": "901",
+      "pout": "902",
+      "annoyed": "902",
+      "serious": "603",
+      "neutral": "601",
+      "sad": "301a",
+      "touched": "102a",
+      "proud": "105",
+      "worried": "301a",
+      "love": "102a",
+      "eyes_closed": "602"
+    },
+    "lipsync": {
+      "closed": null,
+      "half": "604",
+      "open": "104",
+      "wide": "401",
+      "smileOpen": "105"
+    },
+    "blink": "602",
+    "facesDir": "faces",
+    "faceCrop": {
+      "x": 134,
+      "y": 40,
+      "size": 212
+    }
+  },
+  "parts": {
+    "stand": [
+      {
+        "id": "ear-left",
+        "cx": 149,
+        "cy": 83,
+        "rx": 47,
+        "ry": 53,
+        "px": 184,
+        "py": 34,
+        "label": "左耳",
+        "phrase": "耳、耳朵很敏感的……轻一点嘛。",
+        "kind": "rotate",
+        "gain": 0.38
+      },
+      {
+        "id": "ear-right",
+        "cx": 315,
+        "cy": 91,
+        "rx": 41,
+        "ry": 55,
+        "px": 302,
+        "py": 32,
+        "label": "右耳",
+        "phrase": "蝴蝶结要被碰歪啦……",
+        "kind": "rotate",
+        "gain": -0.38
+      },
+      {
+        "id": "head",
+        "cx": 238,
+        "cy": 92,
+        "rx": 72,
+        "ry": 54,
+        "px": 240,
+        "py": 60,
+        "label": "头顶",
+        "phrase": "嘿嘿……最喜欢被{name}摸头了。",
+        "kind": "nod",
+        "gain": 4
+      },
+      {
+        "id": "face",
+        "cx": 238,
+        "cy": 186,
+        "rx": 46,
+        "ry": 38,
+        "px": 238,
+        "py": 148,
+        "label": "脸颊",
+        "phrase": "诶？脸、脸会变红的啦……",
+        "kind": "nod",
+        "gain": 2
+      },
+      {
+        "id": "chest",
+        "cx": 238,
+        "cy": 330,
+        "rx": 56,
+        "ry": 40,
+        "px": 238,
+        "py": 290,
+        "label": "胸口",
+        "phrase": "呀！那、那里不可以随便碰啦……",
+        "kind": "breath",
+        "gain": 2
+      },
+      {
+        "id": "hair",
+        "cx": 394,
+        "cy": 410,
+        "rx": 74,
+        "ry": 185,
+        "px": 352,
+        "py": 205,
+        "label": "长发",
+        "phrase": "要帮我梳头发吗？",
+        "kind": "sway",
+        "gain": 8
+      },
+      {
+        "id": "hair",
+        "cx": 90,
+        "cy": 408,
+        "rx": 73,
+        "ry": 184,
+        "px": 140,
+        "py": 204,
+        "label": "长发",
+        "phrase": "要帮我梳头发吗？",
+        "kind": "sway",
+        "gain": 8
+      },
+      {
+        "id": "hand-left",
+        "cx": 74,
+        "cy": 573,
+        "rx": 24,
+        "ry": 24,
+        "px": 88,
+        "py": 548,
+        "label": "左手",
+        "phrase": "要牵手吗？……嗯！",
+        "kind": "rotate",
+        "gain": 0.5
+      },
+      {
+        "id": "hand-right",
+        "cx": 382,
+        "cy": 575,
+        "rx": 34,
+        "ry": 29,
+        "px": 357,
+        "py": 547,
+        "label": "右手",
+        "phrase": "{name}的手好暖和～",
+        "kind": "rotate",
+        "gain": -0.5
+      },
+      {
+        "id": "skirt",
+        "cx": 237,
+        "cy": 570,
+        "rx": 157,
+        "ry": 69,
+        "px": 239,
+        "py": 488,
+        "label": "裙摆",
+        "phrase": "裙、裙子不可以掀！",
+        "kind": "cloth",
+        "gain": 8
+      },
+      {
+        "id": "thigh-left",
+        "cx": 210,
+        "cy": 690,
+        "rx": 30,
+        "ry": 54,
+        "px": 210,
+        "py": 636,
+        "label": "大腿",
+        "phrase": "大、大腿不行啦……{name}好坏。",
+        "kind": "bend",
+        "gain": 5
+      },
+      {
+        "id": "thigh-right",
+        "cx": 282,
+        "cy": 690,
+        "rx": 34,
+        "ry": 54,
+        "px": 282,
+        "py": 636,
+        "label": "大腿",
+        "phrase": "呜……不要一直盯着腿看嘛。",
+        "kind": "bend",
+        "gain": -5
+      },
+      {
+        "id": "calf-left",
+        "cx": 212,
+        "cy": 830,
+        "rx": 28,
+        "ry": 60,
+        "px": 212,
+        "py": 770,
+        "label": "小腿",
+        "phrase": "小腿也会痒的啦～",
+        "kind": "bend",
+        "gain": 7
+      },
+      {
+        "id": "calf-right",
+        "cx": 300,
+        "cy": 820,
+        "rx": 32,
+        "ry": 60,
+        "px": 300,
+        "py": 760,
+        "label": "小腿",
+        "phrase": "嘻嘻，好痒……",
+        "kind": "bend",
+        "gain": -7
+      },
+      {
+        "id": "foot-left",
+        "cx": 222,
+        "cy": 937,
+        "rx": 28,
+        "ry": 36,
+        "px": 224,
+        "py": 899,
+        "label": "左脚",
+        "phrase": "脚、脚最怕痒了！",
+        "kind": "rotate",
+        "gain": 0.42
+      },
+      {
+        "id": "foot-right",
+        "cx": 344,
+        "cy": 923,
+        "rx": 31,
+        "ry": 43,
+        "px": 340,
+        "py": 879,
+        "label": "右脚",
+        "phrase": "不、不要挠脚心啦！",
+        "kind": "rotate",
+        "gain": -0.42
+      },
+      {
+        "id": "tail",
+        "cx": 375,
+        "cy": 624,
+        "rx": 43,
+        "ry": 29,
+        "px": 343,
+        "py": 611,
+        "label": "尾巴",
+        "phrase": "尾巴自己摇起来了……才不是因为开心呢！",
+        "kind": "rotate",
+        "gain": 0.4
+      },
+      {
+        "id": "body",
+        "cx": 237,
+        "cy": 392,
+        "rx": 72,
+        "ry": 98,
+        "px": 239,
+        "py": 303,
+        "label": "腰",
+        "phrase": "呜哇，好痒！",
+        "kind": "breath",
+        "gain": 3
+      }
+    ],
+    "sit": [
+      {
+        "id": "ear-left",
+        "cx": 189,
+        "cy": 87,
+        "rx": 28,
+        "ry": 42,
+        "px": 218,
+        "py": 46,
+        "label": "左耳",
+        "phrase": "耳、耳朵很敏感的……轻一点嘛。",
+        "kind": "rotate",
+        "gain": 0.38
+      },
+      {
+        "id": "ear-right",
+        "cx": 290,
+        "cy": 80,
+        "rx": 25,
+        "ry": 41,
+        "px": 282,
+        "py": 42,
+        "label": "右耳",
+        "phrase": "蝴蝶结要被碰歪啦……",
+        "kind": "rotate",
+        "gain": -0.38
+      },
+      {
+        "id": "head",
+        "cx": 250,
+        "cy": 66,
+        "rx": 56,
+        "ry": 38,
+        "px": 252,
+        "py": 40,
+        "label": "头顶",
+        "phrase": "嘿嘿……最喜欢被{name}摸头了。",
+        "kind": "nod",
+        "gain": 4
+      },
+      {
+        "id": "face",
+        "cx": 246,
+        "cy": 125,
+        "rx": 38,
+        "ry": 30,
+        "px": 246,
+        "py": 95,
+        "label": "脸颊",
+        "phrase": "诶？脸、脸会变红的啦……",
+        "kind": "nod",
+        "gain": 2
+      },
+      {
+        "id": "chest",
+        "cx": 246,
+        "cy": 196,
+        "rx": 44,
+        "ry": 28,
+        "px": 246,
+        "py": 168,
+        "label": "胸口",
+        "phrase": "呀！那、那里不可以随便碰啦……",
+        "kind": "breath",
+        "gain": 2
+      },
+      {
+        "id": "hair",
+        "cx": 329,
+        "cy": 214,
+        "rx": 44,
+        "ry": 92,
+        "px": 300,
+        "py": 137,
+        "label": "长发",
+        "phrase": "要帮我梳头发吗？",
+        "kind": "sway",
+        "gain": 8
+      },
+      {
+        "id": "hair",
+        "cx": 162,
+        "cy": 227,
+        "rx": 39,
+        "ry": 86,
+        "px": 203,
+        "py": 139,
+        "label": "长发",
+        "phrase": "要帮我梳头发吗？",
+        "kind": "sway",
+        "gain": 8
+      },
+      {
+        "id": "hand-left",
+        "cx": 204,
+        "cy": 346,
+        "rx": 20,
+        "ry": 16,
+        "px": 211,
+        "py": 323,
+        "label": "左手",
+        "phrase": "要牵手吗？……嗯！",
+        "kind": "rotate",
+        "gain": 0.5
+      },
+      {
+        "id": "hand-right",
+        "cx": 231,
+        "cy": 347,
+        "rx": 19,
+        "ry": 16,
+        "px": 238,
+        "py": 323,
+        "label": "右手",
+        "phrase": "{name}的手好暖和～",
+        "kind": "rotate",
+        "gain": -0.5
+      },
+      {
+        "id": "thigh-left",
+        "cx": 200,
+        "cy": 300,
+        "rx": 40,
+        "ry": 22,
+        "px": 200,
+        "py": 278,
+        "label": "大腿",
+        "phrase": "大、大腿不行啦……{name}好坏。",
+        "kind": "bend",
+        "gain": 5
+      },
+      {
+        "id": "thigh-right",
+        "cx": 300,
+        "cy": 300,
+        "rx": 40,
+        "ry": 22,
+        "px": 300,
+        "py": 278,
+        "label": "大腿",
+        "phrase": "呜……不要一直盯着腿看嘛。",
+        "kind": "bend",
+        "gain": -5
+      },
+      {
+        "id": "foot-left",
+        "cx": 146,
+        "cy": 340,
+        "rx": 16,
+        "ry": 14,
+        "px": 146,
+        "py": 326,
+        "label": "左脚",
+        "phrase": "脚、脚最怕痒了！",
+        "kind": "rotate",
+        "gain": 0.42
+      },
+      {
+        "id": "foot-right",
+        "cx": 366,
+        "cy": 340,
+        "rx": 18,
+        "ry": 14,
+        "px": 366,
+        "py": 326,
+        "label": "右脚",
+        "phrase": "不、不要挠脚心啦！",
+        "kind": "rotate",
+        "gain": -0.42
+      },
+      {
+        "id": "calf-left",
+        "cx": 180,
+        "cy": 336,
+        "rx": 28,
+        "ry": 20,
+        "px": 180,
+        "py": 316,
+        "label": "小腿",
+        "phrase": "小腿也会痒的啦～",
+        "kind": "bend",
+        "gain": 7
+      },
+      {
+        "id": "calf-right",
+        "cx": 330,
+        "cy": 338,
+        "rx": 28,
+        "ry": 20,
+        "px": 330,
+        "py": 318,
+        "label": "小腿",
+        "phrase": "嘻嘻，好痒……",
+        "kind": "bend",
+        "gain": -7
+      },
+      {
+        "id": "skirt",
+        "cx": 254,
+        "cy": 290,
+        "rx": 117,
+        "ry": 48,
+        "px": 256,
+        "py": 236,
+        "label": "裙摆",
+        "phrase": "裙、裙子不可以掀！",
+        "kind": "cloth",
+        "gain": 8
+      },
+      {
+        "id": "tail",
+        "cx": 383,
+        "cy": 286,
+        "rx": 35,
+        "ry": 40,
+        "px": 352,
+        "py": 279,
+        "label": "尾巴",
+        "phrase": "尾巴自己摇起来了……才不是因为开心呢！",
+        "kind": "rotate",
+        "gain": 0.4
+      },
+      {
+        "id": "body",
+        "cx": 256,
+        "cy": 240,
+        "rx": 54,
+        "ry": 40,
+        "px": 256,
+        "py": 200,
+        "label": "腰",
+        "phrase": "呜哇，好痒！",
+        "kind": "breath",
+        "gain": 3
+      }
+    ],
+    "sleep": [
+      {
+        "id": "ear-left",
+        "cx": 93,
+        "cy": 196,
+        "rx": 31,
+        "ry": 40,
+        "px": 93,
+        "py": 156,
+        "label": "左耳",
+        "phrase": "耳、耳朵很敏感的……轻一点嘛。",
+        "kind": "rotate",
+        "gain": 0.38
+      },
+      {
+        "id": "ear-right",
+        "cx": 160,
+        "cy": 161,
+        "rx": 37,
+        "ry": 35,
+        "px": 160,
+        "py": 126,
+        "label": "右耳",
+        "phrase": "蝴蝶结要被碰歪啦……",
+        "kind": "rotate",
+        "gain": -0.38
+      },
+      {
+        "id": "face",
+        "cx": 125,
+        "cy": 240,
+        "rx": 36,
+        "ry": 24,
+        "px": 125,
+        "py": 216,
+        "label": "脸颊",
+        "phrase": "诶？脸、脸会变红的啦……",
+        "kind": "nod",
+        "gain": 2
+      },
+      {
+        "id": "head",
+        "cx": 120,
+        "cy": 190,
+        "rx": 60,
+        "ry": 46,
+        "px": 120,
+        "py": 144,
+        "label": "头顶",
+        "phrase": "嘿嘿……最喜欢被{name}摸头了。",
+        "kind": "nod",
+        "gain": 4
+      },
+      {
+        "id": "hair",
+        "cx": 148,
+        "cy": 315,
+        "rx": 85,
+        "ry": 36,
+        "px": 148,
+        "py": 279,
+        "label": "长发",
+        "phrase": "要帮我梳头发吗？",
+        "kind": "sway",
+        "gain": 8
+      },
+      {
+        "id": "hand-left",
+        "cx": 157,
+        "cy": 282,
+        "rx": 25,
+        "ry": 18,
+        "px": 157,
+        "py": 264,
+        "label": "左手",
+        "phrase": "要牵手吗？……嗯！",
+        "kind": "rotate",
+        "gain": 0.5
+      },
+      {
+        "id": "skirt",
+        "cx": 328,
+        "cy": 267,
+        "rx": 96,
+        "ry": 63,
+        "px": 328,
+        "py": 204,
+        "label": "裙摆",
+        "phrase": "裙、裙子不可以掀！",
+        "kind": "cloth",
+        "gain": 8
+      },
+      {
+        "id": "thigh-left",
+        "cx": 316,
+        "cy": 334,
+        "rx": 63,
+        "ry": 25,
+        "px": 316,
+        "py": 309,
+        "label": "大腿",
+        "phrase": "大、大腿不行啦……{name}好坏。",
+        "kind": "bend",
+        "gain": 5
+      },
+      {
+        "id": "foot-left",
+        "cx": 394,
+        "cy": 345,
+        "rx": 32,
+        "ry": 15,
+        "px": 394,
+        "py": 330,
+        "label": "左脚",
+        "phrase": "脚、脚最怕痒了！",
+        "kind": "rotate",
+        "gain": 0.42
+      },
+      {
+        "id": "foot-right",
+        "cx": 425,
+        "cy": 335,
+        "rx": 27,
+        "ry": 18,
+        "px": 425,
+        "py": 317,
+        "label": "右脚",
+        "phrase": "不、不要挠脚心啦！",
+        "kind": "rotate",
+        "gain": -0.42
+      },
+      {
+        "id": "tail",
+        "cx": 423,
+        "cy": 245,
+        "rx": 44,
+        "ry": 43,
+        "px": 423,
+        "py": 202,
+        "label": "尾巴",
+        "phrase": "尾巴自己摇起来了……才不是因为开心呢！",
+        "kind": "rotate",
+        "gain": 0.4
+      },
+      {
+        "id": "body",
+        "cx": 249,
+        "cy": 260,
+        "rx": 61,
+        "ry": 48,
+        "px": 249,
+        "py": 212,
+        "label": "身体",
+        "phrase": "呜哇，好痒！",
+        "kind": "breath",
+        "gain": 3
+      }
+    ]
+  }
+}

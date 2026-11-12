@@ -1,0 +1,8 @@
+{"file": "out\\2-keys\\W00.png", "size": [1024, 1536], "ground": 1473, "floor_runs": [[298, 349], [606, 709]], "frame": "W00"}
+{"file": "out\\2-keys\\W02.png", "size": [1024, 1536], "ground": 1480, "floor_runs": [[482, 610]], "stance_toe": 610, "stance_width": 129, "frame": "W02"}
+{"file": "out\\2-keys\\W04.png", "size": [1024, 1536], "ground": 1480, "floor_runs": [[464, 584]], "stance_toe": 584, "stance_width": 121, "frame": "W04", "pass": false, "score": 44, "fails": ["stance_toe 584 (want 500-540)"]}
+{"file": "out\\2-keys\\W06.png", "size": [1024, 1536], "ground": 1473, "floor_runs": [[264, 315]], "stance_toe": 315, "stance_width": 52, "swing_toe": 794, "swing_lift": 75, "frame": "W06", "pass": false, "score": 154, "fails": ["stance_toe 315 (want 395-435)", "swing_toe 794 (want 670-740)", "swing_lift 75 (want 20-55)"]}
+{"file": "out\\2-keys\\W08.png", "size": [1024, 1536], "ground": 1466, "floor_runs": [[255, 310], [669, 717]], "frame": "W08"}
+{"file": "out\\2-keys\\W10.png", "size": [1024, 1536], "ground": 1476, "floor_runs": [[465, 591]], "stance_toe": 591, "stance_width": 127, "frame": "W10", "pass": false, "score": 66, "fails": ["stance_toe 591 (want 657-697)"]}
+{"file": "out\\2-keys\\W12.png", "size": [1024, 1536], "ground": 1478, "floor_runs": [[461, 585]], "stance_toe": 585, "stance_width": 125, "frame": "W12"}
+{"file": "out\\2-keys\\W14.png", "size": [1024, 1536], "ground": 1469, "floor_runs": [[299, 347]], "stance_toe": 347, "stance_width": 49, "swing_toe": 753, "swing_lift": 68, "frame": "W14", "pass": false, "score": 156, "fails": ["stance_toe 347 (want 437-477)", "swing_toe 753 (want 630-700)", "swing_lift 68 (want 20-55)"]}

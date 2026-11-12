@@ -1,0 +1,119 @@
+{
+  "frame": "W10",
+  "attempt": 2,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-73a67c5e-0aa8-4886-a7fe-a339e1dd84ee.png",
+  "prompt": "Use case: precise-object-edit. Change ONLY FAR ARM/HAND in image1 W10 to match image2 W06's corrected half-back FAR arm geometry and occlusion. Image3 shows neutral far arm for continuity. Do not change image1's near arm/hand at464,830, or its face, hair, body, skirt or LEGS/FEET.\nFar hand in image1 is too far outside the body. Bring FAR lower sleeve/cuff and hand inward about30px LEFT, wristaround665,815, palm675,855, fingertips relaxed down. The far forearm passes partly behind the right torso/apron edge, and the visible far hand is narrow and close to that edge as in image2, not spread toward the outside skirt hem. Keep anatomical hand size under natural partial occlusion. W10 is returning from back swing toward neutral, halfway from W08 to W12, same far-arm phase as W06. Copy only image2 far arm geometry; keep image1 original far flat support foot toe678 heel532 floor1468 and near bent leg lifted exactly unchanged. No extra hand, no ghost, warm thin outlines. Output one full-body1024x1536 green-screen drawing.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W10.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W06.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W12.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W10-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1468,
+    "floor_runs": [
+      [
+        532,
+        677
+      ]
+    ],
+    "stance_toe": 677,
+    "stance_heel": 532,
+    "stance_width": 146,
+    "frame": "W10",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W10-try-2.png",
+    "frame": "W10",
+    "near": {
+      "selected": {
+        "area": 3994,
+        "centroid": [
+          472.26,
+          876.63
+        ],
+        "bbox": [
+          442,
+          830,
+          504,
+          938
+        ],
+        "wrist_proxy": [
+          464.8,
+          830
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3994,
+          "centroid": [
+            472.26,
+            876.63
+          ],
+          "bbox": [
+            442,
+            830,
+            504,
+            938
+          ],
+          "wrist_proxy": [
+            464.8,
+            830
+          ]
+        },
+        {
+          "area": 510,
+          "centroid": [
+            551.47,
+            847.05
+          ],
+          "bbox": [
+            538,
+            831,
+            568,
+            859
+          ],
+          "wrist_proxy": [
+            548.81,
+            831
+          ]
+        },
+        {
+          "area": 267,
+          "centroid": [
+            522.12,
+            839.67
+          ],
+          "bbox": [
+            508,
+            825,
+            534,
+            850
+          ],
+          "wrist_proxy": [
+            527.91,
+            825
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": null,
+      "candidates": []
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 1,
+  "lower_body_ground_delta": -1,
+  "lower_body_preserved": true,
+  "visual_correct": true,
+  "accepted": true,
+  "notes": "Far arm now close behind right torso/apron, narrower visible hand matching W06 phase; near return arm unchanged. Far supporting foot678 remains passed. Natural partial occlusion rather than side spread."
+}

@@ -1,0 +1,38 @@
+{
+  "stage": "3b",
+  "date": "2026-11-10",
+  "status": "complete",
+  "tool": "built-in image_gen.imagegen",
+  "modified_official_frames": [
+    "W05",
+    "W13"
+  ],
+  "protected_official_frames_unchanged": 14,
+  "imagegen_calls": 12,
+  "retries": {
+    "W05": 5,
+    "W13": 5
+  },
+  "selected_attempts": {
+    "W05": 6,
+    "W13": 6
+  },
+  "targeted_feet_checks_passed": 12,
+  "unmeasured_frames": [
+    "W00",
+    "W02",
+    "W08",
+    "W12"
+  ],
+  "source_pixels_programmatically_edited": false,
+  "W13_visual_foot_lift_px": 64,
+  "review_assets": [
+    "out/3-inbetweens/contact-sheet.png",
+    "out/3-inbetweens/preview.gif"
+  ],
+  "report": "out/3-inbetweens/stage3b/REPORT.md",
+  "canonical_sha256": {
+    "W05": "4bed290d4b8e6e6a1a1b4769118d100815de29b6a33b1b0160de7bad1b35a49a",
+    "W13": "03838f85327fefa3db2581365a36aeaa7683389122cb7aa11f9c26b4c66b26b4"
+  }
+}

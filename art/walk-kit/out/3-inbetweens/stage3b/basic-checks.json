@@ -1,0 +1,362 @@
+[
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      115,
+      79,
+      707,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 455.85,
+    "border_green_fraction": 0.463968,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      115,
+      79,
+      707,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 455.42,
+    "border_green_fraction": 0.714673,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      115,
+      79,
+      715,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 456.89,
+    "border_green_fraction": 0.939563,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-4.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      115,
+      79,
+      707,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 454.04,
+    "border_green_fraction": 0.837431,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-5.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      115,
+      79,
+      707,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 452.96,
+    "border_green_fraction": 0.607837,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W05-3b-try-6.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      112,
+      79,
+      709,
+      1478
+    ],
+    "top_row": 79,
+    "bottom_row": 1477,
+    "hip_center_x": 455.28,
+    "border_green_fraction": 0.596835,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      147,
+      79,
+      710,
+      1458
+    ],
+    "top_row": 79,
+    "bottom_row": 1457,
+    "hip_center_x": 454.28,
+    "border_green_fraction": 0.474841,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1379,
+    "height_deviation_percent": -1.641
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      79,
+      709,
+      1458
+    ],
+    "top_row": 79,
+    "bottom_row": 1457,
+    "hip_center_x": 449.85,
+    "border_green_fraction": 0.89371,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": false,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1379,
+    "height_deviation_percent": -1.641
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      79,
+      710,
+      1459
+    ],
+    "top_row": 79,
+    "bottom_row": 1458,
+    "hip_center_x": 454.22,
+    "border_green_fraction": 0.849246,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1380,
+    "height_deviation_percent": -1.569
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-4.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      79,
+      709,
+      1458
+    ],
+    "top_row": 79,
+    "bottom_row": 1457,
+    "hip_center_x": 451.67,
+    "border_green_fraction": 0.757927,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": false,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1379,
+    "height_deviation_percent": -1.641
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-5.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      147,
+      78,
+      709,
+      1457
+    ],
+    "top_row": 78,
+    "bottom_row": 1456,
+    "hip_center_x": 454.03,
+    "border_green_fraction": 0.016746,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1379,
+    "height_deviation_percent": -1.641
+  },
+  {
+    "file": "C:\\claude\\live2d5\\Meihua-Claude-Assets-20261109\\meihua-desktop\\art\\walk-kit\\out\\3-inbetweens\\attempts\\W13-3b-try-6.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      79,
+      710,
+      1457
+    ],
+    "top_row": 79,
+    "bottom_row": 1456,
+    "hip_center_x": 452.1,
+    "border_green_fraction": 0.600625,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1378,
+    "height_deviation_percent": -1.712
+  }
+]

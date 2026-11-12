@@ -1,0 +1,36 @@
+{
+  "frame_order": [
+    "W00",
+    "W02",
+    "W04",
+    "W06",
+    "W08",
+    "W10",
+    "W12",
+    "W14"
+  ],
+  "frame_count": 8,
+  "size": [
+    512,
+    768
+  ],
+  "durations_ms": [
+    120,
+    130,
+    120,
+    130,
+    120,
+    130,
+    120,
+    130
+  ],
+  "loop_duration_ms": 1000,
+  "average_fps": 8.0,
+  "loop": 0,
+  "background": "white",
+  "source_pngs_modified": false,
+  "contact_sheet_size": [
+    3072,
+    616
+  ]
+}

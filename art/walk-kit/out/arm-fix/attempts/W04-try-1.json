@@ -1,0 +1,219 @@
+{
+  "frame": "W04",
+  "attempt": 1,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-1bfcedfb-37e7-478b-828a-718dcda1715f.png",
+  "prompt": "Use case: precise-object-edit, local 2D animation arm correction.\nImage1 is the EDIT TARGET W04. Image2 is the W04 motion guide, used for ARMS ONLY (dark blue near arm, pale blue far arm). Image3 is the approved identity model and a relaxed-arms example. Image4 is the original character design. Output ONE corrected full-body W04, no comparison sheet.\nCHANGE ONLY BOTH ARMS from below the puff sleeves, cuffs and hands. Preserve image1's head, face, ears, hair, torso, apron/skirt design, legs and feet in their EXACT places. Keep the near supporting flat foot, toe x515, heel364, floor1478; far bent leg remains lifted exactly as image1. Do not change or copy the guide's leg pose.\nW04 is PASSING: both arms pass their natural VERTICAL resting position CLOSE TO THE BODY. The current target's near forearm slopes too far BACK to image-left and far hand reaches too far RIGHT. Bring BOTH hands inward. NEAR arm hangs almost vertically under its puff sleeve, gently soft elbow; elbow around(414,730), wrist/cuff centre(414,854), relaxed palm around(414,891), fingertips downward around y930. Move the near wrist about60px RIGHT from target. FAR arm is behind the torso, visible along its image-right edge; elbow(654,720), wrist(680,840), palm(692,880). Move the far wrist about40px LEFT from target. Forearms must hang down rather than spread sideways. Open soft hands, fingers gently together, not splayed, no fists, no shoes. Both arms readable, exactly two complete hands. No arm across the centre of the apron. Keep shoulder locations stable and original small puffs.\nOnly local arm redraw and restoration of small skirt/hair areas uncovered by moving arms. Everything else is the identical approved drawing. Clean single lines, no blended limbs.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\before\\frames\\W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\ich01A_101.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W04-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1477,
+    "floor_runs": [
+      [
+        364,
+        515
+      ]
+    ],
+    "stance_toe": 515,
+    "stance_heel": 364,
+    "stance_width": 152,
+    "frame": "W04",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W04-try-1.png",
+    "frame": "W04",
+    "near": {
+      "selected": {
+        "area": 3430,
+        "centroid": [
+          403.45,
+          895.53
+        ],
+        "bbox": [
+          377,
+          856,
+          432,
+          940
+        ],
+        "wrist_proxy": [
+          406.12,
+          856
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3430,
+          "centroid": [
+            403.45,
+            895.53
+          ],
+          "bbox": [
+            377,
+            856,
+            432,
+            940
+          ],
+          "wrist_proxy": [
+            406.12,
+            856
+          ]
+        },
+        {
+          "area": 1300,
+          "centroid": [
+            522.77,
+            806.3
+          ],
+          "bbox": [
+            488,
+            790,
+            555,
+            831
+          ],
+          "wrist_proxy": [
+            509.78,
+            790
+          ]
+        },
+        {
+          "area": 785,
+          "centroid": [
+            467.97,
+            930.24
+          ],
+          "bbox": [
+            440,
+            916,
+            489,
+            940
+          ],
+          "wrist_proxy": [
+            472.3,
+            916
+          ]
+        },
+        {
+          "area": 441,
+          "centroid": [
+            478.01,
+            816.5
+          ],
+          "bbox": [
+            465,
+            800,
+            494,
+            833
+          ],
+          "wrist_proxy": [
+            481.4,
+            800
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2097,
+        "centroid": [
+          698.33,
+          868.12
+        ],
+        "bbox": [
+          666,
+          825,
+          725,
+          922
+        ],
+        "wrist_proxy": [
+          689.36,
+          825
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2097,
+          "centroid": [
+            698.33,
+            868.12
+          ],
+          "bbox": [
+            666,
+            825,
+            725,
+            922
+          ],
+          "wrist_proxy": [
+            689.36,
+            825
+          ]
+        },
+        {
+          "area": 908,
+          "centroid": [
+            620.98,
+            803.27
+          ],
+          "bbox": [
+            610,
+            785,
+            637,
+            831
+          ],
+          "wrist_proxy": [
+            622.63,
+            785
+          ]
+        },
+        {
+          "area": 315,
+          "centroid": [
+            646.1,
+            823.3
+          ],
+          "bbox": [
+            636,
+            811,
+            657,
+            838
+          ],
+          "wrist_proxy": [
+            642.56,
+            811
+          ]
+        },
+        {
+          "area": 283,
+          "centroid": [
+            631.38,
+            839.23
+          ],
+          "bbox": [
+            618,
+            827,
+            643,
+            854
+          ],
+          "wrist_proxy": [
+            629.91,
+            827
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "visual_correct": true,
+  "accepted": true,
+  "notes": "Natural near-vertical arms at sides. Correct complete open hands. Near skin wrist proxy406, far689; within12px of planned centres. Original near-support/far-bent leg identity intact; toe515 unchanged."
+}

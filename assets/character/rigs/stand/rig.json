@@ -1,0 +1,3404 @@
+{
+  "schema": 1,
+  "id": "stand",
+  "width": 508,
+  "height": 1000,
+  "anchor": {
+    "x": 240,
+    "y": 172
+  },
+  "bounds": {
+    "x": 12,
+    "y": 5,
+    "width": 480,
+    "height": 964
+  },
+  "layers": [
+    {
+      "id": "hair-back-left-0",
+      "name": "画面左后发段 1",
+      "group": "hair",
+      "pivot": [
+        110,
+        22
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-0.png",
+        "x": 101,
+        "y": 100,
+        "width": 54,
+        "height": 112
+      },
+      "hidden": {
+        "src": "hair-back-left-0-hidden.png",
+        "x": 135,
+        "y": 17,
+        "width": 116,
+        "height": 205
+      },
+      "visiblePixels": 2106,
+      "hiddenPixels": 18571,
+      "drawOrder": 0
+    },
+    {
+      "id": "hair-back-left-1",
+      "name": "画面左后发段 2",
+      "group": "hair",
+      "pivot": [
+        110,
+        211.33333333333334
+      ],
+      "parent": "hair-back-left-0",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-1.png",
+        "x": 30,
+        "y": 212,
+        "width": 210,
+        "height": 189
+      },
+      "hidden": {
+        "src": "hair-back-left-1-hidden.png",
+        "x": 34,
+        "y": 202,
+        "width": 217,
+        "height": 209
+      },
+      "visiblePixels": 8446,
+      "hiddenPixels": 21509,
+      "drawOrder": 1
+    },
+    {
+      "id": "hair-back-left-2",
+      "name": "画面左后发段 3",
+      "group": "hair",
+      "pivot": [
+        110,
+        400.6666666666667
+      ],
+      "parent": "hair-back-left-1",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-2.png",
+        "x": 12,
+        "y": 401,
+        "width": 159,
+        "height": 214
+      },
+      "hidden": {
+        "src": "hair-back-left-2-hidden.png",
+        "x": 37,
+        "y": 391,
+        "width": 214,
+        "height": 199
+      },
+      "visiblePixels": 9810,
+      "hiddenPixels": 24732,
+      "drawOrder": 2
+    },
+    {
+      "id": "hair-back-right-0",
+      "name": "画面右后发段 1",
+      "group": "hair",
+      "pivot": [
+        270,
+        22
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-0.png",
+        "x": 293,
+        "y": 23,
+        "width": 108,
+        "height": 189
+      },
+      "hidden": {
+        "src": "hair-back-right-0-hidden.png",
+        "x": 230,
+        "y": 17,
+        "width": 112,
+        "height": 205
+      },
+      "visiblePixels": 5840,
+      "hiddenPixels": 19334,
+      "drawOrder": 3
+    },
+    {
+      "id": "hair-back-right-1",
+      "name": "画面右后发段 2",
+      "group": "hair",
+      "pivot": [
+        270,
+        211.33333333333334
+      ],
+      "parent": "hair-back-right-0",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-1.png",
+        "x": 240,
+        "y": 212,
+        "width": 234,
+        "height": 189
+      },
+      "hidden": {
+        "src": "hair-back-right-1-hidden.png",
+        "x": 230,
+        "y": 202,
+        "width": 235,
+        "height": 209
+      },
+      "visiblePixels": 12474,
+      "hiddenPixels": 23223,
+      "drawOrder": 4
+    },
+    {
+      "id": "hair-back-right-2",
+      "name": "画面右后发段 3",
+      "group": "hair",
+      "pivot": [
+        270,
+        400.6666666666667
+      ],
+      "parent": "hair-back-right-1",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-2.png",
+        "x": 274,
+        "y": 10,
+        "width": 218,
+        "height": 622
+      },
+      "hidden": {
+        "src": "hair-back-right-2-hidden.png",
+        "x": 230,
+        "y": 391,
+        "width": 214,
+        "height": 199
+      },
+      "visiblePixels": 10599,
+      "hiddenPixels": 29619,
+      "drawOrder": 5
+    },
+    {
+      "id": "tail",
+      "name": "犬尾",
+      "group": "tail",
+      "pivot": [
+        343,
+        618
+      ],
+      "parent": null,
+      "kit": 8,
+      "visible": {
+        "src": "tail.png",
+        "x": 322,
+        "y": 614,
+        "width": 96,
+        "height": 36
+      },
+      "hidden": {
+        "src": "tail-hidden.png",
+        "x": 310,
+        "y": 599,
+        "width": 93,
+        "height": 44
+      },
+      "visiblePixels": 1949,
+      "hiddenPixels": 1326,
+      "drawOrder": 6
+    },
+    {
+      "id": "head",
+      "name": "头部",
+      "group": "head",
+      "pivot": [
+        240,
+        233
+      ],
+      "parent": "torso",
+      "kit": 1,
+      "visible": {
+        "src": "head.png",
+        "x": 142,
+        "y": 28,
+        "width": 202,
+        "height": 215
+      },
+      "hidden": {
+        "src": "head-hidden.png",
+        "x": 139,
+        "y": 27,
+        "width": 208,
+        "height": 220
+      },
+      "visiblePixels": 9913,
+      "hiddenPixels": 22626,
+      "drawOrder": 7
+    },
+    {
+      "id": "torso",
+      "name": "躯干",
+      "group": "body",
+      "pivot": [
+        236,
+        409
+      ],
+      "parent": null,
+      "kit": 2,
+      "visible": {
+        "src": "torso.png",
+        "x": 146,
+        "y": 248,
+        "width": 174,
+        "height": 160
+      },
+      "hidden": {
+        "src": "torso-hidden.png",
+        "x": 134,
+        "y": 233,
+        "width": 198,
+        "height": 190
+      },
+      "visiblePixels": 17253,
+      "hiddenPixels": 11102,
+      "drawOrder": 8
+    },
+    {
+      "id": "skirt",
+      "name": "裙摆主体",
+      "group": "skirt",
+      "pivot": [
+        238,
+        439
+      ],
+      "parent": null,
+      "kit": 3,
+      "visible": {
+        "src": "skirt.png",
+        "x": 12,
+        "y": 418,
+        "width": 458,
+        "height": 214
+      },
+      "hidden": {
+        "src": "skirt-hidden.png",
+        "x": 44,
+        "y": 403,
+        "width": 381,
+        "height": 244
+      },
+      "visiblePixels": 26086,
+      "hiddenPixels": 30835,
+      "drawOrder": 9
+    },
+    {
+      "id": "thigh-left",
+      "name": "画面左大腿",
+      "group": "leg-left",
+      "pivot": [
+        205,
+        625
+      ],
+      "parent": null,
+      "kit": 6,
+      "visible": {
+        "src": "thigh-left.png",
+        "x": 152,
+        "y": 613,
+        "width": 80,
+        "height": 138
+      },
+      "hidden": {
+        "src": "thigh-left-hidden.png",
+        "x": 143,
+        "y": 604,
+        "width": 98,
+        "height": 156
+      },
+      "visiblePixels": 8606,
+      "hiddenPixels": 2621,
+      "drawOrder": 10
+    },
+    {
+      "id": "shin-left",
+      "name": "画面左小腿",
+      "group": "leg-left",
+      "pivot": [
+        203,
+        751
+      ],
+      "parent": "thigh-left",
+      "kit": 6,
+      "visible": {
+        "src": "shin-left.png",
+        "x": 178,
+        "y": 746,
+        "width": 76,
+        "height": 170
+      },
+      "hidden": {
+        "src": "shin-left-hidden.png",
+        "x": 183,
+        "y": 737,
+        "width": 67,
+        "height": 188
+      },
+      "visiblePixels": 7569,
+      "hiddenPixels": 867,
+      "drawOrder": 11
+    },
+    {
+      "id": "foot-left",
+      "name": "画面左袜脚",
+      "group": "foot-left",
+      "pivot": [
+        227,
+        915
+      ],
+      "parent": "shin-left",
+      "kit": 6,
+      "visible": {
+        "src": "foot-left.png",
+        "x": 201,
+        "y": 905,
+        "width": 51,
+        "height": 64
+      },
+      "hidden": {
+        "src": "foot-left-hidden.png",
+        "x": 213,
+        "y": 896,
+        "width": 39,
+        "height": 20
+      },
+      "visiblePixels": 2702,
+      "hiddenPixels": 357,
+      "drawOrder": 12
+    },
+    {
+      "id": "arm-upper-left",
+      "name": "画面左上臂",
+      "group": "hand-left",
+      "pivot": [
+        158,
+        354
+      ],
+      "parent": "torso",
+      "kit": 4,
+      "visible": {
+        "src": "arm-upper-left.png",
+        "x": 137,
+        "y": 354,
+        "width": 29,
+        "height": 100
+      },
+      "hidden": {
+        "src": "arm-upper-left-hidden.png",
+        "x": 131,
+        "y": 347,
+        "width": 42,
+        "height": 115
+      },
+      "visiblePixels": 1482,
+      "hiddenPixels": 2368,
+      "drawOrder": 13
+    },
+    {
+      "id": "arm-lower-left",
+      "name": "画面左前臂",
+      "group": "hand-left",
+      "pivot": [
+        147,
+        445
+      ],
+      "parent": "arm-upper-left",
+      "kit": 4,
+      "visible": {
+        "src": "arm-lower-left.png",
+        "x": 100,
+        "y": 442,
+        "width": 57,
+        "height": 93
+      },
+      "hidden": {
+        "src": "arm-lower-left-hidden.png",
+        "x": 94,
+        "y": 435,
+        "width": 66,
+        "height": 108
+      },
+      "visiblePixels": 1062,
+      "hiddenPixels": 2309,
+      "drawOrder": 14
+    },
+    {
+      "id": "sleeve-left",
+      "name": "画面左泡泡袖",
+      "group": "hand-left",
+      "pivot": [
+        164,
+        316
+      ],
+      "parent": "arm-upper-left",
+      "kit": 4,
+      "visible": {
+        "src": "sleeve-left.png",
+        "x": 146,
+        "y": 305,
+        "width": 28,
+        "height": 50
+      },
+      "hidden": {
+        "src": "sleeve-left-hidden.png",
+        "x": 140,
+        "y": 302,
+        "width": 37,
+        "height": 61
+      },
+      "visiblePixels": 827,
+      "hiddenPixels": 1225,
+      "drawOrder": 15
+    },
+    {
+      "id": "cuff-left",
+      "name": "画面左袖口",
+      "group": "hand-left",
+      "pivot": [
+        123,
+        513
+      ],
+      "parent": "arm-lower-left",
+      "kit": 4,
+      "visible": {
+        "src": "cuff-left.png",
+        "x": 104,
+        "y": 500,
+        "width": 39,
+        "height": 37
+      },
+      "hidden": {
+        "src": "cuff-left-hidden.png",
+        "x": 98,
+        "y": 493,
+        "width": 48,
+        "height": 52
+      },
+      "visiblePixels": 841,
+      "hiddenPixels": 632,
+      "drawOrder": 16
+    },
+    {
+      "id": "hand-left",
+      "name": "画面左手",
+      "group": "hand-left",
+      "pivot": [
+        102,
+        540
+      ],
+      "parent": "arm-lower-left",
+      "kit": 4,
+      "visible": {
+        "src": "hand-left.png",
+        "x": 57,
+        "y": 537,
+        "width": 59,
+        "height": 56
+      },
+      "hidden": {
+        "src": "hand-left-hidden.png",
+        "x": 62,
+        "y": 530,
+        "width": 57,
+        "height": 66
+      },
+      "visiblePixels": 1527,
+      "hiddenPixels": 376,
+      "drawOrder": 17
+    },
+    {
+      "id": "ear-left",
+      "name": "画面左犬耳",
+      "group": "ear-left",
+      "pivot": [
+        184,
+        34
+      ],
+      "parent": "head",
+      "kit": 7,
+      "visible": {
+        "src": "ear-left.png",
+        "x": 110,
+        "y": 30,
+        "width": 89,
+        "height": 101
+      },
+      "hidden": {
+        "src": "ear-left-hidden.png",
+        "x": 110,
+        "y": 19,
+        "width": 101,
+        "height": 127
+      },
+      "visiblePixels": 5318,
+      "hiddenPixels": 2686,
+      "drawOrder": 18
+    },
+    {
+      "id": "ear-bow-left",
+      "name": "画面左耳饰蝴蝶结",
+      "group": "ear-left",
+      "pivot": [
+        184,
+        34
+      ],
+      "parent": "ear-left",
+      "kit": 7,
+      "visible": null,
+      "hidden": null,
+      "visiblePixels": 0,
+      "hiddenPixels": 0,
+      "drawOrder": 19
+    },
+    {
+      "id": "flower-left",
+      "name": "画面左发花",
+      "group": "hair",
+      "pivot": [
+        130,
+        242
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "flower-left.png",
+        "x": 122,
+        "y": 228,
+        "width": 23,
+        "height": 29
+      },
+      "hidden": null,
+      "visiblePixels": 481,
+      "hiddenPixels": 0,
+      "drawOrder": 20
+    },
+    {
+      "id": "stocking-bow-left",
+      "name": "画面左袜口蝴蝶结",
+      "group": "leg-left",
+      "pivot": [
+        158,
+        662
+      ],
+      "parent": "thigh-left",
+      "kit": 6,
+      "visible": {
+        "src": "stocking-bow-left.png",
+        "x": 151,
+        "y": 655,
+        "width": 19,
+        "height": 28
+      },
+      "hidden": null,
+      "visiblePixels": 355,
+      "hiddenPixels": 0,
+      "drawOrder": 21
+    },
+    {
+      "id": "thigh-right",
+      "name": "画面右大腿",
+      "group": "leg-right",
+      "pivot": [
+        274,
+        628
+      ],
+      "parent": null,
+      "kit": 6,
+      "visible": {
+        "src": "thigh-right.png",
+        "x": 231,
+        "y": 601,
+        "width": 131,
+        "height": 154
+      },
+      "hidden": {
+        "src": "thigh-right-hidden.png",
+        "x": 222,
+        "y": 592,
+        "width": 137,
+        "height": 168
+      },
+      "visiblePixels": 9472,
+      "hiddenPixels": 3220,
+      "drawOrder": 22
+    },
+    {
+      "id": "shin-right",
+      "name": "画面右小腿",
+      "group": "leg-right",
+      "pivot": [
+        257,
+        749
+      ],
+      "parent": "thigh-right",
+      "kit": 6,
+      "visible": {
+        "src": "shin-right.png",
+        "x": 232,
+        "y": 742,
+        "width": 141,
+        "height": 159
+      },
+      "hidden": {
+        "src": "shin-right-hidden.png",
+        "x": 223,
+        "y": 733,
+        "width": 146,
+        "height": 170
+      },
+      "visiblePixels": 8139,
+      "hiddenPixels": 985,
+      "drawOrder": 23
+    },
+    {
+      "id": "foot-right",
+      "name": "画面右袜脚",
+      "group": "foot-right",
+      "pivot": [
+        343,
+        906
+      ],
+      "parent": "shin-right",
+      "kit": 6,
+      "visible": {
+        "src": "foot-right.png",
+        "x": 301,
+        "y": 887,
+        "width": 68,
+        "height": 71
+      },
+      "hidden": {
+        "src": "foot-right-hidden.png",
+        "x": 322,
+        "y": 878,
+        "width": 48,
+        "height": 16
+      },
+      "visiblePixels": 3152,
+      "hiddenPixels": 424,
+      "drawOrder": 24
+    },
+    {
+      "id": "arm-upper-right",
+      "name": "画面右上臂",
+      "group": "hand-right",
+      "pivot": [
+        331,
+        362
+      ],
+      "parent": "torso",
+      "kit": 5,
+      "visible": {
+        "src": "arm-upper-right.png",
+        "x": 307,
+        "y": 359,
+        "width": 52,
+        "height": 93
+      },
+      "hidden": {
+        "src": "arm-upper-right-hidden.png",
+        "x": 301,
+        "y": 352,
+        "width": 63,
+        "height": 108
+      },
+      "visiblePixels": 3210,
+      "hiddenPixels": 1851,
+      "drawOrder": 25
+    },
+    {
+      "id": "arm-lower-right",
+      "name": "画面右前臂",
+      "group": "hand-right",
+      "pivot": [
+        341,
+        444
+      ],
+      "parent": "arm-upper-right",
+      "kit": 5,
+      "visible": {
+        "src": "arm-lower-right.png",
+        "x": 332,
+        "y": 441,
+        "width": 40,
+        "height": 69
+      },
+      "hidden": {
+        "src": "arm-lower-right-hidden.png",
+        "x": 326,
+        "y": 434,
+        "width": 53,
+        "height": 84
+      },
+      "visiblePixels": 1641,
+      "hiddenPixels": 1360,
+      "drawOrder": 26
+    },
+    {
+      "id": "sleeve-right",
+      "name": "画面右泡泡袖",
+      "group": "hand-right",
+      "pivot": [
+        315,
+        297
+      ],
+      "parent": "arm-upper-right",
+      "kit": 5,
+      "visible": {
+        "src": "sleeve-right.png",
+        "x": 294,
+        "y": 289,
+        "width": 76,
+        "height": 78
+      },
+      "hidden": {
+        "src": "sleeve-right-hidden.png",
+        "x": 291,
+        "y": 286,
+        "width": 82,
+        "height": 89
+      },
+      "visiblePixels": 3572,
+      "hiddenPixels": 1751,
+      "drawOrder": 27
+    },
+    {
+      "id": "cuff-right",
+      "name": "画面右袖口",
+      "group": "hand-right",
+      "pivot": [
+        359,
+        509
+      ],
+      "parent": "arm-lower-right",
+      "kit": 5,
+      "visible": {
+        "src": "cuff-right.png",
+        "x": 340,
+        "y": 498,
+        "width": 35,
+        "height": 56
+      },
+      "hidden": {
+        "src": "cuff-right-hidden.png",
+        "x": 337,
+        "y": 491,
+        "width": 45,
+        "height": 71
+      },
+      "visiblePixels": 1361,
+      "hiddenPixels": 1096,
+      "drawOrder": 28
+    },
+    {
+      "id": "hand-right",
+      "name": "画面右手",
+      "group": "hand-right",
+      "pivot": [
+        371,
+        549
+      ],
+      "parent": "arm-lower-right",
+      "kit": 5,
+      "visible": {
+        "src": "hand-right.png",
+        "x": 359,
+        "y": 543,
+        "width": 47,
+        "height": 55
+      },
+      "hidden": {
+        "src": "hand-right-hidden.png",
+        "x": 356,
+        "y": 536,
+        "width": 53,
+        "height": 65
+      },
+      "visiblePixels": 1608,
+      "hiddenPixels": 802,
+      "drawOrder": 29
+    },
+    {
+      "id": "ear-right",
+      "name": "画面右犬耳",
+      "group": "ear-right",
+      "pivot": [
+        302,
+        32
+      ],
+      "parent": "head",
+      "kit": 7,
+      "visible": {
+        "src": "ear-right.png",
+        "x": 273,
+        "y": 29,
+        "width": 71,
+        "height": 112
+      },
+      "hidden": {
+        "src": "ear-right-hidden.png",
+        "x": 261,
+        "y": 17,
+        "width": 95,
+        "height": 139
+      },
+      "visiblePixels": 4843,
+      "hiddenPixels": 4268,
+      "drawOrder": 30
+    },
+    {
+      "id": "ear-bow-right",
+      "name": "画面右耳饰蝴蝶结",
+      "group": "ear-right",
+      "pivot": [
+        311,
+        66
+      ],
+      "parent": "ear-right",
+      "kit": 7,
+      "visible": {
+        "src": "ear-bow-right.png",
+        "x": 285,
+        "y": 49,
+        "width": 50,
+        "height": 43
+      },
+      "hidden": null,
+      "visiblePixels": 1066,
+      "hiddenPixels": 0,
+      "drawOrder": 31
+    },
+    {
+      "id": "flower-right",
+      "name": "画面右发花",
+      "group": "hair",
+      "pivot": [
+        367,
+        237
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "flower-right.png",
+        "x": 353,
+        "y": 223,
+        "width": 26,
+        "height": 29
+      },
+      "hidden": null,
+      "visiblePixels": 542,
+      "hiddenPixels": 0,
+      "drawOrder": 32
+    },
+    {
+      "id": "stocking-bow-right",
+      "name": "画面右袜口蝴蝶结",
+      "group": "leg-right",
+      "pivot": [
+        309,
+        661
+      ],
+      "parent": "thigh-right",
+      "kit": 6,
+      "visible": {
+        "src": "stocking-bow-right.png",
+        "x": 296,
+        "y": 652,
+        "width": 25,
+        "height": 27
+      },
+      "hidden": null,
+      "visiblePixels": 448,
+      "hiddenPixels": 0,
+      "drawOrder": 33
+    },
+    {
+      "id": "waistband",
+      "name": "腰带",
+      "group": "body",
+      "pivot": [
+        235,
+        414
+      ],
+      "parent": "torso",
+      "kit": 2,
+      "visible": {
+        "src": "waistband.png",
+        "x": 166,
+        "y": 402,
+        "width": 145,
+        "height": 36
+      },
+      "hidden": {
+        "src": "waistband-hidden.png",
+        "x": 163,
+        "y": 399,
+        "width": 151,
+        "height": 42
+      },
+      "visiblePixels": 3460,
+      "hiddenPixels": 981,
+      "drawOrder": 34
+    },
+    {
+      "id": "apron",
+      "name": "围裙",
+      "group": "skirt",
+      "pivot": [
+        234,
+        445
+      ],
+      "parent": "skirt",
+      "kit": 3,
+      "visible": {
+        "src": "apron.png",
+        "x": 140,
+        "y": 440,
+        "width": 175,
+        "height": 113
+      },
+      "hidden": {
+        "src": "apron-hidden.png",
+        "x": 128,
+        "y": 425,
+        "width": 199,
+        "height": 143
+      },
+      "visiblePixels": 16035,
+      "hiddenPixels": 5312,
+      "drawOrder": 35
+    },
+    {
+      "id": "skirt-ruffles",
+      "name": "裙边褶饰",
+      "group": "skirt",
+      "pivot": [
+        238,
+        439
+      ],
+      "parent": "skirt",
+      "kit": 3,
+      "visible": {
+        "src": "skirt-ruffles.png",
+        "x": 85,
+        "y": 573,
+        "width": 339,
+        "height": 56
+      },
+      "hidden": {
+        "src": "skirt-ruffles-hidden.png",
+        "x": 82,
+        "y": 570,
+        "width": 343,
+        "height": 61
+      },
+      "visiblePixels": 3166,
+      "hiddenPixels": 3449,
+      "drawOrder": 36
+    },
+    {
+      "id": "neck-bow",
+      "name": "领口蝴蝶结",
+      "group": "body",
+      "pivot": [
+        225,
+        249
+      ],
+      "parent": "torso",
+      "kit": 2,
+      "visible": {
+        "src": "neck-bow.png",
+        "x": 200,
+        "y": 241,
+        "width": 49,
+        "height": 41
+      },
+      "hidden": null,
+      "visiblePixels": 1299,
+      "hiddenPixels": 0,
+      "drawOrder": 37
+    },
+    {
+      "id": "headband",
+      "name": "女仆头饰",
+      "group": "head",
+      "pivot": [
+        238,
+        25
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "headband.png",
+        "x": 182,
+        "y": 5,
+        "width": 114,
+        "height": 37
+      },
+      "hidden": null,
+      "visiblePixels": 2725,
+      "hiddenPixels": 0,
+      "drawOrder": 38
+    },
+    {
+      "id": "bangs",
+      "name": "刘海",
+      "group": "head",
+      "pivot": [
+        235,
+        44
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "bangs.png",
+        "x": 170,
+        "y": 31,
+        "width": 124,
+        "height": 146
+      },
+      "hidden": null,
+      "visiblePixels": 11229,
+      "hiddenPixels": 0,
+      "drawOrder": 39
+    },
+    {
+      "id": "hair-front-left",
+      "name": "画面左前发",
+      "group": "hair",
+      "pivot": [
+        162,
+        137
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-front-left.png",
+        "x": 142,
+        "y": 115,
+        "width": 60,
+        "height": 181
+      },
+      "hidden": {
+        "src": "hair-front-left-hidden.png",
+        "x": 139,
+        "y": 112,
+        "width": 66,
+        "height": 187
+      },
+      "visiblePixels": 4603,
+      "hiddenPixels": 2257,
+      "drawOrder": 40
+    },
+    {
+      "id": "hair-front-right",
+      "name": "画面右前发",
+      "group": "hair",
+      "pivot": [
+        305,
+        145
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-front-right.png",
+        "x": 254,
+        "y": 146,
+        "width": 71,
+        "height": 149
+      },
+      "hidden": {
+        "src": "hair-front-right-hidden.png",
+        "x": 251,
+        "y": 143,
+        "width": 77,
+        "height": 155
+      },
+      "visiblePixels": 4648,
+      "hiddenPixels": 1672,
+      "drawOrder": 41
+    },
+    {
+      "id": "eye-left",
+      "name": "画面左眼",
+      "group": "head",
+      "pivot": [
+        240,
+        172
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      "hidden": null,
+      "visiblePixels": 1245,
+      "hiddenPixels": 0,
+      "drawOrder": 42
+    },
+    {
+      "id": "eye-right",
+      "name": "画面右眼",
+      "group": "head",
+      "pivot": [
+        240,
+        172
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      "hidden": null,
+      "visiblePixels": 1797,
+      "hiddenPixels": 0,
+      "drawOrder": 43
+    },
+    {
+      "id": "mouth",
+      "name": "嘴部",
+      "group": "head",
+      "pivot": [
+        238,
+        207
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      },
+      "hidden": null,
+      "visiblePixels": 297,
+      "hiddenPixels": 0,
+      "drawOrder": 44
+    }
+  ],
+  "expressions": {
+    "101": [
+      {
+        "layer": "head",
+        "src": "expression-101-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-101-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-101-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-101-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-101-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-101-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-101-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-101-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "102": [
+      {
+        "layer": "head",
+        "src": "expression-102-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-102-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-102-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-102-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-102-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-102-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-102-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-102-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "103": [
+      {
+        "layer": "head",
+        "src": "expression-103-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-103-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-103-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-103-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-103-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-103-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-103-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-103-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "104": [
+      {
+        "layer": "head",
+        "src": "expression-104-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-104-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-104-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-104-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-104-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-104-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-104-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-104-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "105": [
+      {
+        "layer": "head",
+        "src": "expression-105-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-105-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-105-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-105-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-105-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-105-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-105-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-105-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "301": [
+      {
+        "layer": "head",
+        "src": "expression-301-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-301-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-301-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-301-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-301-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-301-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-301-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-301-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "302": [
+      {
+        "layer": "head",
+        "src": "expression-302-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-302-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-302-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-302-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-302-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-302-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-302-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-302-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "401": [
+      {
+        "layer": "head",
+        "src": "expression-401-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-401-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-401-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-401-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-401-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-401-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-401-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-401-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "402": [
+      {
+        "layer": "head",
+        "src": "expression-402-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-402-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-402-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-402-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-402-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-402-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-402-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-402-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "403": [
+      {
+        "layer": "head",
+        "src": "expression-403-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-403-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-403-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-403-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-403-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-403-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-403-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-403-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "501": [
+      {
+        "layer": "head",
+        "src": "expression-501-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-501-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-501-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-501-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-501-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-501-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-501-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-501-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "502": [
+      {
+        "layer": "head",
+        "src": "expression-502-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-502-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-502-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-502-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-502-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-502-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-502-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-502-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "601": [
+      {
+        "layer": "head",
+        "src": "expression-601-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-601-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-601-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-601-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-601-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-601-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-601-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-601-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "602": [
+      {
+        "layer": "head",
+        "src": "expression-602-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-602-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-602-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-602-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-602-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-602-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-602-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-602-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "603": [
+      {
+        "layer": "head",
+        "src": "expression-603-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-603-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-603-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-603-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-603-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-603-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-603-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-603-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "604": [
+      {
+        "layer": "head",
+        "src": "expression-604-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-604-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-604-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-604-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-604-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-604-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-604-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-604-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "701": [
+      {
+        "layer": "head",
+        "src": "expression-701-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-701-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-701-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-701-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-701-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-701-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-701-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-701-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "901": [
+      {
+        "layer": "head",
+        "src": "expression-901-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-901-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-901-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-901-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-901-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-901-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-901-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-901-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "902": [
+      {
+        "layer": "head",
+        "src": "expression-902-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-902-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-902-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-902-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-902-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-902-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-902-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-902-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "101a": [
+      {
+        "layer": "head",
+        "src": "expression-101a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-101a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-101a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-101a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-101a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-101a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-101a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-101a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "102a": [
+      {
+        "layer": "head",
+        "src": "expression-102a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-102a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-102a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-102a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-102a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-102a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-102a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-102a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "104a": [
+      {
+        "layer": "head",
+        "src": "expression-104a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-104a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-104a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-104a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-104a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-104a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-104a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-104a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "105a": [
+      {
+        "layer": "head",
+        "src": "expression-105a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-105a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-105a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-105a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-105a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-105a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-105a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-105a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "301a": [
+      {
+        "layer": "head",
+        "src": "expression-301a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-301a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-301a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-301a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-301a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-301a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-301a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-301a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "401a": [
+      {
+        "layer": "head",
+        "src": "expression-401a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-401a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-401a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-401a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-401a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-401a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-401a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-401a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "402a": [
+      {
+        "layer": "head",
+        "src": "expression-402a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-402a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-402a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-402a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-402a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-402a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-402a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-402a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "403a": [
+      {
+        "layer": "head",
+        "src": "expression-403a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-403a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-403a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-403a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-403a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-403a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-403a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-403a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "604a": [
+      {
+        "layer": "head",
+        "src": "expression-604a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-604a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-604a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-604a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-604a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-604a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-604a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-604a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ],
+    "701a": [
+      {
+        "layer": "head",
+        "src": "expression-701a-head.png",
+        "x": 163,
+        "y": 116,
+        "width": 151,
+        "height": 110
+      },
+      {
+        "layer": "ear-right",
+        "src": "expression-701a-ear-right.png",
+        "x": 290,
+        "y": 114,
+        "width": 17,
+        "height": 20
+      },
+      {
+        "layer": "bangs",
+        "src": "expression-701a-bangs.png",
+        "x": 174,
+        "y": 102,
+        "width": 120,
+        "height": 75
+      },
+      {
+        "layer": "hair-front-left",
+        "src": "expression-701a-hair-front-left.png",
+        "x": 164,
+        "y": 127,
+        "width": 27,
+        "height": 97
+      },
+      {
+        "layer": "hair-front-right",
+        "src": "expression-701a-hair-front-right.png",
+        "x": 277,
+        "y": 146,
+        "width": 38,
+        "height": 76
+      },
+      {
+        "layer": "eye-left",
+        "src": "expression-701a-eye-left.png",
+        "x": 180,
+        "y": 152,
+        "width": 37,
+        "height": 45
+      },
+      {
+        "layer": "eye-right",
+        "src": "expression-701a-eye-right.png",
+        "x": 246,
+        "y": 140,
+        "width": 47,
+        "height": 51
+      },
+      {
+        "layer": "mouth",
+        "src": "expression-701a-mouth.png",
+        "x": 226,
+        "y": 199,
+        "width": 25,
+        "height": 17
+      }
+    ]
+  },
+  "source": "01_Production/standing/base.png",
+  "sourceRGBA": "d6c83dff491f2bd9ca560f99d94fc1321692c28e5671970bf350777400496d2d",
+  "visibleRGBAExact": true,
+  "packageSource": "01_Production/standing/base.png",
+  "originalSource": "app/assets/standing/base.png",
+  "leftRightConvention": "screen-space at canonical facing; not anatomical",
+  "layerOrder": "layers array is back-to-front; all hidden planes first, then visible planes, then one expression group",
+  "hiddenRule": "concealed completion, limited behind original opaque silhouette; do not draw as standalone foreground",
+  "irises": {
+    "eye-left": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "eye-right": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    }
+  },
+  "irisByPiece": {
+    "expression-101-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-101-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-104-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-104-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-301-eye-left.png": {
+      "cx": 200.7,
+      "cy": 171.4,
+      "rx": 9.4,
+      "ry": 8.8
+    },
+    "expression-301-eye-right.png": {
+      "cx": 272.9,
+      "cy": 163.7,
+      "rx": 14.4,
+      "ry": 9.1
+    },
+    "expression-401-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-401-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-402-eye-left.png": {
+      "cx": 200.2,
+      "cy": 170.6,
+      "rx": 9.2,
+      "ry": 12.1
+    },
+    "expression-402-eye-right.png": {
+      "cx": 272.2,
+      "cy": 161,
+      "rx": 14.3,
+      "ry": 14.1
+    },
+    "expression-403-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-403-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-501-eye-left.png": {
+      "cx": 200.7,
+      "cy": 171.4,
+      "rx": 9.4,
+      "ry": 8.8
+    },
+    "expression-501-eye-right.png": {
+      "cx": 272.9,
+      "cy": 163.7,
+      "rx": 14.4,
+      "ry": 9.1
+    },
+    "expression-502-eye-left.png": {
+      "cx": 200.7,
+      "cy": 171.4,
+      "rx": 9.4,
+      "ry": 8.8
+    },
+    "expression-502-eye-right.png": {
+      "cx": 272.9,
+      "cy": 163.7,
+      "rx": 14.4,
+      "ry": 9.1
+    },
+    "expression-601-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-601-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-603-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-603-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-604-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-604-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-701-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.2,
+      "ry": 12
+    },
+    "expression-701-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-901-eye-left.png": {
+      "cx": 199.1,
+      "cy": 172.1,
+      "rx": 9.6,
+      "ry": 7.1
+    },
+    "expression-901-eye-right.png": {
+      "cx": 269.6,
+      "cy": 164.1,
+      "rx": 15.8,
+      "ry": 6.7
+    },
+    "expression-902-eye-left.png": {
+      "cx": 199.1,
+      "cy": 172.1,
+      "rx": 9.6,
+      "ry": 7.1
+    },
+    "expression-902-eye-right.png": {
+      "cx": 269.6,
+      "cy": 164.1,
+      "rx": 15.8,
+      "ry": 6.7
+    },
+    "expression-101a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-101a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-104a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-104a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-301a-eye-left.png": {
+      "cx": 200.7,
+      "cy": 171.4,
+      "rx": 9.4,
+      "ry": 8.8
+    },
+    "expression-301a-eye-right.png": {
+      "cx": 272.9,
+      "cy": 163.7,
+      "rx": 14.4,
+      "ry": 9.1
+    },
+    "expression-401a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-401a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-402a-eye-left.png": {
+      "cx": 200.3,
+      "cy": 170.7,
+      "rx": 9.3,
+      "ry": 12.2
+    },
+    "expression-402a-eye-right.png": {
+      "cx": 272.2,
+      "cy": 161,
+      "rx": 14.3,
+      "ry": 14.1
+    },
+    "expression-403a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-403a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-604a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-604a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    },
+    "expression-701a-eye-left.png": {
+      "cx": 200.2,
+      "cy": 171.5,
+      "rx": 9.1,
+      "ry": 12
+    },
+    "expression-701a-eye-right.png": {
+      "cx": 272.4,
+      "cy": 162.1,
+      "rx": 15.4,
+      "ry": 12.5
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "frame": "W06",
+  "attempt": 2,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-318362f4-1f75-4221-93a9-d557b7fbfdb5.png",
+  "prompt": "Use case: professional 2D hand-drawn animation key drawing, identity-locked correction.\nReference 1 is the approved three-quarter-right model; reference 3 is an approved frame of this same walk (W00) and the exact standard for face, hair, costume, rendering, head size, skirt length and stocking thickness. Reference 2 is the pose diagram for this frame (diagram only; dark blue = NEAR leg/arm, light blue = FAR leg/arm, black = floor). References 4 and 5 are the approved drawings just BEFORE and just AFTER this frame in time: this drawing must sit naturally between them.\nDraw frame W06 of the walk toward screen RIGHT, same three-quarter view, not mirrored.\nW06 UP (highest point of the step): The NEAR leg is behind the body, almost straight, and stands ONLY on the ball and toes of its foot; its heel is lifted well off the floor (about 60-80 px). The FAR leg swings forward with the knee slightly bent and the ENTIRE foot IN THE AIR, toes pointing forward and a little down, its lowest point about 50-70 px above the floor. It has NOT landed yet (it lands in the next frame, reference 5). Because the body is raised on the back toes, the top of the headband is about 12 px HIGHER than in reference 3. Near arm slightly forward, far arm slightly back.\nKeep the upper body, head, face, arms style and costume identical to reference 3; only the legs, the body height, the arm swing, and the follow-through of skirt, hair and tail change. Exactly two complete legs and two complete socked feet.\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n\nNUMERIC BACKGROUND REQUIREMENT: Background must be one perfectly uniform opaque RGB(0,255,0) #00FF00 fill, including every gap and every outer border pixel. No texture, grain, vignette, shadow, gradient or variations of green. Preserve original white/pink character colors with no green reflections.\n\nPrecise W06 placement, keeping W00's exact head size: headband top around y=70, NEAR rear supporting TOE around y=1474-1480 and rear heel raised 60-80px. FAR forward swinging foot's LOWEST point around y=1413-1420, so the ENTIRE foot is about 60px above the support toe. The far socked toes point screen right and a little DOWN; not a heel-first contact pose. The near rear leg stays almost straight, front far knee softly bent. Preserve exactly two arms and two hands: near hand forward, far hand back, each connected to its proper sleeve; no extra hand at skirt edges. Body up-bob is 12px higher than W00 when the rear toe is on the same floor. Keep the approved W00 face and rendering exactly, no redesign.",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W06.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W08.png"
+  ],
+  "status": "rejected",
+  "reason": "Front foot is visibly airborne but raised too high; floor-relative body bob is short of the requested up accent.",
+  "checks": {
+    "file": "out\\2-keys\\attempts\\W06-2b-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      112,
+      76,
+      801,
+      1475
+    ],
+    "top_row": 76,
+    "bottom_row": 1474,
+    "hip_center_x": 461.48,
+    "border_green_fraction": 0.870268,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1399,
+    "height_deviation_percent": -0.214,
+    "stage2b": {
+      "frame": "W06",
+      "bob_metric": "W00_raw_silhouette_height_minus_frame_height_after_floor_alignment",
+      "external_head_registration_applied": false,
+      "target_bob_px_positive_down": -12,
+      "raw_floor_relative_bob_px": -5,
+      "raw_top_difference_from_W00_px": -4,
+      "rear_left_foot_bottom_y": 1474,
+      "front_right_foot_bottom_y": 1379,
+      "front_clearance_from_rear_px": 95,
+      "up_frame_requested_clearance_px": [
+        50,
+        70
+      ],
+      "up_frame_check_tolerance_px": 5,
+      "checks": {
+        "floor_relative_head_bob_within_4px_of_target": false,
+        "front_foot_clearance_approximately_50_to_70px": false
+      }
+    },
+    "basic_passed": false
+  }
+}

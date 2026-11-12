@@ -1,0 +1,1687 @@
+{
+  "note": "Body height/bob and border-green remain informational as specified in Stage3",
+  "final": [
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W00.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        145,
+        79,
+        749,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 459.84,
+      "border_green_fraction": 0.997937,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W01.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        140,
+        79,
+        724,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 453.41,
+      "border_green_fraction": 0.970873,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W02.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        135,
+        92,
+        722,
+        1479
+      ],
+      "top_row": 92,
+      "bottom_row": 1478,
+      "hip_center_x": 456.16,
+      "border_green_fraction": 0.994663,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1387,
+      "height_deviation_percent": -1.07
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W03.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        142,
+        85,
+        710,
+        1474
+      ],
+      "top_row": 85,
+      "bottom_row": 1473,
+      "hip_center_x": 461.65,
+      "border_green_fraction": 0.99619,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W04.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        145,
+        80,
+        698,
+        1478
+      ],
+      "top_row": 80,
+      "bottom_row": 1477,
+      "hip_center_x": 456.88,
+      "border_green_fraction": 0.998829,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1398,
+      "height_deviation_percent": -0.285
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W05.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        115,
+        80,
+        707,
+        1478
+      ],
+      "top_row": 80,
+      "bottom_row": 1477,
+      "hip_center_x": 452.88,
+      "border_green_fraction": 0.847143,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1398,
+      "height_deviation_percent": -0.285
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W06.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        735,
+        1464
+      ],
+      "top_row": 80,
+      "bottom_row": 1463,
+      "hip_center_x": 455.21,
+      "border_green_fraction": 0.998036,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1384,
+      "height_deviation_percent": -1.284
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W07.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        108,
+        80,
+        757,
+        1460
+      ],
+      "top_row": 80,
+      "bottom_row": 1459,
+      "hip_center_x": 460.08,
+      "border_green_fraction": 0.974236,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1380,
+      "height_deviation_percent": -1.569
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W08.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        79,
+        785,
+        1464
+      ],
+      "top_row": 79,
+      "bottom_row": 1463,
+      "hip_center_x": 458.46,
+      "border_green_fraction": 0.99622,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1385,
+      "height_deviation_percent": -1.213
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W09.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        732,
+        1468
+      ],
+      "top_row": 80,
+      "bottom_row": 1467,
+      "hip_center_x": 464.32,
+      "border_green_fraction": 0.97872,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1388,
+      "height_deviation_percent": -0.999
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W10.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        109,
+        80,
+        701,
+        1469
+      ],
+      "top_row": 80,
+      "bottom_row": 1468,
+      "hip_center_x": 456.07,
+      "border_green_fraction": 0.997163,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W11.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        123,
+        79,
+        711,
+        1469
+      ],
+      "top_row": 79,
+      "bottom_row": 1468,
+      "hip_center_x": 459.51,
+      "border_green_fraction": 0.958343,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1390,
+      "height_deviation_percent": -0.856
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W12.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        146,
+        79,
+        698,
+        1478
+      ],
+      "top_row": 79,
+      "bottom_row": 1477,
+      "hip_center_x": 455.58,
+      "border_green_fraction": 0.976716,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1399,
+      "height_deviation_percent": -0.214
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W13.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        144,
+        79,
+        709,
+        1459
+      ],
+      "top_row": 79,
+      "bottom_row": 1458,
+      "hip_center_x": 455.03,
+      "border_green_fraction": 0.991607,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1380,
+      "height_deviation_percent": -1.569
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W14.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        155,
+        79,
+        712,
+        1472
+      ],
+      "top_row": 79,
+      "bottom_row": 1471,
+      "hip_center_x": 455.12,
+      "border_green_fraction": 0.936974,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1393,
+      "height_deviation_percent": -0.642
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W15.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        147,
+        79,
+        720,
+        1462
+      ],
+      "top_row": 79,
+      "bottom_row": 1461,
+      "hip_center_x": 458.1,
+      "border_green_fraction": 0.95375,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1383,
+      "height_deviation_percent": -1.355
+    }
+  ],
+  "attempts": [
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W04-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        145,
+        79,
+        726,
+        1478
+      ],
+      "top_row": 79,
+      "bottom_row": 1477,
+      "hip_center_x": 463.53,
+      "border_green_fraction": 0.997262,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1399,
+      "height_deviation_percent": -0.214
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W12-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        147,
+        79,
+        731,
+        1479
+      ],
+      "top_row": 79,
+      "bottom_row": 1478,
+      "hip_center_x": 464.31,
+      "border_green_fraction": 0.996617,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1400,
+      "height_deviation_percent": -0.143
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W00-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        142,
+        80,
+        748,
+        1474
+      ],
+      "top_row": 80,
+      "bottom_row": 1473,
+      "hip_center_x": 458.53,
+      "border_green_fraction": 0.995843,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W00-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        146,
+        80,
+        749,
+        1474
+      ],
+      "top_row": 80,
+      "bottom_row": 1473,
+      "hip_center_x": 460.07,
+      "border_green_fraction": 0.885159,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W00-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        146,
+        79,
+        749,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 460.18,
+      "border_green_fraction": 0.998135,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W00-try-4.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        145,
+        79,
+        749,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 459.84,
+      "border_green_fraction": 0.997937,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W08-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        786,
+        1467
+      ],
+      "top_row": 80,
+      "bottom_row": 1466,
+      "hip_center_x": 466.23,
+      "border_green_fraction": 0.967371,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1387,
+      "height_deviation_percent": -1.07
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W08-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        786,
+        1465
+      ],
+      "top_row": 80,
+      "bottom_row": 1464,
+      "hip_center_x": 462.51,
+      "border_green_fraction": 0.933879,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1385,
+      "height_deviation_percent": -1.213
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W02-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        135,
+        94,
+        745,
+        1480
+      ],
+      "top_row": 94,
+      "bottom_row": 1479,
+      "hip_center_x": 464.26,
+      "border_green_fraction": 0.988085,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1386,
+      "height_deviation_percent": -1.141
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W06-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        735,
+        1465
+      ],
+      "top_row": 80,
+      "bottom_row": 1464,
+      "hip_center_x": 460.02,
+      "border_green_fraction": 0.998452,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1385,
+      "height_deviation_percent": -1.213
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W10-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        730,
+        1469
+      ],
+      "top_row": 80,
+      "bottom_row": 1468,
+      "hip_center_x": 462.49,
+      "border_green_fraction": 0.995675,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W14-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        151,
+        79,
+        743,
+        1474
+      ],
+      "top_row": 79,
+      "bottom_row": 1473,
+      "hip_center_x": 459.79,
+      "border_green_fraction": 0.995089,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1395,
+      "height_deviation_percent": -0.499
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W14-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        154,
+        79,
+        743,
+        1474
+      ],
+      "top_row": 79,
+      "bottom_row": 1473,
+      "hip_center_x": 459.55,
+      "border_green_fraction": 0.983224,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1395,
+      "height_deviation_percent": -0.499
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W14-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        155,
+        79,
+        743,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 459.07,
+      "border_green_fraction": 0.998522,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W02-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        135,
+        93,
+        745,
+        1480
+      ],
+      "top_row": 93,
+      "bottom_row": 1479,
+      "hip_center_x": 464.19,
+      "border_green_fraction": 0.997431,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1387,
+      "height_deviation_percent": -1.07
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W04-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        145,
+        80,
+        698,
+        1478
+      ],
+      "top_row": 80,
+      "bottom_row": 1477,
+      "hip_center_x": 456.88,
+      "border_green_fraction": 0.998829,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1398,
+      "height_deviation_percent": -0.285
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W12-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        146,
+        79,
+        698,
+        1478
+      ],
+      "top_row": 79,
+      "bottom_row": 1477,
+      "hip_center_x": 455.58,
+      "border_green_fraction": 0.976716,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1399,
+      "height_deviation_percent": -0.214
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W08-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        79,
+        785,
+        1465
+      ],
+      "top_row": 79,
+      "bottom_row": 1464,
+      "hip_center_x": 459.31,
+      "border_green_fraction": 0.79997,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1386,
+      "height_deviation_percent": -1.141
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W08-try-4.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        79,
+        785,
+        1464
+      ],
+      "top_row": 79,
+      "bottom_row": 1463,
+      "hip_center_x": 458.46,
+      "border_green_fraction": 0.99622,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1385,
+      "height_deviation_percent": -1.213
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W06-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        735,
+        1464
+      ],
+      "top_row": 80,
+      "bottom_row": 1463,
+      "hip_center_x": 455.21,
+      "border_green_fraction": 0.998036,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1384,
+      "height_deviation_percent": -1.284
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W10-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        109,
+        80,
+        701,
+        1469
+      ],
+      "top_row": 80,
+      "bottom_row": 1468,
+      "hip_center_x": 456.07,
+      "border_green_fraction": 0.997163,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W02-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        135,
+        92,
+        722,
+        1479
+      ],
+      "top_row": 92,
+      "bottom_row": 1478,
+      "hip_center_x": 456.16,
+      "border_green_fraction": 0.994663,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1387,
+      "height_deviation_percent": -1.07
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W14-try-4.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        155,
+        79,
+        712,
+        1472
+      ],
+      "top_row": 79,
+      "bottom_row": 1471,
+      "hip_center_x": 455.12,
+      "border_green_fraction": 0.936974,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1393,
+      "height_deviation_percent": -0.642
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W03-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        141,
+        85,
+        732,
+        1475
+      ],
+      "top_row": 85,
+      "bottom_row": 1474,
+      "hip_center_x": 463.76,
+      "border_green_fraction": 0.994891,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1390,
+      "height_deviation_percent": -0.856
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W11-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        124,
+        80,
+        733,
+        1469
+      ],
+      "top_row": 80,
+      "bottom_row": 1468,
+      "hip_center_x": 462.36,
+      "border_green_fraction": 0.979335,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W03-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        142,
+        85,
+        710,
+        1474
+      ],
+      "top_row": 85,
+      "bottom_row": 1473,
+      "hip_center_x": 461.65,
+      "border_green_fraction": 0.99619,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W11-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        123,
+        79,
+        711,
+        1469
+      ],
+      "top_row": 79,
+      "bottom_row": 1468,
+      "hip_center_x": 459.4,
+      "border_green_fraction": 0.996062,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1390,
+      "height_deviation_percent": -0.856
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W05-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        117,
+        80,
+        706,
+        1479
+      ],
+      "top_row": 80,
+      "bottom_row": 1478,
+      "hip_center_x": 452.73,
+      "border_green_fraction": 0.998313,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1399,
+      "height_deviation_percent": -0.214
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W13-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        141,
+        79,
+        709,
+        1460
+      ],
+      "top_row": 79,
+      "bottom_row": 1459,
+      "hip_center_x": 454.74,
+      "border_green_fraction": 0.911637,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1381,
+      "height_deviation_percent": -1.498
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W01-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        140,
+        79,
+        724,
+        1473
+      ],
+      "top_row": 79,
+      "bottom_row": 1472,
+      "hip_center_x": 453.41,
+      "border_green_fraction": 0.970873,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1394,
+      "height_deviation_percent": -0.571
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W09-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        111,
+        80,
+        732,
+        1469
+      ],
+      "top_row": 80,
+      "bottom_row": 1468,
+      "hip_center_x": 463.95,
+      "border_green_fraction": 0.994058,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": true,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W07-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        108,
+        80,
+        757,
+        1460
+      ],
+      "top_row": 80,
+      "bottom_row": 1459,
+      "hip_center_x": 460.08,
+      "border_green_fraction": 0.974236,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1380,
+      "height_deviation_percent": -1.569
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W15-try-1.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        147,
+        79,
+        720,
+        1462
+      ],
+      "top_row": 79,
+      "bottom_row": 1461,
+      "hip_center_x": 458.1,
+      "border_green_fraction": 0.95375,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1383,
+      "height_deviation_percent": -1.355
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W09-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        110,
+        80,
+        732,
+        1468
+      ],
+      "top_row": 80,
+      "bottom_row": 1467,
+      "hip_center_x": 464.32,
+      "border_green_fraction": 0.97872,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1388,
+      "height_deviation_percent": -0.999
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W13-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        144,
+        79,
+        710,
+        1459
+      ],
+      "top_row": 79,
+      "bottom_row": 1458,
+      "hip_center_x": 455.23,
+      "border_green_fraction": 0.957768,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1380,
+      "height_deviation_percent": -1.569
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W13-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        144,
+        79,
+        709,
+        1459
+      ],
+      "top_row": 79,
+      "bottom_row": 1458,
+      "hip_center_x": 455.03,
+      "border_green_fraction": 0.991607,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": true,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1380,
+      "height_deviation_percent": -1.569
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W05-try-2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        113,
+        80,
+        707,
+        1478
+      ],
+      "top_row": 80,
+      "bottom_row": 1477,
+      "hip_center_x": 452.77,
+      "border_green_fraction": 0.728234,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1398,
+      "height_deviation_percent": -0.285
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W11-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        124,
+        79,
+        711,
+        1468
+      ],
+      "top_row": 79,
+      "bottom_row": 1467,
+      "hip_center_x": 460.91,
+      "border_green_fraction": 0.794554,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": false,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1389,
+      "height_deviation_percent": -0.927
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W05-try-3.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        115,
+        80,
+        707,
+        1478
+      ],
+      "top_row": 80,
+      "bottom_row": 1477,
+      "hip_center_x": 452.88,
+      "border_green_fraction": 0.847143,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1398,
+      "height_deviation_percent": -0.285
+    },
+    {
+      "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W11-try-4.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "character_bbox_exclusive": [
+        123,
+        79,
+        711,
+        1469
+      ],
+      "top_row": 79,
+      "bottom_row": 1468,
+      "hip_center_x": 459.51,
+      "border_green_fraction": 0.958343,
+      "checks": {
+        "canvas_1024x1536": true,
+        "opaque": true,
+        "border_green_at_least_99_percent": false,
+        "top_between_40_and_110": true,
+        "bottom_between_1468_and_1492": true,
+        "hip_center_within_512_plus_or_minus_60": true,
+        "height_within_2_5_percent_of_approved_base": true
+      },
+      "passed": false,
+      "reference_height_px": 1402,
+      "character_height_px": 1390,
+      "height_deviation_percent": -0.856
+    }
+  ]
+}

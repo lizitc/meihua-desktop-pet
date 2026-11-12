@@ -1,0 +1,172 @@
+{
+  "frame": "W05",
+  "attempt": 3,
+  "prompt": "Use case: precise-object-edit. These TWO images are variants of the SAME W05 drawing, with only a very small NEAR lower-arm placement difference. Make ONE clean final drawing: near forearm/cuff/hand exactly HALFWAY between the two variant positions. Use image1 as the base for all other pixels. This is a local arm-spacing adjustment, not animation interpolation of the whole character.\nTarget near cuff 441,845, palm 441,891, relaxed downward fingers. The target is just between the two existing near hands, not beyond either. Copy their existing sleeve and hand anatomy and choose one single clean outline at the middle, never mix images, no double edges or translucency. Keep the same natural soft hand size and finger directions. Keep shoulder and puff fixed and reconnect the lower sleeve cleanly.\nFAR ARM, head, face, hair, body, skirt, tail and ALL LEGS/FEET remain exactly image1. Do not change their locations or pose. Single full-body1024x1536 green-screen illustration with normal thin warm lines. No ghost hands or additional limbs.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W05-try-1.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W05-try-2.png"
+  ],
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-8e17ea02-f13e-4e61-b722-9a0704ac3ded.png",
+  "output_hint": "Generated images are saved to C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce as C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-8e17ea02-f13e-4e61-b722-9a0704ac3ded.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "visual_correct": true,
+  "notes": "Single clean intermediate near-arm drawing between two spacing variants, no blend or double edge. Near hand progresses toward W06 with more even spacing, far arm/feet retained.",
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W05-try-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1477,
+    "floor_runs": [
+      [
+        329,
+        478
+      ]
+    ],
+    "stance_toe": 478,
+    "stance_heel": 329,
+    "stance_width": 150,
+    "swing_toe": 574,
+    "swing_lift": 116,
+    "frame": "W05",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W05-try-3.png",
+    "frame": "W05",
+    "near": {
+      "selected": {
+        "area": 3646,
+        "centroid": [
+          448.12,
+          883.8
+        ],
+        "bbox": [
+          421,
+          839,
+          478,
+          940
+        ],
+        "wrist_proxy": [
+          448.21,
+          839
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3646,
+          "centroid": [
+            448.12,
+            883.8
+          ],
+          "bbox": [
+            421,
+            839,
+            478,
+            940
+          ],
+          "wrist_proxy": [
+            448.21,
+            839
+          ]
+        },
+        {
+          "area": 627,
+          "centroid": [
+            550.27,
+            849.16
+          ],
+          "bbox": [
+            536,
+            832,
+            568,
+            863
+          ],
+          "wrist_proxy": [
+            547.24,
+            832
+          ]
+        },
+        {
+          "area": 467,
+          "centroid": [
+            519.84,
+            839.02
+          ],
+          "bbox": [
+            505,
+            822,
+            532,
+            851
+          ],
+          "wrist_proxy": [
+            519.87,
+            822
+          ]
+        },
+        {
+          "area": 155,
+          "centroid": [
+            575.25,
+            852.25
+          ],
+          "bbox": [
+            571,
+            837,
+            580,
+            865
+          ],
+          "wrist_proxy": [
+            572.24,
+            837
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 1705,
+        "centroid": [
+          678.92,
+          830.54
+        ],
+        "bbox": [
+          661,
+          788,
+          697,
+          879
+        ],
+        "wrist_proxy": [
+          672.44,
+          788
+        ]
+      },
+      "candidates": [
+        {
+          "area": 1705,
+          "centroid": [
+            678.92,
+            830.54
+          ],
+          "bbox": [
+            661,
+            788,
+            697,
+            879
+          ],
+          "wrist_proxy": [
+            672.44,
+            788
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 0,
+  "lower_body_ground_delta": -2,
+  "lower_body_preserved": true,
+  "accepted": true
+}

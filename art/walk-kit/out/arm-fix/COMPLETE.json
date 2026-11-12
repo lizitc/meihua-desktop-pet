@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "frames": 16,
+  "modified_key_frames": [
+    "W00",
+    "W02",
+    "W04",
+    "W06",
+    "W08",
+    "W10",
+    "W12",
+    "W14"
+  ],
+  "imagegen_calls": 40,
+  "retries": 24,
+  "targeted_feet_passed": 12,
+  "odd_feet_passed": 8,
+  "max_contact_endpoint_delta_px": 2,
+  "max_ground_delta_px": 3,
+  "protected_reference_guide_tool_files_unchanged": 38,
+  "all_selected_pngs_identical_to_imagegen_source": true,
+  "near_hand_max_adjacent_centroid_step_px": 46.37,
+  "near_hand_loop_step_px": 1.84,
+  "odd_near_hand_midpoint_errors": [
+    {
+      "frame": "W01",
+      "centroid_midpoint_error_px": 7.26
+    },
+    {
+      "frame": "W03",
+      "centroid_midpoint_error_px": 14.36
+    },
+    {
+      "frame": "W05",
+      "centroid_midpoint_error_px": 11.85
+    },
+    {
+      "frame": "W07",
+      "centroid_midpoint_error_px": 13.83
+    },
+    {
+      "frame": "W09",
+      "centroid_midpoint_error_px": 9.35
+    },
+    {
+      "frame": "W11",
+      "centroid_midpoint_error_px": 8.66
+    },
+    {
+      "frame": "W13",
+      "centroid_midpoint_error_px": 3.22
+    },
+    {
+      "frame": "W15",
+      "centroid_midpoint_error_px": 1.19
+    }
+  ],
+  "measurement_note": "Color-component centroids are read-only diagnostics, not anatomical joint tracking; far hand can be occluded. Complete arm phase/anatomy/occlusion also reviewed visually.",
+  "promoted": true,
+  "canonical_hashes": {
+    "out\\2-keys\\W00.png": "19bfd8dd5b3e18bf77aa83c5ed1320f8be5a61c9f95ac2138dde3a6dc70913fe",
+    "out\\3-inbetweens\\W01.png": "abb39cc8de2ef355032fe11cb4911bd2e6df88886a13889128f3d776f34c5d45",
+    "out\\2-keys\\W02.png": "0642283131119247ef24ba7d3a9b082d01cdde242b9f570e2899e6fb90e45e11",
+    "out\\3-inbetweens\\W03.png": "b95186d9756ccb468ae0bb9749282f968e3268b36710bea891cd0b2c57b58093",
+    "out\\2-keys\\W04.png": "6d7d8b3018e6606de08bd374cf0a032f6d15910a27ad59fb73bbb1e828a4c592",
+    "out\\3-inbetweens\\W05.png": "257c453993c6f8cf39aa4c712d10cf6dfec00bfabf0ca742b7cafa3ecd34ee27",
+    "out\\2-keys\\W06.png": "8f6ac13d4c83942db10acd8bdb658bcb738e5a0ce107e9106068adcd28e2ec0a",
+    "out\\3-inbetweens\\W07.png": "effd885c296585ae81d2fedd428baa29ccd02474f3f387777f1832e617619a15",
+    "out\\2-keys\\W08.png": "c47b8efa1037ce44a1b2a0fbcda01577e6a3aebc7338f3c62f350a1b2b1265f7",
+    "out\\3-inbetweens\\W09.png": "395995623cc3060f072cd46acc121d3804835c27eef3d011f034e223b40d99f2",
+    "out\\2-keys\\W10.png": "f2c29ab0f028fd93aaac09384e0d369b83157827e29e2a4b97d6cb5c17a26f34",
+    "out\\3-inbetweens\\W11.png": "74dc6a7e8fb9e18c61c793ffcf54865e31bca4ac2e48d1d83a675ebeaa6c4185",
+    "out\\2-keys\\W12.png": "f86dc22c9590c1fb59849a2d3db624a53eded969e95210c4d2cd41e9d9777b9f",
+    "out\\3-inbetweens\\W13.png": "9293209c19c25b3f6c349e023e7783fecc93edfff9fe7564dc8868b0412fce1c",
+    "out\\2-keys\\W14.png": "6380e1c67cee780dfccfbdc5ce25c5be467a9cb4c7b94d8859418cfafeb3e348",
+    "out\\3-inbetweens\\W15.png": "fd2ae3b8356e4b6967fc390b47636a6412733d760ca5fde5b66d6afed737a027"
+  },
+  "handoff": "HANDOFF.md"
+}

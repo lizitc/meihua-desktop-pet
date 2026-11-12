@@ -1,0 +1,36 @@
+{
+  "frame": "W10",
+  "attempt": 3,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-f2c2b40c-f192-4a12-a622-7def8f52c1b6.png",
+  "prompt": "Use case: professional 2D hand-drawn animation key drawing, identity-locked correction of the legs.\nReference 1 is the approved three-quarter-right model. Reference 3 (W00) is an approved frame of this walk and the exact standard for face, hair, costume, rendering, head size, skirt length and stocking thickness. Reference 2 is the pose diagram (diagram only; dark blue = NEAR leg/arm, light blue = FAR leg/arm, black = floor, dashed vertical line = the hips' centre line). Reference 4 is the approved drawing just before this one in time. Reference 5 is named in the pose text.\nDraw frame W10 of the walk toward screen RIGHT, same three-quarter view, not mirrored. Keep the head, face, upper body, arms and costume identical in style and size to reference 3, and keep the head at the same place on the canvas. What changes is WHERE THE FEET STAND: follow the horizontal foot positions below precisely.\nW10 DOWN: Weight drops onto the FAR leg, which is planted IN FRONT of the hips: the whole foot flat on the floor, the heel just ahead of the dashed centre line and the toes about 1.3 foot-lengths ahead of it; knee softly bent. The NEAR leg behind is peeling off the floor, knee bent, toes just off the ground, at about the same place as in reference 4's back foot. Reference 5 (W02) is the same moment of the other step: copy how its supporting foot is planted in front of the hips.\nExactly two complete legs and two complete socked feet; where the legs overlap, the far leg is partly hidden behind the near leg.\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n\nMeasured foot-placement acceptance criteria (absolute canvas pixels, hips stay at x=512): The FAR supporting foot is flat IN FRONT of the hips, exact RIGHTMOST toe tip at x=677 (allowed657-697), heel around x=550. Move this support foot about86px FORWARD/RIGHT compared with old W10. The sole should touch the floor continuously for at least95px. NEAR rear leg bends and lifts, drawn in front where it overlaps. Exactly one foot touches. Do not move the entire character horizontally to meet this: keep the head/hips placement and change the leg angles and foot locations. Keep exactly two anatomically complete legs and two hands, the approved face and costume unchanged. Do not draw any measurement line, coordinate marker, text or guide colors.\n\nCRITICAL LEG IDENTITY: this is W10, NOT W02. Keep the camera/torso facing right unchanged. The NEAR leg emerges from the visible LEFT hip/thigh under the skirt, bends and goes BACK toward screen LEFT, lifted off the ground. Its continuous thigh and shin run directly down-left toward the raised rear foot, and are in FRONT of the far leg at overlap. It must NOT cross from the left hip into the forward right grounded foot. The FAR leg emerges on the RIGHT under the skirt, reaches down-right in front of the hips, and is the ONLY supporting leg: whole FAR foot flat from about x=550 to x=677. Near hand swings gently FORWARD across side of apron; far arm goes BACK behind torso/hair. Do not copy W02's near support identity or W00's back-swing near arm. Exactly two connected hands/legs; no arm stretched out on image right. Keep the foreground near stocking bow on the LEFT rear leg, not on the grounded right leg.\n\nFoot-check feedback: a far support toe at x=707 is still too far forward/right. Keep the correct NEAR bent foreground leg lifted behind, but bring only the FAR planted foot and ankle about30px LEFT, with a slightly adjusted natural far shin. Aim for rightmost far support TOE x=670 (allowed657-697), heel around x=540; whole sole flat for at least100px. The foot remains IN FRONT of hips512, not under or behind them. The near rear foot stays in the air and does not touch the floor. Do not change the already correct leg identity, two hands or face, and do not move the entire character horizontally.",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W10.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W08.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W02.png"
+  ],
+  "feet_check": {
+    "file": "out\\2-keys\\attempts\\W10-2c-try-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1469,
+    "floor_runs": [
+      [
+        533,
+        678
+      ]
+    ],
+    "stance_toe": 678,
+    "stance_width": 146,
+    "frame": "W10",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "visual_correct": true,
+  "status": "accepted",
+  "visual_review": "Far right leg supports flat in front of hips; bent near leg remains in foreground and lifts behind. Both complete legs, two hands, approved face/ears/costume. Lifted rear foot is higher than ideal peeling pose, noted as a review concern but leg identity/support are unambiguous."
+}

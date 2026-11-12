@@ -1,0 +1,32 @@
+[
+  {
+    "file": "out\\2-keys\\attempts\\W08-try-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      128,
+      80,
+      779,
+      1458
+    ],
+    "top_row": 80,
+    "bottom_row": 1457,
+    "hip_center_x": 465.7,
+    "border_green_fraction": 0.997738,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1378,
+    "height_deviation_percent": -1.712
+  }
+]

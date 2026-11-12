@@ -1,0 +1,22 @@
+{
+  "file": "out\\2-keys\\W06.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "ground": 1464,
+  "floor_runs": [
+    [
+      370,
+      427
+    ]
+  ],
+  "stance_toe": 427,
+  "stance_width": 58,
+  "swing_toe": 735,
+  "swing_lift": 53,
+  "frame": "W06",
+  "pass": true,
+  "score": 0,
+  "fails": []
+}

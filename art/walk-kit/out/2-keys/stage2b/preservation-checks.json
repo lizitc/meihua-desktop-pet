@@ -1,0 +1,127 @@
+{
+  "protected_files": [
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W10.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W12.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\ich01A_101.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\portrait.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\scale-reference.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\manifest-before-walk7.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\report.json",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-checker.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-dark.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\review-guides.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W00.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W02.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W04.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W06.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W08.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W10.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W12.png",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\lizi\\Desktop\\walk-kit\\processed\\W14.png",
+      "unchanged": true
+    }
+  ],
+  "all_protected_files_unchanged": true,
+  "selected_pngs_match_tool_outputs": [
+    {
+      "frame": "W06",
+      "matches_selected_generation": true
+    },
+    {
+      "frame": "W14",
+      "matches_selected_generation": true
+    },
+    {
+      "frame": "W08",
+      "matches_selected_generation": true
+    },
+    {
+      "frame": "W02",
+      "matches_selected_generation": true
+    }
+  ],
+  "all_selected_pngs_match_tool_outputs": true,
+  "v1_backups": [
+    {
+      "frame": "W06",
+      "v1_matches_previous_generation": true
+    },
+    {
+      "frame": "W14",
+      "v1_matches_previous_generation": true
+    },
+    {
+      "frame": "W08",
+      "v1_matches_previous_generation": true
+    },
+    {
+      "frame": "W02",
+      "v1_matches_previous_generation": true
+    }
+  ],
+  "all_v1_backups_match_previous_sources": true
+}

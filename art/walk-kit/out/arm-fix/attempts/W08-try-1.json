@@ -1,0 +1,170 @@
+{
+  "frame": "W08",
+  "attempt": 1,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-40686f8d-e1ed-4c54-9519-8cfe33dea9ac.png",
+  "prompt": "Use case: precise-object-edit. LOCAL ARM-ONLY CORRECTION of animation frame W08.\nImage1=EDIT TARGET W08, preserve head/body/LEGS but replace both arms; Image2=CORRECTED NEUTRAL ARM MASTER W04, priority for new arms; Image3=guideW08 ARMS only; Image4=corrected back extreme W00, only for swing amplitude/style; Image5=identity model.\nCHANGE ONLY BOTH LOWER ARMS, CUFFS AND HANDS, and the tiny cloth/hair areas they uncover. Preserve image1's original head/face/hair, shoulders, body, skirt and apron, tail, leg pose and BOTH FEET exactly. The old ARM POSE in image1 is rejected, so do not preserve it. Keep its exact leg identity and overlap. The measured original floor is y1466, contact runs [[255,310],[669,717]]. These foot pixels must stay in the same place. Do not copy the guide's legs.\nArm movement is a SMALL relaxed fore-aft swing in sagittal plane, close to body, NEVER arms spread sideways. Stable shoulders, soft elbows, relaxed hands with fingers gently together, down-pointing and natural five-finger anatomy. Do not bend hands outward or make fists.\nW08 arm phase: near forward, far back. Planned NEAR elbow(433,730), wrist/cuff centre(460,846); FAR elbow(641,720), wrist/cuff centre(647,848). Hands extend naturally40-80px below the cuffs. The near arm is foreground image-left arm, far arm belongs to the far/right shoulder and may be partly behind torso. Keep two readable hands, smooth thin sleeve outlines, same arm lengths and hand size as corrected neutral master.\nCRITICAL: REPLACE image1's TWO OLD ARMS COMPLETELY with the small arms based on image2 neutral master. The old near hand crossing the apron aroundx650 and old far hand sticking out at image-left aroundx260 are BOTH REJECTED. They must disappear and the underlying apron/hair be restored. Start with image2's near-vertical arm pair: swing NEAR hand just50px to the RIGHT of neutral, wrist460,846, palm470,885. Near forearm remains down beside LEFT apron edge, never across the centre of the apron. FAR arm moves BACK only a little from image2, far wrist647,848 and palm655,890, partly behind the torso/right apron edge. No far hand sticking out of the left skirt edge! Keep far hand readable at the body's right edge, relaxed down fingers. Keep both puff sleeves in original positions; elbow bend mild. This is maximum FRONT arm position but only a small graceful swing. Image4 shows the corrected opposite extreme: both arm states remain close to body. Keep image1's far front contact leg and near rear toe leg exactly unchanged.\nOne clean full-body single character illustration, never a blend or double exposure, no duplicate arms. Preserve approved rendering and camera precisely.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\before\\frames\\W08.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W08.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\frames\\W00.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W08-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1466,
+    "floor_runs": [
+      [
+        256,
+        310
+      ],
+      [
+        671,
+        716
+      ]
+    ],
+    "frame": "W08"
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W08-try-1.png",
+    "frame": "W08",
+    "near": {
+      "selected": {
+        "area": 2922,
+        "centroid": [
+          425.33,
+          892.28
+        ],
+        "bbox": [
+          396,
+          851,
+          457,
+          940
+        ],
+        "wrist_proxy": [
+          423.37,
+          851
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2922,
+          "centroid": [
+            425.33,
+            892.28
+          ],
+          "bbox": [
+            396,
+            851,
+            457,
+            940
+          ],
+          "wrist_proxy": [
+            423.37,
+            851
+          ]
+        },
+        {
+          "area": 680,
+          "centroid": [
+            466.11,
+            929.23
+          ],
+          "bbox": [
+            445,
+            914,
+            483,
+            940
+          ],
+          "wrist_proxy": [
+            468.6,
+            914
+          ]
+        },
+        {
+          "area": 326,
+          "centroid": [
+            544.84,
+            848.91
+          ],
+          "bbox": [
+            538,
+            832,
+            555,
+            862
+          ],
+          "wrist_proxy": [
+            541.92,
+            832
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 1510,
+        "centroid": [
+          712.11,
+          860.19
+        ],
+        "bbox": [
+          686,
+          821,
+          737,
+          904
+        ],
+        "wrist_proxy": [
+          701.63,
+          821
+        ]
+      },
+      "candidates": [
+        {
+          "area": 1510,
+          "centroid": [
+            712.11,
+            860.19
+          ],
+          "bbox": [
+            686,
+            821,
+            737,
+            904
+          ],
+          "wrist_proxy": [
+            701.63,
+            821
+          ]
+        },
+        {
+          "area": 201,
+          "centroid": [
+            614.21,
+            849.42
+          ],
+          "bbox": [
+            610,
+            835,
+            624,
+            862
+          ],
+          "wrist_proxy": [
+            611.76,
+            835
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 2,
+  "lower_body_ground_delta": 0,
+  "lower_body_preserved": true,
+  "visual_correct": false,
+  "accepted": false,
+  "notes": "Old large crossed-arm pose is removed, but arms remain too close to neutral: near wrist~424 and far~700. Need a distinct small forward near / back far phase, not a duplicate neutral."
+}

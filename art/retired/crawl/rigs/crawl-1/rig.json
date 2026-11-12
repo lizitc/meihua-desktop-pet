@@ -1,0 +1,1203 @@
+{
+  "schema": 1,
+  "id": "crawl-1",
+  "width": 512,
+  "height": 384,
+  "anchor": {
+    "x": 370,
+    "y": 181
+  },
+  "bounds": {
+    "x": 82,
+    "y": 54,
+    "width": 348,
+    "height": 306
+  },
+  "layers": [
+    {
+      "id": "hair-back-left-0",
+      "name": "画面左后发段 1",
+      "group": "hair",
+      "pivot": [
+        276.4,
+        73
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-0.png",
+        "x": 110,
+        "y": 78,
+        "width": 181,
+        "height": 72
+      },
+      "hidden": {
+        "src": "hair-back-left-0-hidden.png",
+        "x": 144,
+        "y": 69,
+        "width": 234,
+        "height": 88
+      },
+      "visiblePixels": 619,
+      "hiddenPixels": 8060,
+      "drawOrder": 0
+    },
+    {
+      "id": "hair-back-left-1",
+      "name": "画面左后发段 2",
+      "group": "hair",
+      "pivot": [
+        276.4,
+        149.33333333333331
+      ],
+      "parent": "hair-back-left-0",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-1.png",
+        "x": 103,
+        "y": 150,
+        "width": 253,
+        "height": 76
+      },
+      "hidden": {
+        "src": "hair-back-left-1-hidden.png",
+        "x": 121,
+        "y": 143,
+        "width": 257,
+        "height": 90
+      },
+      "visiblePixels": 3290,
+      "hiddenPixels": 13287,
+      "drawOrder": 1
+    },
+    {
+      "id": "hair-back-left-2",
+      "name": "画面左后发段 3",
+      "group": "hair",
+      "pivot": [
+        276.4,
+        225.66666666666666
+      ],
+      "parent": "hair-back-left-1",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-left-2.png",
+        "x": 111,
+        "y": 226,
+        "width": 259,
+        "height": 134
+      },
+      "hidden": {
+        "src": "hair-back-left-2-hidden.png",
+        "x": 125,
+        "y": 219,
+        "width": 253,
+        "height": 83
+      },
+      "visiblePixels": 2213,
+      "hiddenPixels": 8559,
+      "drawOrder": 2
+    },
+    {
+      "id": "hair-back-right-0",
+      "name": "画面右后发段 1",
+      "group": "hair",
+      "pivot": [
+        391.6,
+        73
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-0.png",
+        "x": 425,
+        "y": 102,
+        "width": 5,
+        "height": 34
+      },
+      "hidden": {
+        "src": "hair-back-right-0-hidden.png",
+        "x": 363,
+        "y": 71,
+        "width": 53,
+        "height": 86
+      },
+      "visiblePixels": 6,
+      "hiddenPixels": 3035,
+      "drawOrder": 3
+    },
+    {
+      "id": "hair-back-right-1",
+      "name": "画面右后发段 2",
+      "group": "hair",
+      "pivot": [
+        391.6,
+        149.33333333333331
+      ],
+      "parent": "hair-back-right-0",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-1.png",
+        "x": 374,
+        "y": 161,
+        "width": 56,
+        "height": 65
+      },
+      "hidden": {
+        "src": "hair-back-right-1-hidden.png",
+        "x": 364,
+        "y": 143,
+        "width": 52,
+        "height": 90
+      },
+      "visiblePixels": 450,
+      "hiddenPixels": 1472,
+      "drawOrder": 4
+    },
+    {
+      "id": "hair-back-right-2",
+      "name": "画面右后发段 3",
+      "group": "hair",
+      "pivot": [
+        391.6,
+        225.66666666666666
+      ],
+      "parent": "hair-back-right-1",
+      "kit": 0,
+      "visible": {
+        "src": "hair-back-right-2.png",
+        "x": 370,
+        "y": 226,
+        "width": 58,
+        "height": 134
+      },
+      "hidden": {
+        "src": "hair-back-right-2-hidden.png",
+        "x": 373,
+        "y": 219,
+        "width": 41,
+        "height": 54
+      },
+      "visiblePixels": 937,
+      "hiddenPixels": 306,
+      "drawOrder": 5
+    },
+    {
+      "id": "tail",
+      "name": "犬尾",
+      "group": "tail",
+      "pivot": [
+        176,
+        188
+      ],
+      "parent": null,
+      "kit": 8,
+      "visible": {
+        "src": "tail.png",
+        "x": 108,
+        "y": 131,
+        "width": 71,
+        "height": 72
+      },
+      "hidden": {
+        "src": "tail-hidden.png",
+        "x": 122,
+        "y": 133,
+        "width": 65,
+        "height": 81
+      },
+      "visiblePixels": 2520,
+      "hiddenPixels": 1451,
+      "drawOrder": 6
+    },
+    {
+      "id": "head",
+      "name": "头部",
+      "group": "head",
+      "pivot": [
+        363,
+        196
+      ],
+      "parent": "torso",
+      "kit": 1,
+      "visible": {
+        "src": "head.png",
+        "x": 291,
+        "y": 54,
+        "width": 135,
+        "height": 149
+      },
+      "hidden": {
+        "src": "head-hidden.png",
+        "x": 305,
+        "y": 67,
+        "width": 122,
+        "height": 167
+      },
+      "visiblePixels": 3061,
+      "hiddenPixels": 10870,
+      "drawOrder": 7
+    },
+    {
+      "id": "torso",
+      "name": "躯干",
+      "group": "body",
+      "pivot": [
+        311,
+        240
+      ],
+      "parent": null,
+      "kit": 2,
+      "visible": {
+        "src": "torso.png",
+        "x": 264,
+        "y": 189,
+        "width": 119,
+        "height": 63
+      },
+      "hidden": {
+        "src": "torso-hidden.png",
+        "x": 255,
+        "y": 178,
+        "width": 136,
+        "height": 85
+      },
+      "visiblePixels": 1449,
+      "hiddenPixels": 6748,
+      "drawOrder": 8
+    },
+    {
+      "id": "skirt",
+      "name": "裙摆主体",
+      "group": "skirt",
+      "pivot": [
+        255,
+        200
+      ],
+      "parent": null,
+      "kit": 3,
+      "visible": {
+        "src": "skirt.png",
+        "x": 133,
+        "y": 165,
+        "width": 147,
+        "height": 113
+      },
+      "hidden": {
+        "src": "skirt-hidden.png",
+        "x": 125,
+        "y": 154,
+        "width": 163,
+        "height": 135
+      },
+      "visiblePixels": 6525,
+      "hiddenPixels": 9768,
+      "drawOrder": 9
+    },
+    {
+      "id": "thigh-left",
+      "name": "画面左大腿",
+      "group": "leg-left",
+      "pivot": [
+        181,
+        267
+      ],
+      "parent": null,
+      "kit": 6,
+      "visible": {
+        "src": "thigh-left.png",
+        "x": 120,
+        "y": 237,
+        "width": 95,
+        "height": 46
+      },
+      "hidden": {
+        "src": "thigh-left-hidden.png",
+        "x": 115,
+        "y": 230,
+        "width": 107,
+        "height": 60
+      },
+      "visiblePixels": 1388,
+      "hiddenPixels": 1697,
+      "drawOrder": 10
+    },
+    {
+      "id": "shin-left",
+      "name": "画面左小腿",
+      "group": "leg-left",
+      "pivot": [
+        147,
+        301
+      ],
+      "parent": "thigh-left",
+      "kit": 6,
+      "visible": {
+        "src": "shin-left.png",
+        "x": 82,
+        "y": 273,
+        "width": 94,
+        "height": 57
+      },
+      "hidden": {
+        "src": "shin-left-hidden.png",
+        "x": 88,
+        "y": 266,
+        "width": 95,
+        "height": 67
+      },
+      "visiblePixels": 2690,
+      "hiddenPixels": 784,
+      "drawOrder": 11
+    },
+    {
+      "id": "foot-left",
+      "name": "画面左袜脚",
+      "group": "foot-left",
+      "pivot": [
+        117,
+        317
+      ],
+      "parent": "shin-left",
+      "kit": 6,
+      "visible": {
+        "src": "foot-left.png",
+        "x": 82,
+        "y": 324,
+        "width": 88,
+        "height": 36
+      },
+      "hidden": {
+        "src": "foot-left-hidden.png",
+        "x": 86,
+        "y": 317,
+        "width": 86,
+        "height": 29
+      },
+      "visiblePixels": 901,
+      "hiddenPixels": 242,
+      "drawOrder": 12
+    },
+    {
+      "id": "arm-upper-left",
+      "name": "画面左上臂",
+      "group": "hand-left",
+      "pivot": [
+        292,
+        244
+      ],
+      "parent": "torso",
+      "kit": 4,
+      "visible": {
+        "src": "arm-upper-left.png",
+        "x": 281,
+        "y": 248,
+        "width": 31,
+        "height": 29
+      },
+      "hidden": {
+        "src": "arm-upper-left-hidden.png",
+        "x": 277,
+        "y": 243,
+        "width": 40,
+        "height": 40
+      },
+      "visiblePixels": 447,
+      "hiddenPixels": 724,
+      "drawOrder": 13
+    },
+    {
+      "id": "arm-lower-left",
+      "name": "画面左前臂",
+      "group": "hand-left",
+      "pivot": [
+        306,
+        276
+      ],
+      "parent": "arm-upper-left",
+      "kit": 4,
+      "visible": {
+        "src": "arm-lower-left.png",
+        "x": 293,
+        "y": 272,
+        "width": 31,
+        "height": 28
+      },
+      "hidden": {
+        "src": "arm-lower-left-hidden.png",
+        "x": 289,
+        "y": 267,
+        "width": 26,
+        "height": 39
+      },
+      "visiblePixels": 377,
+      "hiddenPixels": 364,
+      "drawOrder": 14
+    },
+    {
+      "id": "sleeve-left",
+      "name": "画面左泡泡袖",
+      "group": "hand-left",
+      "pivot": [
+        292,
+        219
+      ],
+      "parent": "arm-upper-left",
+      "kit": 4,
+      "visible": {
+        "src": "sleeve-left.png",
+        "x": 270,
+        "y": 206,
+        "width": 44,
+        "height": 48
+      },
+      "hidden": {
+        "src": "sleeve-left-hidden.png",
+        "x": 267,
+        "y": 203,
+        "width": 52,
+        "height": 57
+      },
+      "visiblePixels": 1461,
+      "hiddenPixels": 1177,
+      "drawOrder": 15
+    },
+    {
+      "id": "cuff-left",
+      "name": "画面左袖口",
+      "group": "hand-left",
+      "pivot": [
+        311,
+        305
+      ],
+      "parent": "arm-lower-left",
+      "kit": 4,
+      "visible": {
+        "src": "cuff-left.png",
+        "x": 292,
+        "y": 297,
+        "width": 37,
+        "height": 16
+      },
+      "hidden": {
+        "src": "cuff-left-hidden.png",
+        "x": 288,
+        "y": 292,
+        "width": 34,
+        "height": 27
+      },
+      "visiblePixels": 280,
+      "hiddenPixels": 426,
+      "drawOrder": 16
+    },
+    {
+      "id": "hand-left",
+      "name": "画面左手",
+      "group": "hand-left",
+      "pivot": [
+        307,
+        313
+      ],
+      "parent": "arm-lower-left",
+      "kit": 4,
+      "visible": {
+        "src": "hand-left.png",
+        "x": 293,
+        "y": 309,
+        "width": 49,
+        "height": 29
+      },
+      "hidden": {
+        "src": "hand-left-hidden.png",
+        "x": 289,
+        "y": 304,
+        "width": 31,
+        "height": 35
+      },
+      "visiblePixels": 719,
+      "hiddenPixels": 201,
+      "drawOrder": 17
+    },
+    {
+      "id": "ear-left",
+      "name": "画面左犬耳",
+      "group": "ear-left",
+      "pivot": [
+        315,
+        75
+      ],
+      "parent": "head",
+      "kit": 7,
+      "visible": {
+        "src": "ear-left.png",
+        "x": 266,
+        "y": 71,
+        "width": 64,
+        "height": 90
+      },
+      "hidden": {
+        "src": "ear-left-hidden.png",
+        "x": 257,
+        "y": 64,
+        "width": 81,
+        "height": 108
+      },
+      "visiblePixels": 3616,
+      "hiddenPixels": 1643,
+      "drawOrder": 18
+    },
+    {
+      "id": "ear-bow-left",
+      "name": "画面左耳饰蝴蝶结",
+      "group": "ear-left",
+      "pivot": [
+        302,
+        110
+      ],
+      "parent": "ear-left",
+      "kit": 7,
+      "visible": {
+        "src": "ear-bow-left.png",
+        "x": 289,
+        "y": 98,
+        "width": 28,
+        "height": 31
+      },
+      "hidden": null,
+      "visiblePixels": 472,
+      "hiddenPixels": 0,
+      "drawOrder": 19
+    },
+    {
+      "id": "flower-left",
+      "name": "画面左发花",
+      "group": "hair",
+      "pivot": [
+        315,
+        196
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "flower-left.png",
+        "x": 306,
+        "y": 189,
+        "width": 19,
+        "height": 15
+      },
+      "hidden": null,
+      "visiblePixels": 225,
+      "hiddenPixels": 0,
+      "drawOrder": 20
+    },
+    {
+      "id": "stocking-bow-left",
+      "name": "画面左袜口蝴蝶结",
+      "group": "leg-left",
+      "pivot": [
+        159,
+        259
+      ],
+      "parent": "thigh-left",
+      "kit": 6,
+      "visible": {
+        "src": "stocking-bow-left.png",
+        "x": 149,
+        "y": 249,
+        "width": 21,
+        "height": 22
+      },
+      "hidden": null,
+      "visiblePixels": 335,
+      "hiddenPixels": 0,
+      "drawOrder": 21
+    },
+    {
+      "id": "thigh-right",
+      "name": "画面右大腿",
+      "group": "leg-right",
+      "pivot": [
+        237,
+        265
+      ],
+      "parent": null,
+      "kit": 6,
+      "visible": {
+        "src": "thigh-right.png",
+        "x": 214,
+        "y": 254,
+        "width": 55,
+        "height": 46
+      },
+      "hidden": {
+        "src": "thigh-right-hidden.png",
+        "x": 207,
+        "y": 247,
+        "width": 69,
+        "height": 48
+      },
+      "visiblePixels": 665,
+      "hiddenPixels": 978,
+      "drawOrder": 22
+    },
+    {
+      "id": "shin-right",
+      "name": "画面右小腿",
+      "group": "leg-right",
+      "pivot": [
+        231,
+        296
+      ],
+      "parent": "thigh-right",
+      "kit": 6,
+      "visible": {
+        "src": "shin-right.png",
+        "x": 167,
+        "y": 269,
+        "width": 92,
+        "height": 43
+      },
+      "hidden": {
+        "src": "shin-right-hidden.png",
+        "x": 160,
+        "y": 262,
+        "width": 104,
+        "height": 54
+      },
+      "visiblePixels": 1418,
+      "hiddenPixels": 987,
+      "drawOrder": 23
+    },
+    {
+      "id": "foot-right",
+      "name": "画面右袜脚",
+      "group": "foot-right",
+      "pivot": [
+        175,
+        306
+      ],
+      "parent": "shin-right",
+      "kit": 6,
+      "visible": {
+        "src": "foot-right.png",
+        "x": 146,
+        "y": 308,
+        "width": 42,
+        "height": 43
+      },
+      "hidden": {
+        "src": "foot-right-hidden.png",
+        "x": 153,
+        "y": 301,
+        "width": 28,
+        "height": 12
+      },
+      "visiblePixels": 957,
+      "hiddenPixels": 182,
+      "drawOrder": 24
+    },
+    {
+      "id": "arm-upper-right",
+      "name": "画面右上臂",
+      "group": "hand-right",
+      "pivot": [
+        347,
+        254
+      ],
+      "parent": "torso",
+      "kit": 5,
+      "visible": {
+        "src": "arm-upper-right.png",
+        "x": 337,
+        "y": 259,
+        "width": 46,
+        "height": 45
+      },
+      "hidden": {
+        "src": "arm-upper-right-hidden.png",
+        "x": 333,
+        "y": 254,
+        "width": 36,
+        "height": 56
+      },
+      "visiblePixels": 674,
+      "hiddenPixels": 785,
+      "drawOrder": 25
+    },
+    {
+      "id": "arm-lower-right",
+      "name": "画面右前臂",
+      "group": "hand-right",
+      "pivot": [
+        376,
+        302
+      ],
+      "parent": "arm-upper-right",
+      "kit": 5,
+      "visible": {
+        "src": "arm-lower-right.png",
+        "x": 363,
+        "y": 298,
+        "width": 17,
+        "height": 28
+      },
+      "hidden": {
+        "src": "arm-lower-right-hidden.png",
+        "x": 359,
+        "y": 293,
+        "width": 14,
+        "height": 39
+      },
+      "visiblePixels": 188,
+      "hiddenPixels": 268,
+      "drawOrder": 26
+    },
+    {
+      "id": "sleeve-right",
+      "name": "画面右泡泡袖",
+      "group": "hand-right",
+      "pivot": [
+        347,
+        229
+      ],
+      "parent": "arm-upper-right",
+      "kit": 5,
+      "visible": {
+        "src": "sleeve-right.png",
+        "x": 326,
+        "y": 216,
+        "width": 48,
+        "height": 48
+      },
+      "hidden": {
+        "src": "sleeve-right-hidden.png",
+        "x": 323,
+        "y": 213,
+        "width": 54,
+        "height": 57
+      },
+      "visiblePixels": 1514,
+      "hiddenPixels": 827,
+      "drawOrder": 27
+    },
+    {
+      "id": "cuff-right",
+      "name": "画面右袖口",
+      "group": "hand-right",
+      "pivot": [
+        381,
+        331
+      ],
+      "parent": "arm-lower-right",
+      "kit": 5,
+      "visible": {
+        "src": "cuff-right.png",
+        "x": 362,
+        "y": 324,
+        "width": 37,
+        "height": 15
+      },
+      "hidden": {
+        "src": "cuff-right-hidden.png",
+        "x": 358,
+        "y": 319,
+        "width": 40,
+        "height": 26
+      },
+      "visiblePixels": 148,
+      "hiddenPixels": 396,
+      "drawOrder": 28
+    },
+    {
+      "id": "hand-right",
+      "name": "画面右手",
+      "group": "hand-right",
+      "pivot": [
+        377,
+        339
+      ],
+      "parent": "arm-lower-right",
+      "kit": 5,
+      "visible": {
+        "src": "hand-right.png",
+        "x": 363,
+        "y": 335,
+        "width": 46,
+        "height": 25
+      },
+      "hidden": {
+        "src": "hand-right-hidden.png",
+        "x": 359,
+        "y": 330,
+        "width": 18,
+        "height": 22
+      },
+      "visiblePixels": 728,
+      "hiddenPixels": 168,
+      "drawOrder": 29
+    },
+    {
+      "id": "ear-right",
+      "name": "画面右犬耳",
+      "group": "ear-right",
+      "pivot": [
+        388,
+        59
+      ],
+      "parent": "head",
+      "kit": 7,
+      "visible": {
+        "src": "ear-right.png",
+        "x": 384,
+        "y": 61,
+        "width": 46,
+        "height": 67
+      },
+      "hidden": {
+        "src": "ear-right-hidden.png",
+        "x": 375,
+        "y": 71,
+        "width": 45,
+        "height": 68
+      },
+      "visiblePixels": 1218,
+      "hiddenPixels": 1056,
+      "drawOrder": 30
+    },
+    {
+      "id": "ear-bow-right",
+      "name": "画面右耳饰蝴蝶结",
+      "group": "ear-right",
+      "pivot": [
+        382,
+        84
+      ],
+      "parent": "ear-right",
+      "kit": 7,
+      "visible": null,
+      "hidden": null,
+      "visiblePixels": 0,
+      "hiddenPixels": 0,
+      "drawOrder": 31
+    },
+    {
+      "id": "flower-right",
+      "name": "画面右发花",
+      "group": "hair",
+      "pivot": [
+        393,
+        195
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "flower-right.png",
+        "x": 383,
+        "y": 188,
+        "width": 18,
+        "height": 14
+      },
+      "hidden": null,
+      "visiblePixels": 214,
+      "hiddenPixels": 0,
+      "drawOrder": 32
+    },
+    {
+      "id": "stocking-bow-right",
+      "name": "画面右袜口蝴蝶结",
+      "group": "leg-right",
+      "pivot": [
+        237,
+        265
+      ],
+      "parent": "thigh-right",
+      "kit": 6,
+      "visible": null,
+      "hidden": null,
+      "visiblePixels": 0,
+      "hiddenPixels": 0,
+      "drawOrder": 33
+    },
+    {
+      "id": "waistband",
+      "name": "腰带",
+      "group": "body",
+      "pivot": [
+        296,
+        255
+      ],
+      "parent": "torso",
+      "kit": 2,
+      "visible": {
+        "src": "waistband.png",
+        "x": 272,
+        "y": 248,
+        "width": 67,
+        "height": 19
+      },
+      "hidden": {
+        "src": "waistband-hidden.png",
+        "x": 269,
+        "y": 245,
+        "width": 72,
+        "height": 24
+      },
+      "visiblePixels": 98,
+      "hiddenPixels": 185,
+      "drawOrder": 34
+    },
+    {
+      "id": "apron",
+      "name": "围裙",
+      "group": "skirt",
+      "pivot": [
+        248,
+        197
+      ],
+      "parent": "skirt",
+      "kit": 3,
+      "visible": {
+        "src": "apron.png",
+        "x": 205,
+        "y": 183,
+        "width": 66,
+        "height": 84
+      },
+      "hidden": {
+        "src": "apron-hidden.png",
+        "x": 196,
+        "y": 172,
+        "width": 83,
+        "height": 106
+      },
+      "visiblePixels": 4298,
+      "hiddenPixels": 2566,
+      "drawOrder": 35
+    },
+    {
+      "id": "skirt-ruffles",
+      "name": "裙边褶饰",
+      "group": "skirt",
+      "pivot": [
+        230,
+        181
+      ],
+      "parent": "skirt",
+      "kit": 3,
+      "visible": {
+        "src": "skirt-ruffles.png",
+        "x": 267,
+        "y": 249,
+        "width": 26,
+        "height": 32
+      },
+      "hidden": {
+        "src": "skirt-ruffles-hidden.png",
+        "x": 264,
+        "y": 246,
+        "width": 32,
+        "height": 38
+      },
+      "visiblePixels": 456,
+      "hiddenPixels": 337,
+      "drawOrder": 36
+    },
+    {
+      "id": "neck-bow",
+      "name": "领口蝴蝶结",
+      "group": "body",
+      "pivot": [
+        346,
+        212
+      ],
+      "parent": "torso",
+      "kit": 2,
+      "visible": {
+        "src": "neck-bow.png",
+        "x": 336,
+        "y": 203,
+        "width": 20,
+        "height": 30
+      },
+      "hidden": null,
+      "visiblePixels": 428,
+      "hiddenPixels": 0,
+      "drawOrder": 37
+    },
+    {
+      "id": "headband",
+      "name": "女仆头饰",
+      "group": "head",
+      "pivot": [
+        340,
+        64
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "headband.png",
+        "x": 300,
+        "y": 54,
+        "width": 83,
+        "height": 26
+      },
+      "hidden": null,
+      "visiblePixels": 1001,
+      "hiddenPixels": 0,
+      "drawOrder": 38
+    },
+    {
+      "id": "bangs",
+      "name": "刘海",
+      "group": "head",
+      "pivot": [
+        370,
+        91
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "bangs.png",
+        "x": 323,
+        "y": 88,
+        "width": 88,
+        "height": 93
+      },
+      "hidden": null,
+      "visiblePixels": 3954,
+      "hiddenPixels": 0,
+      "drawOrder": 39
+    },
+    {
+      "id": "hair-front-left",
+      "name": "画面左前发",
+      "group": "hair",
+      "pivot": [
+        297,
+        158
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-front-left.png",
+        "x": 280,
+        "y": 159,
+        "width": 53,
+        "height": 121
+      },
+      "hidden": {
+        "src": "hair-front-left-hidden.png",
+        "x": 277,
+        "y": 156,
+        "width": 59,
+        "height": 110
+      },
+      "visiblePixels": 2748,
+      "hiddenPixels": 772,
+      "drawOrder": 40
+    },
+    {
+      "id": "hair-front-right",
+      "name": "画面右前发",
+      "group": "hair",
+      "pivot": [
+        404,
+        179
+      ],
+      "parent": "head",
+      "kit": 0,
+      "visible": {
+        "src": "hair-front-right.png",
+        "x": 390,
+        "y": 169,
+        "width": 35,
+        "height": 116
+      },
+      "hidden": {
+        "src": "hair-front-right-hidden.png",
+        "x": 391,
+        "y": 166,
+        "width": 21,
+        "height": 103
+      },
+      "visiblePixels": 740,
+      "hiddenPixels": 245,
+      "drawOrder": 41
+    },
+    {
+      "id": "eye-left",
+      "name": "画面左眼",
+      "group": "head",
+      "pivot": [
+        370,
+        181
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "eye-left.png",
+        "x": 335,
+        "y": 133,
+        "width": 41,
+        "height": 47
+      },
+      "hidden": null,
+      "visiblePixels": 1443,
+      "hiddenPixels": 0,
+      "drawOrder": 42
+    },
+    {
+      "id": "eye-right",
+      "name": "画面右眼",
+      "group": "head",
+      "pivot": [
+        370,
+        181
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "eye-right.png",
+        "x": 381,
+        "y": 123,
+        "width": 25,
+        "height": 43
+      },
+      "hidden": null,
+      "visiblePixels": 787,
+      "hiddenPixels": 0,
+      "drawOrder": 43
+    },
+    {
+      "id": "mouth",
+      "name": "嘴部",
+      "group": "head",
+      "pivot": [
+        379,
+        179
+      ],
+      "parent": "head",
+      "kit": 1,
+      "visible": {
+        "src": "mouth.png",
+        "x": 371,
+        "y": 174,
+        "width": 17,
+        "height": 11
+      },
+      "hidden": null,
+      "visiblePixels": 159,
+      "hiddenPixels": 0,
+      "drawOrder": 44
+    }
+  ],
+  "expressions": {},
+  "source": "01_Production/crawl/key-01.png",
+  "sourceRGBA": "c3458a5f39713caaf2ba770955fbd5c7b0e7b92ec836a00d35cb6cd64e5023bc",
+  "visibleRGBAExact": true,
+  "packageSource": "01_Production/crawl/key-01.png",
+  "originalSource": "app/assets/crawl/frame-01.png",
+  "leftRightConvention": "screen-space at canonical facing; not anatomical",
+  "layerOrder": "layers array is back-to-front; all hidden planes first, then visible planes, then one expression group",
+  "hiddenRule": "concealed completion, limited behind original opaque silhouette; do not draw as standalone foreground"
+}

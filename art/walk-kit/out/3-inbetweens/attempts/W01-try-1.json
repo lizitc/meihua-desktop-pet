@@ -1,0 +1,37 @@
+{
+  "frame": "W01",
+  "attempt": 1,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-a5938821-93fb-4756-85b1-ef6d776e3e61.png",
+  "prompt": "LOCALIZED REDRAW: Make NEW frame W01 by redrawing reference 1/W00 toward reference2/W02. Keep the approved head and upper body in place. Move the entire NEAR forward supporting foot about 75 pixels LEFT from W00, so its HEEL (not toe) touches the ground at x535-545, instead of x606. Roll this foot flatter: sole from heel near540 toward toe near670, toes only slightly raised. Smoothly reconnect the near shin and a gently softened near knee. Move the FAR rear foot about25px RIGHT and35px UP, starting to bend its knee and peel its toes off the floor. Do not simply copy W00's long straight stride. Same near forward leg in foreground, same far rear leg behind. The result is one newly drawn clean halfway pose, never a blend.\n\nUse case: 2D hand-drawn animation in-between (breakdown) drawing, identity-locked.\nReferences 1 and 2 are two consecutive approved key drawings of the same walk cycle toward screen RIGHT. Draw the drawing exactly HALFWAY between them in time. Reference 3 is the pose diagram for this halfway pose (diagram only; dark blue = NEAR leg/arm, light blue = FAR leg/arm, black = floor, dashed vertical line = the hips' centre line). Reference 4 is the identity model; reference 5 is an approved frame of this walk and the standard for rendering, head size, skirt length and stocking thickness.\nDraw frame W01, same three-quarter view as the references, not mirrored.\nW01: The NEAR leg is in front, almost straight, its heel on the floor and the foot rolling down so the toes are only slightly raised (flatter than in reference 1). Its heel stands where it was in reference 1, moved back by half the distance to its heel in reference 2. The weight is moving onto it. The FAR leg is behind, heel high, toes just leaving the floor. Arms halfway between references 1 and 2.\nEvery moving part sits midway between its positions in reference 1 and reference 2: thighs, shins, feet, arms, hands, skirt hem, apron frills, hair tips, ears and tail. The head stays at the same place on the canvas, and the head, face, hair top, costume, colours, line quality and proportions stay IDENTICAL to references 1 and 2. It must be one clean, complete drawing, not a blend or double exposure: exactly two legs, two socked feet and two hands, all intact; where the legs overlap, the far leg is partly hidden behind the near leg.\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n\nFrame W01 measured halfway foot target (absolute x on the1024px canvas; pelvis remains512): NEAR forward supporting HEEL, the LEFTMOST floor contact of the front foot, at x=544 (allowed524-564). Front foot rolls flatter than W00, toes only a little raised. FAR rear toe may just touch or be lifting; do not move front heel too far forward. Preserve leg identity continuously from BOTH neighbouring keys, same foreground leg and supporting side; do not swap or mirror legs. Keep the head/face at the approved size and position. The mid-pose is a single clean drawing, no blended limbs. Do not draw coordinates, diagrams, lines or text.\nStrict W01 floor contact: front support heel LEFT EDGE around x540, toe around670; near knee midway toward W02 knee. The FAR back toe may just touch or be slightly airborne. Face, hand anatomy and white socked feet stay pristine.",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W02.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W01.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png"
+  ],
+  "feet_check": {
+    "file": "out\\3-inbetweens\\attempts\\W01-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1473,
+    "floor_runs": [
+      [
+        554,
+        692
+      ]
+    ],
+    "stance_toe": 692,
+    "stance_heel": 554,
+    "stance_width": 139,
+    "frame": "W01",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "visual_correct": true,
+  "status": "accepted",
+  "visual_review": "Near leg remains in foreground and supports in front, knee and foot roll toward W02; far leg lifted behind. Exactly two complete feet and open hands, consistent face/costume."
+}

@@ -1,0 +1,47 @@
+{
+  "file": "out\\2-keys\\attempts\\W02-2b-try-1.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "character_bbox_exclusive": [
+    124,
+    116,
+    820,
+    1478
+  ],
+  "top_row": 116,
+  "bottom_row": 1477,
+  "hip_center_x": 472.17,
+  "border_green_fraction": 0.975784,
+  "checks": {
+    "canvas_1024x1536": true,
+    "opaque": true,
+    "border_green_at_least_99_percent": false,
+    "top_between_40_and_110": false,
+    "bottom_between_1468_and_1492": true,
+    "hip_center_within_512_plus_or_minus_60": true,
+    "height_within_2_5_percent_of_approved_base": false
+  },
+  "passed": false,
+  "reference_height_px": 1402,
+  "character_height_px": 1362,
+  "height_deviation_percent": -2.853,
+  "stage2b": {
+    "frame": "W02",
+    "bob_metric": "W00_raw_silhouette_height_minus_frame_height_after_floor_alignment",
+    "external_head_registration_applied": false,
+    "target_bob_px_positive_down": 7,
+    "raw_floor_relative_bob_px": 32,
+    "raw_top_difference_from_W00_px": 36,
+    "rear_left_foot_bottom_y": 1473,
+    "front_right_foot_bottom_y": 1477,
+    "front_clearance_from_rear_px": -4,
+    "up_frame_requested_clearance_px": null,
+    "up_frame_check_tolerance_px": null,
+    "checks": {
+      "floor_relative_head_bob_within_4px_of_target": false
+    }
+  },
+  "basic_passed": false
+}

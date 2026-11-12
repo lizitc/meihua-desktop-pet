@@ -1,0 +1,46 @@
+{
+  "basic_checks_passed": 5,
+  "basic_checks_total": 8,
+  "correction_checks_passed": 1,
+  "correction_checks_total": 4,
+  "measurements": [
+    {
+      "frame": "W06",
+      "basic_passed": false,
+      "local_correction_passed": false,
+      "raw_floor_relative_bob_px": -11,
+      "border_green_fraction": 0.900813,
+      "front_clearance_px": 76,
+      "contact_spacing_ratio_to_W00": null
+    },
+    {
+      "frame": "W14",
+      "basic_passed": true,
+      "local_correction_passed": true,
+      "raw_floor_relative_bob_px": -16,
+      "border_green_fraction": 0.990149,
+      "front_clearance_px": 68,
+      "contact_spacing_ratio_to_W00": null
+    },
+    {
+      "frame": "W08",
+      "basic_passed": false,
+      "local_correction_passed": false,
+      "raw_floor_relative_bob_px": 7,
+      "border_green_fraction": 0.789732,
+      "front_clearance_px": 1,
+      "contact_spacing_ratio_to_W00": 1.2504
+    },
+    {
+      "frame": "W02",
+      "basic_passed": false,
+      "local_correction_passed": false,
+      "raw_floor_relative_bob_px": 8,
+      "border_green_fraction": 0.987083,
+      "front_clearance_px": -6,
+      "contact_spacing_ratio_to_W00": null
+    }
+  ],
+  "protected_files_unchanged": true,
+  "sources_and_backups_match": true
+}

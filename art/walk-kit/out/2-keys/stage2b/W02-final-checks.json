@@ -1,0 +1,47 @@
+{
+  "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W02.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "character_bbox_exclusive": [
+    135,
+    95,
+    813,
+    1481
+  ],
+  "top_row": 95,
+  "bottom_row": 1480,
+  "hip_center_x": 467.51,
+  "border_green_fraction": 0.987083,
+  "checks": {
+    "canvas_1024x1536": true,
+    "opaque": true,
+    "border_green_at_least_99_percent": false,
+    "top_between_40_and_110": true,
+    "bottom_between_1468_and_1492": true,
+    "hip_center_within_512_plus_or_minus_60": true,
+    "height_within_2_5_percent_of_approved_base": true
+  },
+  "passed": false,
+  "reference_height_px": 1402,
+  "character_height_px": 1386,
+  "height_deviation_percent": -1.141,
+  "stage2b": {
+    "frame": "W02",
+    "bob_metric": "W00_raw_silhouette_height_minus_frame_height_after_floor_alignment",
+    "external_head_registration_applied": false,
+    "target_bob_px_positive_down": 7,
+    "raw_floor_relative_bob_px": 8,
+    "raw_top_difference_from_W00_px": 15,
+    "rear_left_foot_bottom_y": 1474,
+    "front_right_foot_bottom_y": 1480,
+    "front_clearance_from_rear_px": -6,
+    "up_frame_requested_clearance_px": null,
+    "up_frame_check_tolerance_px": null,
+    "checks": {
+      "floor_relative_head_bob_within_4px_of_target": true
+    }
+  },
+  "basic_passed": false
+}

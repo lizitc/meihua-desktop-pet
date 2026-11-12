@@ -1,0 +1,28 @@
+{
+  "source": "out/arm-fix/frames",
+  "frame_order": [
+    "W00",
+    "W02",
+    "W04",
+    "W06",
+    "W08",
+    "W10",
+    "W12",
+    "W14"
+  ],
+  "frame_count": 8,
+  "durations_ms": [
+    120,
+    130,
+    120,
+    130,
+    120,
+    130,
+    120,
+    130
+  ],
+  "average_fps": 8,
+  "loop": 0,
+  "background": "white",
+  "updated_for_arm_fix": true
+}

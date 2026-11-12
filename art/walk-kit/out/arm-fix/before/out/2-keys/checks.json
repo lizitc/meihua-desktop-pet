@@ -1,0 +1,242 @@
+[
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      134,
+      80,
+      804,
+      1474
+    ],
+    "top_row": 80,
+    "bottom_row": 1473,
+    "hip_center_x": 457.59,
+    "border_green_fraction": 0.999087,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": true,
+    "reference_height_px": 1402,
+    "character_height_px": 1394,
+    "height_deviation_percent": -0.571
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W02.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      135,
+      95,
+      813,
+      1481
+    ],
+    "top_row": 95,
+    "bottom_row": 1480,
+    "hip_center_x": 467.51,
+    "border_green_fraction": 0.987083,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1386,
+    "height_deviation_percent": -1.141
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      142,
+      79,
+      784,
+      1479
+    ],
+    "top_row": 79,
+    "bottom_row": 1478,
+    "hip_center_x": 470.33,
+    "border_green_fraction": 0.986438,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1400,
+    "height_deviation_percent": -0.143
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W06.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      110,
+      80,
+      757,
+      1465
+    ],
+    "top_row": 80,
+    "bottom_row": 1464,
+    "hip_center_x": 467.75,
+    "border_green_fraction": 0.99744,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1385,
+    "height_deviation_percent": -1.213
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W08.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      110,
+      80,
+      785,
+      1467
+    ],
+    "top_row": 80,
+    "bottom_row": 1466,
+    "hip_center_x": 469.8,
+    "border_green_fraction": 0.789732,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": false,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1387,
+    "height_deviation_percent": -1.07
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W10.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      110,
+      80,
+      756,
+      1470
+    ],
+    "top_row": 80,
+    "bottom_row": 1469,
+    "hip_center_x": 468.92,
+    "border_green_fraction": 0.997153,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": true,
+    "reference_height_px": 1402,
+    "character_height_px": 1390,
+    "height_deviation_percent": -0.856
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W12.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      79,
+      781,
+      1479
+    ],
+    "top_row": 79,
+    "bottom_row": 1478,
+    "hip_center_x": 469.96,
+    "border_green_fraction": 0.998472,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": true,
+    "reference_height_px": 1402,
+    "character_height_px": 1400,
+    "height_deviation_percent": -0.143
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W14.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      147,
+      80,
+      812,
+      1475
+    ],
+    "top_row": 80,
+    "bottom_row": 1474,
+    "hip_center_x": 461.99,
+    "border_green_fraction": 0.986012,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": false,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true,
+      "height_within_2_5_percent_of_approved_base": true
+    },
+    "passed": false,
+    "reference_height_px": 1402,
+    "character_height_px": 1395,
+    "height_deviation_percent": -0.499
+  }
+]

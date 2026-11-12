@@ -1,0 +1,990 @@
+[
+  {
+    "file": "out\\arm-fix\\frames\\W00.png",
+    "frame": "W00",
+    "near": {
+      "selected": {
+        "area": 3801,
+        "centroid": [
+          392.43,
+          894.58
+        ],
+        "bbox": [
+          364,
+          853,
+          423,
+          940
+        ],
+        "wrist_proxy": [
+          393.74,
+          853
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3801,
+          "centroid": [
+            392.43,
+            894.58
+          ],
+          "bbox": [
+            364,
+            853,
+            423,
+            940
+          ],
+          "wrist_proxy": [
+            393.74,
+            853
+          ]
+        },
+        {
+          "area": 703,
+          "centroid": [
+            550.17,
+            850.94
+          ],
+          "bbox": [
+            534,
+            834,
+            569,
+            865
+          ],
+          "wrist_proxy": [
+            546.77,
+            834
+          ]
+        },
+        {
+          "area": 509,
+          "centroid": [
+            519.31,
+            839.83
+          ],
+          "bbox": [
+            506,
+            823,
+            534,
+            852
+          ],
+          "wrist_proxy": [
+            521.03,
+            823
+          ]
+        },
+        {
+          "area": 278,
+          "centroid": [
+            499.23,
+            826.25
+          ],
+          "bbox": [
+            488,
+            814,
+            508,
+            840
+          ],
+          "wrist_proxy": [
+            501.47,
+            814
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2590,
+        "centroid": [
+          719.9,
+          862.88
+        ],
+        "bbox": [
+          688,
+          817,
+          747,
+          921
+        ],
+        "wrist_proxy": [
+          710.57,
+          817
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2590,
+          "centroid": [
+            719.9,
+            862.88
+          ],
+          "bbox": [
+            688,
+            817,
+            747,
+            921
+          ],
+          "wrist_proxy": [
+            710.57,
+            817
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W02.png",
+    "frame": "W02",
+    "near": {
+      "selected": {
+        "area": 3371,
+        "centroid": [
+          403.8,
+          894.05
+        ],
+        "bbox": [
+          377,
+          855,
+          432,
+          940
+        ],
+        "wrist_proxy": [
+          405.99,
+          855
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3371,
+          "centroid": [
+            403.8,
+            894.05
+          ],
+          "bbox": [
+            377,
+            855,
+            432,
+            940
+          ],
+          "wrist_proxy": [
+            405.99,
+            855
+          ]
+        },
+        {
+          "area": 547,
+          "centroid": [
+            558.27,
+            855.11
+          ],
+          "bbox": [
+            544,
+            840,
+            576,
+            867
+          ],
+          "wrist_proxy": [
+            556.16,
+            840
+          ]
+        },
+        {
+          "area": 476,
+          "centroid": [
+            526.34,
+            841.84
+          ],
+          "bbox": [
+            511,
+            826,
+            540,
+            854
+          ],
+          "wrist_proxy": [
+            524.84,
+            826
+          ]
+        },
+        {
+          "area": 189,
+          "centroid": [
+            504.67,
+            827.93
+          ],
+          "bbox": [
+            496,
+            817,
+            513,
+            842
+          ],
+          "wrist_proxy": [
+            504.9,
+            817
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2543,
+        "centroid": [
+          695.42,
+          857.3
+        ],
+        "bbox": [
+          670,
+          812,
+          720,
+          907
+        ],
+        "wrist_proxy": [
+          689.82,
+          812
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2543,
+          "centroid": [
+            695.42,
+            857.3
+          ],
+          "bbox": [
+            670,
+            812,
+            720,
+            907
+          ],
+          "wrist_proxy": [
+            689.82,
+            812
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W04.png",
+    "frame": "W04",
+    "near": {
+      "selected": {
+        "area": 3484,
+        "centroid": [
+          403.35,
+          895.87
+        ],
+        "bbox": [
+          377,
+          856,
+          432,
+          940
+        ],
+        "wrist_proxy": [
+          406.19,
+          856
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3484,
+          "centroid": [
+            403.35,
+            895.87
+          ],
+          "bbox": [
+            377,
+            856,
+            432,
+            940
+          ],
+          "wrist_proxy": [
+            406.19,
+            856
+          ]
+        },
+        {
+          "area": 677,
+          "centroid": [
+            549.4,
+            850.94
+          ],
+          "bbox": [
+            533,
+            834,
+            569,
+            864
+          ],
+          "wrist_proxy": [
+            547.06,
+            834
+          ]
+        },
+        {
+          "area": 429,
+          "centroid": [
+            519.81,
+            840.49
+          ],
+          "bbox": [
+            507,
+            824,
+            533,
+            852
+          ],
+          "wrist_proxy": [
+            521.24,
+            824
+          ]
+        },
+        {
+          "area": 175,
+          "centroid": [
+            574.7,
+            857.39
+          ],
+          "bbox": [
+            569,
+            841,
+            580,
+            869
+          ],
+          "wrist_proxy": [
+            571.93,
+            841
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2321,
+        "centroid": [
+          669.43,
+          855.84
+        ],
+        "bbox": [
+          650,
+          813,
+          691,
+          912
+        ],
+        "wrist_proxy": [
+          663.4,
+          813
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2321,
+          "centroid": [
+            669.43,
+            855.84
+          ],
+          "bbox": [
+            650,
+            813,
+            691,
+            912
+          ],
+          "wrist_proxy": [
+            663.4,
+            813
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W06.png",
+    "frame": "W06",
+    "near": {
+      "selected": {
+        "area": 4910,
+        "centroid": [
+          479.03,
+          890.95
+        ],
+        "bbox": [
+          436,
+          836,
+          518,
+          940
+        ],
+        "wrist_proxy": [
+          479.78,
+          836
+        ]
+      },
+      "candidates": [
+        {
+          "area": 4910,
+          "centroid": [
+            479.03,
+            890.95
+          ],
+          "bbox": [
+            436,
+            836,
+            518,
+            940
+          ],
+          "wrist_proxy": [
+            479.78,
+            836
+          ]
+        },
+        {
+          "area": 567,
+          "centroid": [
+            553.99,
+            848.94
+          ],
+          "bbox": [
+            540,
+            833,
+            572,
+            862
+          ],
+          "wrist_proxy": [
+            552.48,
+            833
+          ]
+        },
+        {
+          "area": 404,
+          "centroid": [
+            524.34,
+            839.5
+          ],
+          "bbox": [
+            512,
+            826,
+            538,
+            851
+          ],
+          "wrist_proxy": [
+            524.52,
+            826
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 1976,
+        "centroid": [
+          683.88,
+          832.45
+        ],
+        "bbox": [
+          663,
+          790,
+          704,
+          884
+        ],
+        "wrist_proxy": [
+          677.26,
+          790
+        ]
+      },
+      "candidates": [
+        {
+          "area": 1976,
+          "centroid": [
+            683.88,
+            832.45
+          ],
+          "bbox": [
+            663,
+            790,
+            704,
+            884
+          ],
+          "wrist_proxy": [
+            677.26,
+            790
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W08.png",
+    "frame": "W08",
+    "near": {
+      "selected": {
+        "area": 3899,
+        "centroid": [
+          526.44,
+          888.46
+        ],
+        "bbox": [
+          497,
+          841,
+          562,
+          940
+        ],
+        "wrist_proxy": [
+          525.12,
+          841
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3899,
+          "centroid": [
+            526.44,
+            888.46
+          ],
+          "bbox": [
+            497,
+            841,
+            562,
+            940
+          ],
+          "wrist_proxy": [
+            525.12,
+            841
+          ]
+        },
+        {
+          "area": 507,
+          "centroid": [
+            552.47,
+            846.2
+          ],
+          "bbox": [
+            538,
+            830,
+            567,
+            861
+          ],
+          "wrist_proxy": [
+            548.58,
+            830
+          ]
+        },
+        {
+          "area": 168,
+          "centroid": [
+            574.89,
+            853.13
+          ],
+          "bbox": [
+            569,
+            837,
+            580,
+            865
+          ],
+          "wrist_proxy": [
+            571.33,
+            837
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 608,
+        "centroid": [
+          663.72,
+          837.97
+        ],
+        "bbox": [
+          654,
+          810,
+          674,
+          872
+        ],
+        "wrist_proxy": [
+          657.75,
+          810
+        ]
+      },
+      "candidates": [
+        {
+          "area": 608,
+          "centroid": [
+            663.72,
+            837.97
+          ],
+          "bbox": [
+            654,
+            810,
+            674,
+            872
+          ],
+          "wrist_proxy": [
+            657.75,
+            810
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W10.png",
+    "frame": "W10",
+    "near": {
+      "selected": {
+        "area": 3994,
+        "centroid": [
+          472.26,
+          876.63
+        ],
+        "bbox": [
+          442,
+          830,
+          504,
+          938
+        ],
+        "wrist_proxy": [
+          464.8,
+          830
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3994,
+          "centroid": [
+            472.26,
+            876.63
+          ],
+          "bbox": [
+            442,
+            830,
+            504,
+            938
+          ],
+          "wrist_proxy": [
+            464.8,
+            830
+          ]
+        },
+        {
+          "area": 510,
+          "centroid": [
+            551.47,
+            847.05
+          ],
+          "bbox": [
+            538,
+            831,
+            568,
+            859
+          ],
+          "wrist_proxy": [
+            548.81,
+            831
+          ]
+        },
+        {
+          "area": 267,
+          "centroid": [
+            522.12,
+            839.67
+          ],
+          "bbox": [
+            508,
+            825,
+            534,
+            850
+          ],
+          "wrist_proxy": [
+            527.91,
+            825
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2066,
+        "centroid": [
+          676.67,
+          832.68
+        ],
+        "bbox": [
+          656,
+          789,
+          697,
+          884
+        ],
+        "wrist_proxy": [
+          670.13,
+          789
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2066,
+          "centroid": [
+            676.67,
+            832.68
+          ],
+          "bbox": [
+            656,
+            789,
+            697,
+            884
+          ],
+          "wrist_proxy": [
+            670.13,
+            789
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W12.png",
+    "frame": "W12",
+    "near": {
+      "selected": {
+        "area": 3427,
+        "centroid": [
+          403.91,
+          895.81
+        ],
+        "bbox": [
+          377,
+          856,
+          433,
+          940
+        ],
+        "wrist_proxy": [
+          407.03,
+          856
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3427,
+          "centroid": [
+            403.91,
+            895.81
+          ],
+          "bbox": [
+            377,
+            856,
+            433,
+            940
+          ],
+          "wrist_proxy": [
+            407.03,
+            856
+          ]
+        },
+        {
+          "area": 945,
+          "centroid": [
+            474.43,
+            929.5
+          ],
+          "bbox": [
+            444,
+            914,
+            500,
+            940
+          ],
+          "wrist_proxy": [
+            477.56,
+            914
+          ]
+        },
+        {
+          "area": 615,
+          "centroid": [
+            548.51,
+            849.59
+          ],
+          "bbox": [
+            533,
+            833,
+            566,
+            863
+          ],
+          "wrist_proxy": [
+            545.94,
+            833
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2173,
+        "centroid": [
+          672.77,
+          855.51
+        ],
+        "bbox": [
+          651,
+          813,
+          694,
+          912
+        ],
+        "wrist_proxy": [
+          668.45,
+          813
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2173,
+          "centroid": [
+            672.77,
+            855.51
+          ],
+          "bbox": [
+            651,
+            813,
+            694,
+            912
+          ],
+          "wrist_proxy": [
+            668.45,
+            813
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  {
+    "file": "out\\arm-fix\\frames\\W14.png",
+    "frame": "W14",
+    "near": {
+      "selected": {
+        "area": 3621,
+        "centroid": [
+          390.54,
+          892.27
+        ],
+        "bbox": [
+          363,
+          852,
+          420,
+          940
+        ],
+        "wrist_proxy": [
+          392.42,
+          852
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3621,
+          "centroid": [
+            390.54,
+            892.27
+          ],
+          "bbox": [
+            363,
+            852,
+            420,
+            940
+          ],
+          "wrist_proxy": [
+            392.42,
+            852
+          ]
+        },
+        {
+          "area": 987,
+          "centroid": [
+            472.2,
+            929.27
+          ],
+          "bbox": [
+            441,
+            913,
+            498,
+            940
+          ],
+          "wrist_proxy": [
+            475.95,
+            913
+          ]
+        },
+        {
+          "area": 594,
+          "centroid": [
+            546.55,
+            852.07
+          ],
+          "bbox": [
+            532,
+            837,
+            565,
+            865
+          ],
+          "wrist_proxy": [
+            545.73,
+            837
+          ]
+        },
+        {
+          "area": 441,
+          "centroid": [
+            515.91,
+            841.51
+          ],
+          "bbox": [
+            503,
+            829,
+            529,
+            854
+          ],
+          "wrist_proxy": [
+            517.01,
+            829
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2620,
+        "centroid": [
+          687.35,
+          850.27
+        ],
+        "bbox": [
+          659,
+          808,
+          712,
+          908
+        ],
+        "wrist_proxy": [
+          682.28,
+          808
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2620,
+          "centroid": [
+            687.35,
+            850.27
+          ],
+          "bbox": [
+            659,
+            808,
+            712,
+            908
+          ],
+          "wrist_proxy": [
+            682.28,
+            808
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  }
+]

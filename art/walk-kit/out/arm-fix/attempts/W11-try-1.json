@@ -1,0 +1,136 @@
+{
+  "frame": "W11",
+  "attempt": 1,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-4382b24f-e804-422f-ae0d-a936fa1d10c6.png",
+  "prompt": "Use case: precise-object-edit. LOCAL ARM-ONLY CORRECTION of animation frame W11.\nImage1=EDIT TARGET W11, preserve head/body/legs but OLD ARMS REJECTED; Image2=CORRECTED PREVIOUS key W10 ARM geometry; Image3=CORRECTED NEXT key W12 ARM geometry. Corrected neighbours control BOTH arm phase and amplitude.\nCHANGE ONLY BOTH LOWER ARMS, CUFFS AND HANDS, and the tiny cloth/hair areas they uncover. Preserve image1's original head/face/hair, shoulders, body, skirt and apron, tail, leg pose and BOTH FEET exactly. The old ARM POSE in image1 is rejected, so do not preserve it. Keep its exact leg identity and overlap. The measured original floor is y1468, contact runs [[504,652]]. These foot pixels must stay in the same place. Do not copy the guide's legs.\nArm movement is a SMALL relaxed fore-aft swing in sagittal plane, close to body, NEVER arms spread sideways. Stable shoulders, soft elbows, relaxed hands with fingers gently together, down-pointing and natural five-finger anatomy. Do not bend hands outward or make fists.\nW11 arm phase: near forward, far back. Planned NEAR elbow(421,730), wrist/cuff centre(436,843); FAR elbow(653,720), wrist/cuff centre(669,801). Hands extend naturally40-80px below the cuffs. The near arm is foreground image-left arm, far arm belongs to the far/right shoulder and may be partly behind torso. Keep two readable hands, smooth thin sleeve outlines, same arm lengths and hand size as corrected neutral master.\nREDRAW BOTH ARMS exactly HALFWAY between corrected W10 in image2 and W12 in image3. Use their complete sleeve/hand geometry and natural occlusion, not the rejected old arms in image1. Near cuff centre around(436,843), far hand/cuff projectionaround(669,801). The near hand must lie between the two neighbours' positions, never repeat the old back/front extreme. Far hand also midway in visible contour and occlusion. Preserve original image1 legs and feet exactly; ONLY the arms change. Both hands relaxed downward, fingers not splayed. Very small continuous arm movement, one clean new arm drawing, no blends.\nOne clean full-body single character illustration, never a blend or double exposure, no duplicate arms. Preserve approved rendering and camera precisely.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\before\\frames\\W11.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W10-try-2.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W12-try-2.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W11-try-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1468,
+    "floor_runs": [
+      [
+        504,
+        651
+      ]
+    ],
+    "stance_toe": 651,
+    "stance_heel": 504,
+    "stance_width": 148,
+    "frame": "W11",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W11-try-1.png",
+    "frame": "W11",
+    "near": {
+      "selected": {
+        "area": 3301,
+        "centroid": [
+          375.4,
+          887.86
+        ],
+        "bbox": [
+          347,
+          846,
+          404,
+          940
+        ],
+        "wrist_proxy": [
+          375.43,
+          846
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3301,
+          "centroid": [
+            375.4,
+            887.86
+          ],
+          "bbox": [
+            347,
+            846,
+            404,
+            940
+          ],
+          "wrist_proxy": [
+            375.43,
+            846
+          ]
+        },
+        {
+          "area": 1728,
+          "centroid": [
+            473.2,
+            924.17
+          ],
+          "bbox": [
+            440,
+            901,
+            511,
+            940
+          ],
+          "wrist_proxy": [
+            475.35,
+            901
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 2338,
+        "centroid": [
+          704.67,
+          837.92
+        ],
+        "bbox": [
+          677,
+          794,
+          733,
+          887
+        ],
+        "wrist_proxy": [
+          693.73,
+          794
+        ]
+      },
+      "candidates": [
+        {
+          "area": 2338,
+          "centroid": [
+            704.67,
+            837.92
+          ],
+          "bbox": [
+            677,
+            794,
+            733,
+            887
+          ],
+          "wrist_proxy": [
+            693.73,
+            794
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 1,
+  "lower_body_ground_delta": 0,
+  "lower_body_preserved": true,
+  "visual_correct": false,
+  "accepted": false,
+  "notes": "Near arm still behind the hip, not between corrected W10 forward and W12 neutral. Both arms too close to rejected old pose. Reject, do not let foot pass imply arm pass."
+}

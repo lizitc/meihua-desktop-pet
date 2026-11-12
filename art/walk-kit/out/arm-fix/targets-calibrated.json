@@ -1,0 +1,405 @@
+{
+  "note": "Planning path calibrated to accepted W00/W04/W12 hand positions. Pixel targets guide redraws; measured skin points remain separate. Back swing smaller than front swing as in the reference arm diagram.",
+  "frames": [
+    {
+      "frame": "W00",
+      "i": 0,
+      "near": {
+        "elbow": [
+          409,
+          730
+        ],
+        "wrist": [
+          394,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          660,
+          720
+        ],
+        "wrist": [
+          711,
+          819
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W01",
+      "i": 1,
+      "near": {
+        "elbow": [
+          410,
+          730
+        ],
+        "wrist": [
+          395,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          659,
+          720
+        ],
+        "wrist": [
+          709,
+          820
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W02",
+      "i": 2,
+      "near": {
+        "elbow": [
+          411,
+          730
+        ],
+        "wrist": [
+          397,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          658,
+          720
+        ],
+        "wrist": [
+          705,
+          822
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W03",
+      "i": 3,
+      "near": {
+        "elbow": [
+          412,
+          730
+        ],
+        "wrist": [
+          401,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          656,
+          720
+        ],
+        "wrist": [
+          698,
+          825
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W04",
+      "i": 4,
+      "near": {
+        "elbow": [
+          414,
+          730
+        ],
+        "wrist": [
+          407,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          654,
+          720
+        ],
+        "wrist": [
+          692,
+          828
+        ]
+      },
+      "phase": "neutral"
+    },
+    {
+      "frame": "W05",
+      "i": 5,
+      "near": {
+        "elbow": [
+          419,
+          730
+        ],
+        "wrist": [
+          420,
+          852
+        ]
+      },
+      "far": {
+        "elbow": [
+          650,
+          720
+        ],
+        "wrist": [
+          680,
+          833
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W06",
+      "i": 6,
+      "near": {
+        "elbow": [
+          425,
+          730
+        ],
+        "wrist": [
+          439,
+          849
+        ]
+      },
+      "far": {
+        "elbow": [
+          646,
+          720
+        ],
+        "wrist": [
+          666,
+          840
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W07",
+      "i": 7,
+      "near": {
+        "elbow": [
+          430,
+          730
+        ],
+        "wrist": [
+          454,
+          847
+        ]
+      },
+      "far": {
+        "elbow": [
+          643,
+          720
+        ],
+        "wrist": [
+          654,
+          845
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W08",
+      "i": 8,
+      "near": {
+        "elbow": [
+          433,
+          730
+        ],
+        "wrist": [
+          460,
+          846
+        ]
+      },
+      "far": {
+        "elbow": [
+          641,
+          720
+        ],
+        "wrist": [
+          647,
+          848
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W09",
+      "i": 9,
+      "near": {
+        "elbow": [
+          430,
+          730
+        ],
+        "wrist": [
+          454,
+          847
+        ]
+      },
+      "far": {
+        "elbow": [
+          643,
+          720
+        ],
+        "wrist": [
+          654,
+          845
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W10",
+      "i": 10,
+      "near": {
+        "elbow": [
+          425,
+          730
+        ],
+        "wrist": [
+          439,
+          849
+        ]
+      },
+      "far": {
+        "elbow": [
+          646,
+          720
+        ],
+        "wrist": [
+          666,
+          840
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W11",
+      "i": 11,
+      "near": {
+        "elbow": [
+          419,
+          730
+        ],
+        "wrist": [
+          420,
+          852
+        ]
+      },
+      "far": {
+        "elbow": [
+          650,
+          720
+        ],
+        "wrist": [
+          680,
+          833
+        ]
+      },
+      "phase": "near forward, far back"
+    },
+    {
+      "frame": "W12",
+      "i": 12,
+      "near": {
+        "elbow": [
+          414,
+          730
+        ],
+        "wrist": [
+          407,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          654,
+          720
+        ],
+        "wrist": [
+          692,
+          828
+        ]
+      },
+      "phase": "neutral"
+    },
+    {
+      "frame": "W13",
+      "i": 13,
+      "near": {
+        "elbow": [
+          412,
+          730
+        ],
+        "wrist": [
+          401,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          656,
+          720
+        ],
+        "wrist": [
+          698,
+          825
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W14",
+      "i": 14,
+      "near": {
+        "elbow": [
+          411,
+          730
+        ],
+        "wrist": [
+          397,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          658,
+          720
+        ],
+        "wrist": [
+          705,
+          822
+        ]
+      },
+      "phase": "near back, far forward"
+    },
+    {
+      "frame": "W15",
+      "i": 15,
+      "near": {
+        "elbow": [
+          410,
+          730
+        ],
+        "wrist": [
+          395,
+          856
+        ]
+      },
+      "far": {
+        "elbow": [
+          659,
+          720
+        ],
+        "wrist": [
+          709,
+          820
+        ]
+      },
+      "phase": "near back, far forward"
+    }
+  ]
+}

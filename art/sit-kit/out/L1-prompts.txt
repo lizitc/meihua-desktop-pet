@@ -1,0 +1,74 @@
+Built-in image generation, edit mode. Three independent calls using the same references in this order:
+C:/claude/live2d5/Meihua-Claude-Assets-20261109/meihua-desktop/art/sit-kit/out/S-try-2.png
+C:/claude/live2d5/Meihua-Claude-Assets-20261109/meihua-desktop/art/sit-kit/out/Z-try-2.png
+C:/claude/live2d5/Meihua-Claude-Assets-20261109/meihua-desktop/art/sit-kit/refs/stand-green.png
+
+ATTEMPT 1 — L1-try-1.png
+Use case: identity-preserve.
+Asset type: a single production animation drawing for a desktop pet, first transition drawing from sitting to lying asleep.
+EDIT the FIRST reference image. Image 1 is the approved sitting drawing and is the image to modify. Image 2 is ONLY the approved final sleeping pose target, to establish the direction of the motion; do not jump to that final pose. Image 3 is the approved standing art, the authoritative identity, facial proportions, scale and style reference. Make one new coherent drawing, not a collage.
+
+CHANGE THE POSE AS FOLLOWS:
+Keep her legs folded on the floor exactly as in Image 1, with the same seated lower-body position and scale. Her upper body leans to SCREEN-LEFT and down by about 35 degrees from upright, starting to lower herself toward the sleeping pose. Her screen-left forearm is placed FLAT on the floor in front of her screen-left knee, bent at the elbow to support her weight. The other hand rests on her lap. Her head tilts toward SCREEN-LEFT. Her eyes are HALF CLOSED, visibly drowsy with the original violet irises still visible, and her expression is a soft sleepy smile with light blush. Her very long hair follows the lean and spills onto the floor on SCREEN-LEFT. This is an intermediate supported leaning-sitting pose: the hips and folded legs remain where they were in Image 1.
+
+PRESERVE EXACTLY:
+Misono Meihua, the same petite dog-girl as the references. Same head size, facial construction, hair, ears, bows, tail, clothing, palette, line quality and detail as Image 1 and the standing art. Soft floppy WHITE DOG EARS hanging beside her face, dog ears not rabbit ears. The ear on SCREEN-RIGHT has a tiny navy-blue bow above a tiny peach bow; the other ear has no bow. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Fluffy white dog tail. White blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar. Pink high-waisted suspender skirt with white frilled hem; pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES: stocking feet smooth and softly rounded, no toe lines. Small soft hands, five fingers on each hand, anatomically coherent arms and hands.
+
+FACE:
+Same eye size and shape as the standing art: moderately large, slightly droopy, never bigger or rounder. Preserve the same violet iris color and highlights, thin eyebrows, tiny nose, small mouth and gentle blush while lowering the eyelids to half closed.
+
+STYLE:
+Identical soft pastel Japanese visual-novel illustration as the standing art, thin clean even lineart, very light soft cel shading, same palette and same level of detail. No painterly texture, no sketchiness, no 3D, no blur, no extra decoration.
+
+TECHNICAL COMPOSITION:
+Exactly 1024 x 1536 pixels, portrait. Exactly ONE character and nothing else. Opaque, perfectly FLAT PURE GREEN #00FF00 background everywhere, including every open gap between strands of hair, arms, and legs. Uniform RGB (0,255,0), no gradient, floor, cast shadow, glow, rim light, green tint or green reflection on the character.
+Match the scale of Image 1 and the standing reference. Headband to chin about 300 pixels, never enlarge the head to fill the frame. The figure's lowest point rests at y=1480, with the whole composition centered at x=512. Keep all hair, ears, tail, hands and feet within the frame, preserving generous empty green space above her. No text, letters, signature or watermark anywhere.
+
+ATTEMPT 2 — L1-try-2.png
+Use case: identity-preserve.
+Asset type: a single production animation drawing for a desktop pet, first transition drawing from sitting to lying asleep.
+EDIT the FIRST reference image. Image 1 is the approved sitting drawing and is the image to modify. Image 2 is ONLY the approved final sleeping pose target, to establish the direction of the motion; do not jump to that final pose. Image 3 is the approved standing art, the authoritative identity, facial proportions, scale and style reference. Make one new coherent drawing, not a collage.
+
+CHANGE THE POSE AS FOLLOWS:
+Keep her legs folded on the floor exactly as in Image 1, with the same seated lower-body position and scale. Her upper body leans to SCREEN-LEFT and down by about 35 degrees from upright, starting to lower herself toward the sleeping pose. Her screen-left forearm is placed FLAT on the floor in front of her screen-left knee, bent at the elbow to support her weight. The other hand rests on her lap. Her head tilts toward SCREEN-LEFT. Her eyes are HALF CLOSED, visibly drowsy with the original violet irises still visible, and her expression is a soft sleepy smile with light blush. Her very long hair follows the lean and spills onto the floor on SCREEN-LEFT. This is an intermediate supported leaning-sitting pose: the hips and folded legs remain where they were in Image 1.
+
+PRESERVE EXACTLY:
+Misono Meihua, the same petite dog-girl as the references. Same head size, facial construction, hair, ears, bows, tail, clothing, palette, line quality and detail as Image 1 and the standing art. Soft floppy WHITE DOG EARS hanging beside her face, dog ears not rabbit ears. The ear on SCREEN-RIGHT has a tiny navy-blue bow above a tiny peach bow; the other ear has no bow. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Fluffy white dog tail. White blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar. Pink high-waisted suspender skirt with white frilled hem; pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES: stocking feet smooth and softly rounded, no toe lines. Small soft hands, five fingers on each hand, anatomically coherent arms and hands.
+
+FACE:
+Same eye size and shape as the standing art: moderately large, slightly droopy, never bigger or rounder. Preserve the same violet iris color and highlights, thin eyebrows, tiny nose, small mouth and gentle blush while lowering the eyelids to half closed.
+
+STYLE:
+Identical soft pastel Japanese visual-novel illustration as the standing art, thin clean even lineart, very light soft cel shading, same palette and same level of detail. No painterly texture, no sketchiness, no 3D, no blur, no extra decoration.
+
+TECHNICAL COMPOSITION:
+Exactly 1024 x 1536 pixels, portrait. Exactly ONE character and nothing else. Opaque, perfectly FLAT PURE GREEN #00FF00 background everywhere, including every open gap between strands of hair, arms, and legs. Uniform RGB (0,255,0), no gradient, floor, cast shadow, glow, rim light, green tint or green reflection on the character.
+Match the scale of Image 1 and the standing reference. Headband to chin about 300 pixels, never enlarge the head to fill the frame. The figure's lowest point rests at y=1480, with the whole composition centered at x=512. Keep all hair, ears, tail, hands and feet within the frame, preserving generous empty green space above her. No text, letters, signature or watermark anywhere.
+
+Pose priority for this independent attempt: clearly show the screen-left ELBOW AND ENTIRE FOREARM touching the invisible floor, with that forearm roughly horizontal in front of the screen-left folded knee. The hand and forearm together support her; bending only at the wrist with a lifted forearm does not satisfy the pose. Her torso itself leans 35 degrees to SCREEN-LEFT from upright. Keep the opposite hand softly resting on the lap, drowsy half-open eyes, and the original seated folded legs. Keep the lowest point at y=1480, leaving 56 pixels of pure green below.
+
+ATTEMPT 3 — L1-try-3.png
+Use case: identity-preserve.
+Asset type: a single production animation drawing for a desktop pet, first transition drawing from sitting to lying asleep.
+EDIT the FIRST reference image. Image 1 is the approved sitting drawing and is the image to modify. Image 2 is ONLY the approved final sleeping pose target, to establish the direction of the motion; do not jump to that final pose. Image 3 is the approved standing art, the authoritative identity, facial proportions, scale and style reference. Make one new coherent drawing, not a collage.
+
+CHANGE THE POSE AS FOLLOWS:
+Keep her legs folded on the floor exactly as in Image 1, with the same seated lower-body position and scale. Her upper body leans to SCREEN-LEFT and down by about 35 degrees from upright, starting to lower herself toward the sleeping pose. Her screen-left forearm is placed FLAT on the floor in front of her screen-left knee, bent at the elbow to support her weight. The other hand rests on her lap. Her head tilts toward SCREEN-LEFT. Her eyes are HALF CLOSED, visibly drowsy with the original violet irises still visible, and her expression is a soft sleepy smile with light blush. Her very long hair follows the lean and spills onto the floor on SCREEN-LEFT. This is an intermediate supported leaning-sitting pose: the hips and folded legs remain where they were in Image 1.
+
+PRESERVE EXACTLY:
+Misono Meihua, the same petite dog-girl as the references. Same head size, facial construction, hair, ears, bows, tail, clothing, palette, line quality and detail as Image 1 and the standing art. Soft floppy WHITE DOG EARS hanging beside her face, dog ears not rabbit ears. The ear on SCREEN-RIGHT has a tiny navy-blue bow above a tiny peach bow; the other ear has no bow. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Fluffy white dog tail. White blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar. Pink high-waisted suspender skirt with white frilled hem; pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES: stocking feet smooth and softly rounded, no toe lines. Small soft hands, five fingers on each hand, anatomically coherent arms and hands.
+
+FACE:
+Same eye size and shape as the standing art: moderately large, slightly droopy, never bigger or rounder. Preserve the same violet iris color and highlights, thin eyebrows, tiny nose, small mouth and gentle blush while lowering the eyelids to half closed.
+
+STYLE:
+Identical soft pastel Japanese visual-novel illustration as the standing art, thin clean even lineart, very light soft cel shading, same palette and same level of detail. No painterly texture, no sketchiness, no 3D, no blur, no extra decoration.
+
+TECHNICAL COMPOSITION:
+Exactly 1024 x 1536 pixels, portrait. Exactly ONE character and nothing else. Opaque, perfectly FLAT PURE GREEN #00FF00 background everywhere, including every open gap between strands of hair, arms, and legs. Uniform RGB (0,255,0), no gradient, floor, cast shadow, glow, rim light, green tint or green reflection on the character.
+Match the scale of Image 1 and the standing reference. Headband to chin about 300 pixels, never enlarge the head to fill the frame. The figure's lowest point rests at y=1480, with the whole composition centered at x=512. Keep all hair, ears, tail, hands and feet within the frame, preserving generous empty green space above her. No text, letters, signature or watermark anywhere.
+
+Pose priority for this independent attempt: clearly show the screen-left ELBOW AND ENTIRE FOREARM touching the invisible floor, with that forearm roughly horizontal in front of the screen-left folded knee. The hand and forearm together support her; bending only at the wrist with a lifted forearm does not satisfy the pose. Her torso itself leans 35 degrees to SCREEN-LEFT from upright. Keep the opposite hand softly resting on the lap, drowsy half-open eyes, and the original seated folded legs. Keep the lowest point at y=1480, leaving 56 pixels of pure green below.
+
+Registration priority: keep the complete canvas 1024x1536. The imaginary ground/contact baseline is precisely pixel row 1480, shared by the folded lower body and supporting forearm. Preserve the lower-body shape from Image 1. The head remains about 300 pixels from headband to chin, matching the standing reference. Keep the character centered around x=512 despite her upper-body lean left. Include every edge of the long hair and tail.
+

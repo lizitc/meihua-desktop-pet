@@ -1,0 +1,89 @@
+{
+  "name": "meihua-desktop",
+  "productName": "御园莓华",
+  "version": "1.0.0",
+  "description": "御园莓华 · AI 桌面伙伴与全职助手",
+  "type": "module",
+  "main": "src/main/main.js",
+  "private": true,
+  "author": "Meihua Desktop",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "prepare-assets": "node scripts/prepare-assets.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "check": "node scripts/check.mjs",
+    "dist": "electron-builder --win --x64",
+    "dist:dir": "electron-builder --win --x64 --dir",
+    "installer-art": "electron scripts/installer-art.mjs"
+  },
+  "devDependencies": {
+    "dompurify": "^3.3.0",
+    "electron": "45.2.1",
+    "electron-builder": "^26.0.12",
+    "htm": "^3.1.1",
+    "marked": "^16.4.1",
+    "pngjs": "^7.0.0",
+    "preact": "^10.27.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0"
+  },
+  "build": {
+    "appId": "com.meihua.desktop",
+    "productName": "御园莓华",
+    "copyright": "Meihua Desktop",
+    "electronDist": "node_modules/electron/dist",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "package.json",
+      "src/**/*",
+      "!src/**/*.map",
+      "node_modules/@anthropic-ai/sdk/**/*"
+    ],
+    "asarUnpack": [
+      "src/main/ext/host.mjs"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/app/icon-512.png",
+      "artifactName": "Meihua-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "御园莓华",
+      "uninstallDisplayName": "御园莓华",
+      "deleteAppDataOnUninstall": false,
+      "installerLanguages": ["zh_CN"],
+      "language": "2052",
+      "include": "build/installer.nsh",
+      "installerSidebar": "build/installerSidebar.bmp",
+      "uninstallerSidebar": "build/uninstallerSidebar.bmp",
+      "installerHeader": "build/installerHeader.bmp"
+    }
+  }
+}

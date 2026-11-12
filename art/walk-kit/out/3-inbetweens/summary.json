@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "frames": 16,
+  "modified_key_frames": [
+    "W00",
+    "W02",
+    "W04",
+    "W06",
+    "W08",
+    "W10",
+    "W12",
+    "W14"
+  ],
+  "imagegen_calls": 40,
+  "retries": 24,
+  "targeted_feet_passed": 12,
+  "odd_feet_passed": 8,
+  "max_contact_endpoint_delta_px": 2,
+  "max_ground_delta_px": 3,
+  "protected_reference_guide_tool_files_unchanged": 38,
+  "all_selected_pngs_identical_to_imagegen_source": true,
+  "near_hand_max_adjacent_centroid_step_px": 46.37,
+  "near_hand_loop_step_px": 1.84,
+  "odd_near_hand_midpoint_errors": [
+    {
+      "frame": "W01",
+      "centroid_midpoint_error_px": 7.26
+    },
+    {
+      "frame": "W03",
+      "centroid_midpoint_error_px": 14.36
+    },
+    {
+      "frame": "W05",
+      "centroid_midpoint_error_px": 11.85
+    },
+    {
+      "frame": "W07",
+      "centroid_midpoint_error_px": 13.83
+    },
+    {
+      "frame": "W09",
+      "centroid_midpoint_error_px": 9.35
+    },
+    {
+      "frame": "W11",
+      "centroid_midpoint_error_px": 8.66
+    },
+    {
+      "frame": "W13",
+      "centroid_midpoint_error_px": 3.22
+    },
+    {
+      "frame": "W15",
+      "centroid_midpoint_error_px": 1.19
+    }
+  ],
+  "measurement_note": "Color-component centroids are read-only diagnostics, not anatomical joint tracking; far hand can be occluded. Complete arm phase/anatomy/occlusion also reviewed visually.",
+  "arm_review": {
+    "status": "passed",
+    "report": "out/arm-fix/REPORT.md"
+  },
+  "overall_review_status": "passed",
+  "approved_keys_changed": 8
+}

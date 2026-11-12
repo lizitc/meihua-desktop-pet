@@ -1,0 +1,25 @@
+You are producing one drawing for a desktop-pet animation of the character below. Use your built-in image generation tool in EDIT mode with the attached images, which are passed in this order:
+Image 1 = THE IMAGE TO EDIT: the current sitting drawing (off-model: her face and eyes are drawn in a different style).
+Image 2 = the approved standing art on the same canvas and at the same scale: the target for identity, face, line, shading and colour.
+Image 3 = the character model sheet (identity reference only).
+
+CHARACTER (keep exactly; she must be instantly recognizable as the girl in the standing art): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on the ear on the SCREEN-RIGHT side a tiny navy-blue bow above a tiny peach bow, the other ear has no bow; pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; violet eyes; fluffy white dog tail; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines. Small soft hands with five fingers.
+FACE (exactly as in the standing art): the same eye size and eye shape as the standing art (moderately large, slightly droopy, NOT bigger and NOT rounder), same iris colour and highlights, same thin eyebrows, tiny nose, small mouth, gentle blush.
+STYLE: identical to the standing art. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.
+
+TASK:
+Edit image 1. Keep her sitting pose, the outline of the figure, its size and its place on the canvas exactly (every part within a few pixels): the head position and its slight tilt, both ears, the whole hair mass and the side bunches, the arms going down between her knees with both hands resting on the floor in front, the skirt and apron spread on the floor, the legs folded to both sides (girl sitting / wariza) with the stocking feet showing, and the tail on the screen-right side.
+Change only HOW she is drawn, so that she looks exactly like the girl in image 2: the same face (in image 1 the eyes are much too large and too round; make them exactly the size, shape and spacing of the eyes in image 2), the same thin lineart and soft cel shading, the same hair rendering and the same outfit colours and details. The navy and peach bows stay on the screen-right ear only. Keep her expression a calm, gentle little smile looking at the viewer.
+
+TECHNICAL (must follow):
+- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.
+- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.
+- Same scale as the image being edited: her head must stay the same size as in the standing art (headband to chin about 300 px). The lowest point of the figure rests on the ground at y=1480 and she stays centred at x=512. Never crop hair, ears, tail, hands or feet.
+- No text, letters, signature or watermark anywhere.
+
+Make 3 separate attempts (3 separate image generation calls, each one an edit of image 1 with the same references), so the best one can be chosen. Save them as:
+- C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\out\S-try-1.png
+- C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\out\S-try-2.png
+- C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\out\S-try-3.png
+
+Use Codex's built-in image generation tool (edit mode, with the listed images attached as references). Save the actual generated images and report their full paths. If saving into the requested folder is denied, do not retry: just report the paths where the generated images were saved. Do not substitute a drawing made with code or an API-based generator. If the built-in tool is unavailable, report the error.

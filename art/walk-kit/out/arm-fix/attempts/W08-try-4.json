@@ -1,0 +1,149 @@
+{
+  "frame": "W08",
+  "attempt": 4,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-27c5c385-4d44-4a22-9e07-6a44f989be66.png",
+  "prompt": "Use case: precise-object-edit. Move ONLY the FAR arm/hand BACK BEHIND THE TORSO in this W08 illustration. The near arm, face, hair, skirt and ALL LEGS/FEET stay EXACTLY unchanged.\nThe FAR hand is currently fully visible atx675 near the right skirt edge. This is wrong for its backward swing. Move that far lower sleeve/cuff and hand45px LEFT, to wristx625,y825, palmx635,y865, fingersx642,y905. The FAR FOREARM AND MOST OF HAND MUST NOW BE OCCLUDED BEHIND THE RIGHT EDGE OF APRON/TORSO. This is natural three-quarter perspective: show only a narrow readable portion of the relaxed fingers just beside/behind the right apron frill aroundx647-660, not a whole hand still outside the torso atx675-695. The arm and hand are anatomically complete behind that occlusion, not cut off. Do not draw the hidden hand on top of the apron. Do not leave the old fully visible far hand in place. Restore skirt/apron over where the hand was.\nKeep the NEAR forward sleeve and hand exactly as the input atwrist525,841. Do not change that side. Keep both contact feet at rear toe311, front heel670, ground1463, and keep head and hips registered. One character, exactly two anatomical arms/hands with proper occlusion, normal thin warm outlines, no colored diagram lines. Output single1024x1536 green-screen full body.\n\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\n\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\arm-fix\\attempts\\W08-try-3.png"
+  ],
+  "feet_check": {
+    "file": "out\\arm-fix\\attempts\\W08-try-4.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1463,
+    "floor_runs": [
+      [
+        255,
+        311
+      ],
+      [
+        670,
+        717
+      ]
+    ],
+    "frame": "W08"
+  },
+  "arms": {
+    "file": "out\\arm-fix\\attempts\\W08-try-4.png",
+    "frame": "W08",
+    "near": {
+      "selected": {
+        "area": 3899,
+        "centroid": [
+          526.44,
+          888.46
+        ],
+        "bbox": [
+          497,
+          841,
+          562,
+          940
+        ],
+        "wrist_proxy": [
+          525.12,
+          841
+        ]
+      },
+      "candidates": [
+        {
+          "area": 3899,
+          "centroid": [
+            526.44,
+            888.46
+          ],
+          "bbox": [
+            497,
+            841,
+            562,
+            940
+          ],
+          "wrist_proxy": [
+            525.12,
+            841
+          ]
+        },
+        {
+          "area": 507,
+          "centroid": [
+            552.47,
+            846.2
+          ],
+          "bbox": [
+            538,
+            830,
+            567,
+            861
+          ],
+          "wrist_proxy": [
+            548.58,
+            830
+          ]
+        },
+        {
+          "area": 168,
+          "centroid": [
+            574.89,
+            853.13
+          ],
+          "bbox": [
+            569,
+            837,
+            580,
+            865
+          ],
+          "wrist_proxy": [
+            571.33,
+            837
+          ]
+        }
+      ]
+    },
+    "far": {
+      "selected": {
+        "area": 608,
+        "centroid": [
+          663.72,
+          837.97
+        ],
+        "bbox": [
+          654,
+          810,
+          674,
+          872
+        ],
+        "wrist_proxy": [
+          657.75,
+          810
+        ]
+      },
+      "candidates": [
+        {
+          "area": 608,
+          "centroid": [
+            663.72,
+            837.97
+          ],
+          "bbox": [
+            654,
+            810,
+            674,
+            872
+          ],
+          "wrist_proxy": [
+            657.75,
+            810
+          ]
+        }
+      ]
+    },
+    "method": "Skin-color connected components; visually confirm components before using the measurements."
+  },
+  "lower_body_floor_max_error": 1,
+  "lower_body_ground_delta": -3,
+  "lower_body_preserved": true,
+  "visual_correct": true,
+  "accepted": true,
+  "notes": "Correct far back-swing now passes behind torso/right apron; only relaxed finger edge is visible, anatomically complete under natural occlusion. Near forward arm unchanged, original contact leg identity retained. Far skin measurement here is only visible fingers, not a wrist joint."
+}

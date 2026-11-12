@@ -1,0 +1,46 @@
+// Notebook icons: the character overlay's hand-drawn set plus page-specific ones.
+import { html } from '../vendor/ui.js';
+import { ICON as BASE } from '../pet/icons.js';
+
+const S = (children) => html`<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${children}</svg>`;
+
+export const ICON = {
+  ...BASE,
+  sun: S(html`<circle cx="12" cy="12" r="4"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/>`),
+  check: S(html`<path d="M5 12.5l4.3 4.3L19 7.2"/>`),
+  nest: S(html`<path d="M3.8 11.2L12 4.5l8.2 6.7"/><path d="M5.8 9.8v9.7h12.4V9.8"/><path d="M12 17.4c-.6-.5-3-2-3-3.9a1.6 1.6 0 0 1 3-.8 1.6 1.6 0 0 1 3 .8c0 1.9-2.4 3.4-3 3.9z"/>`),
+  lock: S(html`<rect x="5.5" y="10.5" width="13" height="10" rx="2.2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/><circle cx="12" cy="15.4" r="1.1" fill="currentColor" stroke="none"/>`),
+  todo: S(html`<rect x="3.5" y="4" width="17" height="16.5" rx="3"/><path d="M7.5 9.6l1.8 1.8 3.2-3.3M14.5 10h3M7.5 15.6h10"/>`),
+  workshop: S(html`<path d="M3.5 20.5h17M5.5 20.5V11l6.5-4.5 6.5 4.5v9.5"/><path d="M9.5 20.5v-5h5v5"/><path d="M17 4v4.2"/>`),
+  sparkle: S(html`<path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1L5 10.5l5.1-1.9z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>`),
+  heart: S(html`<path d="M12 19.6c-1.3-1-8-5.3-8-10a4.3 4.3 0 0 1 8-2.2 4.3 4.3 0 0 1 8 2.2c0 4.7-6.7 9-8 10z"/>`),
+  plus: S(html`<path d="M12 5v14M5 12h14"/>`),
+  minus: S(html`<path d="M5 12h14"/>`),
+  trash: S(html`<path d="M4.5 7h15M9.5 7V4.6h5V7M6.5 7l.9 12.2a1.6 1.6 0 0 0 1.6 1.5h6a1.6 1.6 0 0 0 1.6-1.5L17.5 7"/><path d="M10.2 11v6M13.8 11v6"/>`),
+  edit: S(html`<path d="M4.5 19.5l1-4.2L15.8 5a2 2 0 0 1 2.8 0l.4.4a2 2 0 0 1 0 2.8L8.7 18.5z"/><path d="M13.8 7l3.2 3.2"/>`),
+  search: S(html`<circle cx="10.6" cy="10.6" r="6.1"/><path d="M15.2 15.2l5.3 5.3"/>`),
+  left: S(html`<path d="M14.5 5.5L8 12l6.5 6.5"/>`),
+  right: S(html`<path d="M9.5 5.5L16 12l-6.5 6.5"/>`),
+  down: S(html`<path d="M5.5 9.5L12 16l6.5-6.5"/>`),
+  folder: S(html`<path d="M3.5 7.2a2 2 0 0 1 2-2h4l2 2.3h7a2 2 0 0 1 2 2v8.8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/>`),
+  refresh: S(html`<path d="M19.5 9A7.8 7.8 0 0 0 5 8M4.5 15a7.8 7.8 0 0 0 14.5 1"/><path d="M5 3.8V8h4.2M19 20.2V16h-4.2"/>`),
+  image: S(html`<rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="9.6" r="1.7"/><path d="M4 17.5l5-4.6 3.6 3.2 2.6-2.2 4.8 4.1"/>`),
+  stop: S(html`<rect x="6.5" y="6.5" width="11" height="11" rx="2.2" fill="currentColor" stroke="none"/>`),
+  play: S(html`<path d="M8 5.5v13l10.5-6.5z"/>`),
+  repeat: S(html`<path d="M4.5 11V9.5a3 3 0 0 1 3-3h11.5M16 3.5l3 3-3 3"/><path d="M19.5 13v1.5a3 3 0 0 1-3 3H5M8 20.5l-3-3 3-3"/>`),
+  clock: S(html`<circle cx="12" cy="12" r="8.5"/><path d="M12 7.2V12l3.2 2.1"/>`),
+  location: S(html`<path d="M12 20.8s-6.5-5.9-6.5-11a6.5 6.5 0 0 1 13 0c0 5.1-6.5 11-6.5 11z"/><circle cx="12" cy="9.8" r="2.3"/>`),
+  flag: S(html`<path d="M5.5 20.5V4M5.5 4.5h11.2l-2.2 4 2.2 4H5.5"/>`),
+  key: S(html`<circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16.2 6.8l2.4 2.4M14 9l1.8 1.8"/>`),
+  bolt: S(html`<path d="M13 3L5.5 13.5h5.8L10.5 21 18.5 10.4h-5.8z"/>`),
+  speaker: S(html`<path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6M18 6.5a7.6 7.6 0 0 1 0 11"/>`),
+  user: S(html`<circle cx="12" cy="8.3" r="3.8"/><path d="M4.5 20.2c.8-3.9 3.8-6 7.5-6s6.7 2.1 7.5 6"/>`),
+  brush: S(html`<path d="M19.8 4.2c-2.6 1-7.4 5.4-9.3 8.1l1.3 1.3c2.7-1.9 7-6.7 8-9.4z"/><path d="M9.6 13.4c-2 0-3.6 1.4-3.6 3.4 0 1.1-.6 2-1.6 2.6 3.7 1.1 7.3-.3 7.3-3.9z"/>`),
+  database: S(html`<ellipse cx="12" cy="6" rx="7" ry="2.7"/><path d="M5 6v12c0 1.5 3.1 2.7 7 2.7s7-1.2 7-2.7V6M5 12c0 1.5 3.1 2.7 7 2.7s7-1.2 7-2.7"/>`),
+  code: S(html`<path d="M8.5 7.5L4 12l4.5 4.5M15.5 7.5L20 12l-4.5 4.5M13.4 5l-2.8 14"/>`),
+  external: S(html`<path d="M13.5 4.5h6v6M19.5 4.5l-8 8"/><path d="M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/>`),
+  dot: html`<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/></svg>`,
+  more: S(html`<circle cx="5.5" cy="12" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="18.5" cy="12" r="1" fill="currentColor"/>`),
+  eye: S(html`<path d="M3 12s3.4-6 9-6 9 6 9 6-3.4 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.6"/>`),
+  warn: S(html`<path d="M12 4l9 15.5H3z"/><path d="M12 10v4.2"/><circle cx="12" cy="17" r=".9" fill="currentColor" stroke="none"/>`),
+};

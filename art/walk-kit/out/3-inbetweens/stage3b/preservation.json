@@ -1,0 +1,286 @@
+[
+  {
+    "frame": "W05",
+    "attempt": 6,
+    "ground_delta_px": 0,
+    "floor_endpoint_deltas_px": [
+      [
+        0,
+        -1
+      ]
+    ],
+    "regions": {
+      "head": {
+        "box": [
+          260,
+          50,
+          720,
+          440
+        ],
+        "silhouette_iou": 0.995661,
+        "mean_abs_rgb_error_character_union": 4.0129
+      },
+      "upper_body_and_arms": {
+        "box": [
+          80,
+          440,
+          735,
+          925
+        ],
+        "silhouette_iou": 0.987827,
+        "mean_abs_rgb_error_character_union": 6.6932
+      },
+      "near_arm_hand": {
+        "box": [
+          360,
+          440,
+          525,
+          945
+        ],
+        "silhouette_iou": 0.999627,
+        "mean_abs_rgb_error_character_union": 5.353
+      },
+      "far_arm_hand": {
+        "box": [
+          620,
+          600,
+          715,
+          905
+        ],
+        "silhouette_iou": 0.988177,
+        "mean_abs_rgb_error_character_union": 6.7126
+      },
+      "support_foot": {
+        "box": [
+          310,
+          1400,
+          500,
+          1490
+        ],
+        "silhouette_iou": 0.983985,
+        "mean_abs_rgb_error_character_union": 3.1048
+      }
+    },
+    "hands": {
+      "near": {
+        "before": {
+          "area": 3646,
+          "centroid": [
+            448.12,
+            883.8
+          ],
+          "bbox": [
+            421,
+            839,
+            478,
+            940
+          ],
+          "wrist_proxy": [
+            448.21,
+            839
+          ]
+        },
+        "after": {
+          "area": 3044,
+          "centroid": [
+            447.82,
+            876.93
+          ],
+          "bbox": [
+            420,
+            840,
+            478,
+            937
+          ],
+          "wrist_proxy": [
+            447.6,
+            840
+          ]
+        },
+        "centroid_shift_px": 6.8765,
+        "bbox_max_edge_delta_px": 3
+      },
+      "far": {
+        "before": {
+          "area": 1705,
+          "centroid": [
+            678.92,
+            830.54
+          ],
+          "bbox": [
+            661,
+            788,
+            697,
+            879
+          ],
+          "wrist_proxy": [
+            672.44,
+            788
+          ]
+        },
+        "after": {
+          "area": 1691,
+          "centroid": [
+            678.45,
+            829.96
+          ],
+          "bbox": [
+            660,
+            788,
+            698,
+            877
+          ],
+          "wrist_proxy": [
+            671.03,
+            788
+          ]
+        },
+        "centroid_shift_px": 0.7465,
+        "bbox_max_edge_delta_px": 2
+      }
+    },
+    "note": "Read-only diagnostics. Small imagegen edge/line differences may remain; no pixel-identical preservation claim for edited frames."
+  },
+  {
+    "frame": "W13",
+    "attempt": 6,
+    "ground_delta_px": -2,
+    "floor_endpoint_deltas_px": [
+      [
+        0,
+        0
+      ]
+    ],
+    "regions": {
+      "head": {
+        "box": [
+          260,
+          50,
+          720,
+          440
+        ],
+        "silhouette_iou": 0.994307,
+        "mean_abs_rgb_error_character_union": 4.7766
+      },
+      "upper_body_and_arms": {
+        "box": [
+          80,
+          440,
+          735,
+          925
+        ],
+        "silhouette_iou": 0.987251,
+        "mean_abs_rgb_error_character_union": 9.44
+      },
+      "near_arm_hand": {
+        "box": [
+          350,
+          440,
+          455,
+          945
+        ],
+        "silhouette_iou": 1.0,
+        "mean_abs_rgb_error_character_union": 8.9298
+      },
+      "far_arm_hand": {
+        "box": [
+          610,
+          580,
+          720,
+          925
+        ],
+        "silhouette_iou": 0.988338,
+        "mean_abs_rgb_error_character_union": 7.0521
+      },
+      "support_foot": {
+        "box": [
+          390,
+          1400,
+          540,
+          1475
+        ],
+        "silhouette_iou": 0.947036,
+        "mean_abs_rgb_error_character_union": 9.0781
+      }
+    },
+    "hands": {
+      "near": {
+        "before": {
+          "area": 3313,
+          "centroid": [
+            396.02,
+            891.05
+          ],
+          "bbox": [
+            370,
+            852,
+            425,
+            940
+          ],
+          "wrist_proxy": [
+            397.63,
+            852
+          ]
+        },
+        "after": {
+          "area": 3114,
+          "centroid": [
+            393.44,
+            890.57
+          ],
+          "bbox": [
+            367,
+            853,
+            422,
+            940
+          ],
+          "wrist_proxy": [
+            395.91,
+            853
+          ]
+        },
+        "centroid_shift_px": 2.6243,
+        "bbox_max_edge_delta_px": 3
+      },
+      "far": {
+        "before": {
+          "area": 2622,
+          "centroid": [
+            685.38,
+            852.66
+          ],
+          "bbox": [
+            661,
+            809,
+            709,
+            910
+          ],
+          "wrist_proxy": [
+            683.85,
+            809
+          ]
+        },
+        "after": {
+          "area": 2424,
+          "centroid": [
+            685.62,
+            851.21
+          ],
+          "bbox": [
+            662,
+            809,
+            709,
+            909
+          ],
+          "wrist_proxy": [
+            684.39,
+            809
+          ]
+        },
+        "centroid_shift_px": 1.4697,
+        "bbox_max_edge_delta_px": 1
+      }
+    },
+    "note": "Read-only diagnostics. Small imagegen edge/line differences may remain; no pixel-identical preservation claim for edited frames."
+  }
+]

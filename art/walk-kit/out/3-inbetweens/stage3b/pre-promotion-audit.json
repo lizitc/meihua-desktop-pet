@@ -1,0 +1,25 @@
+{
+  "official_frames_still_unchanged": [
+    "W00.png",
+    "W02.png",
+    "W04.png",
+    "W06.png",
+    "W08.png",
+    "W10.png",
+    "W12.png",
+    "W14.png",
+    "W01.png",
+    "W03.png",
+    "W05.png",
+    "W07.png",
+    "W09.png",
+    "W11.png",
+    "W13.png",
+    "W15.png"
+  ],
+  "selected": [
+    "W05",
+    "W13"
+  ],
+  "source_pngs_edited_by_program": false
+}

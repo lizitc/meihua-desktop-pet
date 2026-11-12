@@ -1,0 +1,106 @@
+[
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\1-base\\base-1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      163,
+      77,
+      750,
+      1480
+    ],
+    "top_row": 77,
+    "bottom_row": 1479,
+    "hip_center_x": 472.84,
+    "border_green_fraction": 0.999663,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true
+    },
+    "passed": true
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\1-base\\base-2.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      156,
+      77,
+      763,
+      1483
+    ],
+    "top_row": 77,
+    "bottom_row": 1482,
+    "hip_center_x": 478.07,
+    "border_green_fraction": 0.999563,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true
+    },
+    "passed": true
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\1-base\\base-3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      145,
+      77,
+      762,
+      1484
+    ],
+    "top_row": 77,
+    "bottom_row": 1483,
+    "hip_center_x": 474.97,
+    "border_green_fraction": 0.999444,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true
+    },
+    "passed": true
+  },
+  {
+    "file": "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\1-base\\base-4.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "character_bbox_exclusive": [
+      146,
+      80,
+      756,
+      1482
+    ],
+    "top_row": 80,
+    "bottom_row": 1481,
+    "hip_center_x": 472.49,
+    "border_green_fraction": 0.999167,
+    "checks": {
+      "canvas_1024x1536": true,
+      "opaque": true,
+      "border_green_at_least_99_percent": true,
+      "top_between_40_and_110": true,
+      "bottom_between_1468_and_1492": true,
+      "hip_center_within_512_plus_or_minus_60": true
+    },
+    "passed": true
+  }
+]

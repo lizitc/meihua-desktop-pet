@@ -1,0 +1,59 @@
+﻿K1 built-in image edit prompt record
+
+References, in order:
+C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\refs\stand-green.png
+C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\refs\sit-green.png
+C:\claude\live2d5\Meihua-Claude-Assets-20261109\meihua-desktop\art\sit-kit\refs\ich01A_101.png
+
+ATTEMPT 1
+
+EDIT MODE. Produce exactly one drawing for the K1 first sitting-down animation frame of Misono Meihua. Output exactly 1024 by 1536 pixels, portrait.
+
+REFERENCES IN THIS EXACT ORDER:
+Image 1 (stand-green.png) is the sole IMAGE TO EDIT: the approved standing art. Preserve its character identity, face proportions, head size, illustration style, clothing, palette, and framing.
+Image 2 (sit-green.png) is ONLY the eventual motion endpoint / pose reference: she will later sit on the floor. Do NOT copy its face, eye proportions, scale, current seated pose, or head placement.
+Image 3 (ich01A_101.png) is ONLY the character identity model sheet.
+This is an independent edit of ORIGINAL IMAGE 1, never an edit of another generated attempt.
+
+REQUESTED MOTION: She has only JUST STARTED lowering herself to sit. Both knees bend forward about 25 degrees at the knee, knees together. Her hips lower so the top of her pink headband is about 80 pixels lower than its position in image 1 (approximately y=163 instead of y=83). Her upper body leans forward slightly, about 8 degrees. Her head tilts down a little and her gaze shifts down to the floor in front of her. Her hands release the skirt hem and move to the front of her thighs just above her knees, relaxed, with five small soft fingers per hand. The skirt hangs naturally over her slightly bent thighs. Both stocking feet remain planted flat at EXACTLY the same screen positions / ground line as image 1; do not shift or slide the feet. This is a shallow early knee bend, well before a squat or sitting on the floor. Retain the original full-body camera angle.
+
+CHARACTER LOCK: Misono Meihua, petite dog-girl kemonomimi. Soft floppy WHITE DOG EARS hanging beside her face, DOG ears and NOT rabbit ears. On the SCREEN-RIGHT ear retain one tiny navy-blue bow above one tiny peach bow; the other ear has no bows. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Violet eyes. Fluffy white dog tail. White blouse with puffed short over-sleeves and fitted long sleeves, pink sleeve ribbons, red collar bow tie. Pink high-waisted suspender skirt with white frilled hem; pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES. Smooth softly rounded stocking feet with NO toe lines. Preserve all details and accessories and their correct sides.
+
+FACE LOCK: Use EXACTLY the face identity of image 1. Keep the same moderately large, slightly droopy eye shape and eye size. Do NOT enlarge or round the eyes. Same violet iris colour and highlights, same thin eyebrows, tiny nose, small mouth and gentle blush. Only adjust the head tilt and downward glance as specified. The endpoint reference face is off-model and must not influence the face.
+
+STYLE LOCK: Identical to image 1: soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, exact same palette and detail level. Not painterly, not sketchy, not 3D. No blur. No extra decoration.
+
+CANVAS / REGISTRATION: Exactly 1024x1536. Exactly ONE complete character centred at x=512. Keep her head exactly the same size as the original, headband-to-chin about 300 pixels; lower the body through pose change, never shrink the entire figure. The lowest figure point rests at y=1480, matching the original ground. Keep all hair, ears, tail, hands, and feet inside the canvas without cropping.
+
+BACKGROUND: Opaque, perfectly flat pure GREEN #00FF00, RGB(0,255,0), everywhere outside the character, including every enclosed gap between hair strands, arms, skirt and legs. Absolutely NO floor, cast shadow, gradient, glow, rim light, green tint, or green reflections on the character.
+No text, letters, labels, signature, watermark, extra people, props or objects.
+
+Change ONLY the explicitly specified early sitting motion. Everything else must remain identical to the approved standing art.
+
+ATTEMPTS 2 AND 3 (separate independent image edit calls)
+
+EDIT MODE. Produce exactly one drawing for the K1 first sitting-down animation frame of Misono Meihua. Output exactly 1024 by 1536 pixels, portrait.
+
+REFERENCES IN THIS EXACT ORDER:
+Image 1 (stand-green.png) is the sole IMAGE TO EDIT: the approved standing art. Preserve its character identity, face proportions, head size, illustration style, clothing, palette, and framing.
+Image 2 (sit-green.png) is ONLY the eventual motion endpoint / pose reference: she will later sit on the floor. Do NOT copy its face, eye proportions, scale, current seated pose, or head placement.
+Image 3 (ich01A_101.png) is ONLY the character identity model sheet.
+This is an independent edit of ORIGINAL IMAGE 1, never an edit of another generated attempt.
+
+REQUESTED MOTION: She has only JUST STARTED lowering herself to sit. Both knees bend forward about 25 degrees at the knee, knees together. Her hips lower so the top of her pink headband is about 80 pixels lower than its position in image 1 (approximately y=163 instead of y=83). Her upper body leans forward slightly, about 8 degrees. Her head tilts down a little and her gaze shifts down to the floor in front of her. Her hands release the skirt hem and move to the front of her thighs just above her knees, relaxed, with five small soft fingers per hand. The skirt hangs naturally over her slightly bent thighs. Both stocking feet remain planted flat at EXACTLY the same screen positions / ground line as image 1; do not shift or slide the feet. This is a shallow early knee bend, well before a squat or sitting on the floor. Retain the original full-body camera angle.
+
+CHARACTER LOCK: Misono Meihua, petite dog-girl kemonomimi. Soft floppy WHITE DOG EARS hanging beside her face, DOG ears and NOT rabbit ears. On the SCREEN-RIGHT ear retain one tiny navy-blue bow above one tiny peach bow; the other ear has no bows. Pink frilled maid headband. Very long wavy WHITE hair with two low side bunches tied with small white flowers. Violet eyes. Fluffy white dog tail. White blouse with puffed short over-sleeves and fitted long sleeves, pink sleeve ribbons, red collar bow tie. Pink high-waisted suspender skirt with white frilled hem; pale cream-pink frilled apron. White thigh-high stockings with small purple bows. NO SHOES. Smooth softly rounded stocking feet with NO toe lines. Preserve all details and accessories and their correct sides.
+
+FACE LOCK: Use EXACTLY the face identity of image 1. Keep the same moderately large, slightly droopy eye shape and eye size. Do NOT enlarge or round the eyes. Same violet iris colour and highlights, same thin eyebrows, tiny nose, small mouth and gentle blush. Only adjust the head tilt and downward glance as specified. The endpoint reference face is off-model and must not influence the face.
+
+STYLE LOCK: Identical to image 1: soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, exact same palette and detail level. Not painterly, not sketchy, not 3D. No blur. No extra decoration.
+
+CANVAS / REGISTRATION: Exactly 1024x1536. Exactly ONE complete character centred at x=512. Keep her head exactly the same size as the original, headband-to-chin about 300 pixels; lower the body through pose change, never shrink the entire figure. The lowest figure point rests at y=1480, matching the original ground. Keep all hair, ears, tail, hands, and feet inside the canvas without cropping.
+
+BACKGROUND: Opaque, perfectly flat pure GREEN #00FF00, RGB(0,255,0), everywhere outside the character, including every enclosed gap between hair strands, arms, skirt and legs. Absolutely NO floor, cast shadow, gradient, glow, rim light, green tint, or green reflections on the character.
+No text, letters, labels, signature, watermark, extra people, props or objects.
+
+Change ONLY the explicitly specified early sitting motion. Everything else must remain identical to the approved standing art.
+
+REGISTRATION PRIORITIES: Preserve image 1's original perfectly flat green background pixels unchanged. Background colour must be mathematically uniform RGB(0,255,0), including internal gaps; no subtle green noise, green vignette, lighter green centre or darker green edges. Reuse the positions, outlines and scale of the two original stocking feet: screen-left foot approximately x=438..510 with lowest point at y=1480; screen-right foot approximately x=581..681 with its original lowest point about y=1465. Keep those feet planted while both knees flex. The original headband top is about y=83; put its new top around y=163, ONLY 80 pixels lower. Maintain original head width and headband-to-chin height. Downward glance means the same open eye shapes and sizes, with the pupils directed down; do not half-close, narrow, enlarge or round her eyes.
+

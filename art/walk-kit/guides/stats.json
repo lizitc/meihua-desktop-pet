@@ -1,0 +1,157 @@
+{
+ "frames": 16,
+ "units": "native px of 508x1000 standing art",
+ "output": {
+  "width": 1024,
+  "height": 1536,
+  "groundY": 1480,
+  "anchorX": 512,
+  "scale": 1.45
+ },
+ "stats": [
+  {
+   "i": 0,
+   "thigh": 15.06,
+   "pelvis": 369.5,
+   "nearContactX": 58,
+   "nearLow": -367.8,
+   "farContactX": -86,
+   "farLow": -369.5
+  },
+  {
+   "i": 1,
+   "thigh": 16.18,
+   "pelvis": 369.7,
+   "nearContactX": 30,
+   "nearLow": -369.7,
+   "farContactX": null,
+   "farLow": -354.7
+  },
+  {
+   "i": 2,
+   "thigh": 17.91,
+   "pelvis": 364.8,
+   "nearContactX": 2,
+   "nearLow": -364.8,
+   "farContactX": null,
+   "farLow": -340.9
+  },
+  {
+   "i": 3,
+   "thigh": 8.48,
+   "pelvis": 370.7,
+   "nearContactX": -26,
+   "nearLow": -370.7,
+   "farContactX": null,
+   "farLow": -335.5
+  },
+  {
+   "i": 4,
+   "thigh": -1.78,
+   "pelvis": 372.4,
+   "nearContactX": -53.9,
+   "nearLow": -372.4,
+   "farContactX": null,
+   "farLow": -342.9
+  },
+  {
+   "i": 5,
+   "thigh": -9.3,
+   "pelvis": 372.5,
+   "nearContactX": -81.9,
+   "nearLow": -372.5,
+   "farContactX": null,
+   "farLow": -360.9
+  },
+  {
+   "i": 6,
+   "thigh": -13.85,
+   "pelvis": 377.6,
+   "nearContactX": -48,
+   "nearLow": -377.6,
+   "farContactX": null,
+   "farLow": -366.6
+  },
+  {
+   "i": 7,
+   "thigh": -16.11,
+   "pelvis": 376.7,
+   "nearContactX": -76,
+   "nearLow": -376.7,
+   "farContactX": null,
+   "farLow": -360.6
+  },
+  {
+   "i": 8,
+   "thigh": -17.79,
+   "pelvis": 369.5,
+   "nearContactX": -104,
+   "nearLow": -369.5,
+   "farContactX": 76,
+   "farLow": -367.8
+  },
+  {
+   "i": 9,
+   "thigh": -14,
+   "pelvis": 369.7,
+   "nearContactX": null,
+   "nearLow": -354.7,
+   "farContactX": 48,
+   "farLow": -369.7
+  },
+  {
+   "i": 10,
+   "thigh": -6,
+   "pelvis": 364.8,
+   "nearContactX": null,
+   "nearLow": -340.9,
+   "farContactX": 20,
+   "farLow": -364.8
+  },
+  {
+   "i": 11,
+   "thigh": 3,
+   "pelvis": 370.7,
+   "nearContactX": null,
+   "nearLow": -335.5,
+   "farContactX": -8,
+   "farLow": -370.7
+  },
+  {
+   "i": 12,
+   "thigh": 11,
+   "pelvis": 372.4,
+   "nearContactX": null,
+   "nearLow": -342.9,
+   "farContactX": -35.9,
+   "farLow": -372.4
+  },
+  {
+   "i": 13,
+   "thigh": 17,
+   "pelvis": 372.5,
+   "nearContactX": null,
+   "nearLow": -360.9,
+   "farContactX": -63.9,
+   "farLow": -372.5
+  },
+  {
+   "i": 14,
+   "thigh": 20,
+   "pelvis": 377.6,
+   "nearContactX": null,
+   "nearLow": -366.6,
+   "farContactX": -30,
+   "farLow": -377.6
+  },
+  {
+   "i": 15,
+   "thigh": 21,
+   "pelvis": 376.7,
+   "nearContactX": null,
+   "nearLow": -360.6,
+   "farContactX": -58,
+   "farLow": -376.7
+  }
+ ]
+}

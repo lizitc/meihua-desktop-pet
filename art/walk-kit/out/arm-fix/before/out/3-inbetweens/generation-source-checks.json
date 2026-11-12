@@ -1,0 +1,120 @@
+{
+  "all_final_pngs_identical_to_selected_imagegen_source": true,
+  "all_attempt_pngs_identical_to_imagegen_source": true,
+  "attempt_hashes": [
+    {
+      "frame": "W03",
+      "attempt": 1,
+      "sha256": "C9DA781AE2C9F5AD42EB516B99DD2C1CF83B67A02181666F9A5F7D94BFD8B4EA",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W03",
+      "attempt": 2,
+      "sha256": "425BFCFC7B0CEFE272DB416C1EB6F9178444BD32F34C58EA84EE50CDC9AA638E",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W03",
+      "attempt": 3,
+      "sha256": "C468AB3B7975252D62B512B490AC35D203B24B9B26B0F3D5DB2E978EA61F2A96",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W03",
+      "attempt": 4,
+      "sha256": "50AE318BD3A3B58E8B524D0C3C1F2EB5F5F4FD49DA110E79B1AEEE7FF0D13D29",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W03",
+      "attempt": 5,
+      "sha256": "6C25CE0A8DD877DCABF1140ADEF78AEB3630024FFD0B8C284F94BE9BC5FC8F2C",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W11",
+      "attempt": 1,
+      "sha256": "31C4591A8D56476252665B35587B2829586AACD638BA178336D50059C26A6319",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W05",
+      "attempt": 1,
+      "sha256": "14756873D87C9AFC7D6211B3C2726D3303CA6CE69585961367081110A9322E67",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W05",
+      "attempt": 2,
+      "sha256": "0A85A10FF2B4783FC1D3E7C3955F573ECD805A2E448041C3D644D0384D949412",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W05",
+      "attempt": 3,
+      "sha256": "570081AF2FB88458FBEB04C844DB638A4B4A3E692982C24FDD3B18267DC91DDA",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W05",
+      "attempt": 4,
+      "sha256": "4B6BC579741EE2A6BDAA66C595E0F81A18685040D0F3C7814E58521FA6CDC99A",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W13",
+      "attempt": 1,
+      "sha256": "885B42B50C60247978BB98DE1E8D91B0F5C38845CC457A6F85FBD0D65596AB0F",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W01",
+      "attempt": 1,
+      "sha256": "45890FB394D6F681BA3D337DE8DED418CF4604F705766ABB73F4C7B0586C2353",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W09",
+      "attempt": 1,
+      "sha256": "F680607323C5A95C9229F83BDC5F259053210D560F15D5371C977F8B7D54DF9F",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W07",
+      "attempt": 1,
+      "sha256": "9CBB7496D883E5127D0FD11A64B30D4932AC73A2A4C622E3F7D9A3901172D26D",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W07",
+      "attempt": 2,
+      "sha256": "E3626468C3489F37542678EE2FB9CE845E7EC35CD7FE85421E278C4B7C9ACE87",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W07",
+      "attempt": 3,
+      "sha256": "75A7C874395C9469EE2406140587A6F25A8C11D864EEF2FA19AAC76CDD88FCA6",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W15",
+      "attempt": 1,
+      "sha256": "4284BDC1A88B9A2C1B7CE94D8E067F41D73C4CB9E6AC37F675FAA2B55F3405A4",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W15",
+      "attempt": 2,
+      "sha256": "6174D2120F7FBD1FE7A9FBBCB77482DD0B65D0A4712E7092F476BF20980A5DC6",
+      "identical_to_imagegen_source": true
+    },
+    {
+      "frame": "W15",
+      "attempt": 3,
+      "sha256": "D3E54FC212AADB67E276B713EC414FC36988F25150AD5E137AB225231D039153",
+      "identical_to_imagegen_source": true
+    }
+  ]
+}

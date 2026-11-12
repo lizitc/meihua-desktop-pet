@@ -1,0 +1,158 @@
+[
+  {
+    "file": "out\\2-keys\\W00.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1473,
+    "floor_runs": [
+      [
+        298,
+        349
+      ],
+      [
+        606,
+        709
+      ]
+    ],
+    "frame": "W00"
+  },
+  {
+    "file": "out\\2-keys\\W02.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1480,
+    "floor_runs": [
+      [
+        482,
+        610
+      ]
+    ],
+    "stance_toe": 610,
+    "stance_width": 129,
+    "frame": "W02"
+  },
+  {
+    "file": "out\\2-keys\\W04.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1478,
+    "floor_runs": [
+      [
+        364,
+        515
+      ]
+    ],
+    "stance_toe": 515,
+    "stance_width": 152,
+    "frame": "W04",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  {
+    "file": "out\\2-keys\\W06.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1464,
+    "floor_runs": [
+      [
+        370,
+        427
+      ]
+    ],
+    "stance_toe": 427,
+    "stance_width": 58,
+    "swing_toe": 735,
+    "swing_lift": 53,
+    "frame": "W06",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  {
+    "file": "out\\2-keys\\W08.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1466,
+    "floor_runs": [
+      [
+        255,
+        310
+      ],
+      [
+        669,
+        717
+      ]
+    ],
+    "frame": "W08"
+  },
+  {
+    "file": "out\\2-keys\\W10.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1469,
+    "floor_runs": [
+      [
+        533,
+        678
+      ]
+    ],
+    "stance_toe": 678,
+    "stance_width": 146,
+    "frame": "W10",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  {
+    "file": "out\\2-keys\\W12.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1478,
+    "floor_runs": [
+      [
+        461,
+        585
+      ]
+    ],
+    "stance_toe": 585,
+    "stance_width": 125,
+    "frame": "W12"
+  },
+  {
+    "file": "out\\2-keys\\W14.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1474,
+    "floor_runs": [
+      [
+        421,
+        474
+      ]
+    ],
+    "stance_toe": 474,
+    "stance_width": 54,
+    "swing_toe": 664,
+    "swing_lift": 55,
+    "frame": "W14",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  }
+]

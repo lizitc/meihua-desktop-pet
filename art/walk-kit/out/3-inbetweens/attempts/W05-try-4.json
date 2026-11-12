@@ -1,0 +1,39 @@
+{
+  "frame": "W05",
+  "attempt": 4,
+  "source": "C:\\Users\\lizi\\.codex\\generated_images\\01a1c118-5ecb-7703-b3fc-68d4decd99ce\\exec-948f9f9b-9de5-4484-bbab-16f1847ed54f.png",
+  "prompt": "NEW W05 must not reuse W04's foot position. Redraw the NEAR almost-straight supporting leg slanting a little BACK from hips to foot; its foot must be further LEFT/back than W04. Keep upper body and hips fixed.\n\nUse case: 2D hand-drawn animation in-between (breakdown) drawing, identity-locked.\nReferences 1 and 2 are two consecutive approved key drawings of the same walk cycle toward screen RIGHT. Draw the drawing exactly HALFWAY between them in time. Reference 3 is the pose diagram for this halfway pose (diagram only; dark blue = NEAR leg/arm, light blue = FAR leg/arm, black = floor, dashed vertical line = the hips' centre line). Reference 4 is the identity model; reference 5 is an approved frame of this walk and the standard for rendering, head size, skirt length and stocking thickness.\nDraw frame W05, same three-quarter view as the references, not mirrored.\nW05: The NEAR leg is straight and slightly behind the hips, foot flat (the heel may just begin to lift). The tip of its toes is halfway between references 1 and 2. The FAR leg swings forward past the near leg, knee bent and leading, foot lifted clear of the floor. Arms halfway.\nEvery moving part sits midway between its positions in reference 1 and reference 2: thighs, shins, feet, arms, hands, skirt hem, apron frills, hair tips, ears and tail. The head stays at the same place on the canvas, and the head, face, hair top, costume, colours, line quality and proportions stay IDENTICAL to references 1 and 2. It must be one clean, complete drawing, not a blend or double exposure: exactly two legs, two socked feet and two hands, all intact; where the legs overlap, the far leg is partly hidden behind the near leg.\nCHARACTER (keep exactly, she must be instantly recognizable as the girl in ich01A_101.png): Misono Meihua, a petite dog-girl (kemonomimi). Soft floppy WHITE DOG EARS hanging beside her face (dog ears, NOT rabbit ears); on her LEFT ear a tiny navy-blue bow and a tiny peach bow (in a right-facing three-quarter view this is the ear nearer to the viewer); pink frilled maid headband; very long wavy WHITE hair with two low side bunches tied with small white flowers; large violet eyes; fluffy white dog tail coming from under the back of the skirt; white blouse with puffed short over-sleeves and fitted long sleeves, pink ribbons on the sleeves, red bow tie at the collar; pink high-waisted suspender skirt with a white frilled hem; pale cream-pink frilled apron; white thigh-high stockings with small purple bows; NO SHOES, stocking feet smooth and softly rounded with no toe lines and no ankle wrinkles. Small soft hands with five fingers and rounded fingertips. Bright clean face with a gentle blush, no heavy shadows on the face. Same head-to-body proportions as ich01A_101.png (a little over 4.5 heads tall).\nSTYLE: identical to ich01A_101.png. Soft pastel Japanese visual-novel illustration, thin clean even lineart, very light soft cel shading, same palette and the same level of detail. Not painterly, not sketchy, not 3D, no blur, no extra decoration.\nTECHNICAL (must follow):\n- Output exactly 1024x1536 (portrait). Exactly ONE character and nothing else.\n- Opaque, perfectly flat, pure GREEN background #00FF00 everywhere, including every gap between hair strands, arms and legs. No gradient, no floor, no cast shadow, no glow, no rim light. No green tint or green reflection on the character.\n- Same scale and placement as the pose guide: the soles touch the black ground line at y=1480; the top of the headband sits on the pink dashed line (about y=64-83 depending on the frame); the pelvis stays on the vertical dashed centre line x=512. The whole figure is about 1400 px tall. Never crop hair, ears, tail, hands or feet.\n- The pose guide is a DIAGRAM ONLY: never draw the mannequin, its colours, lines, labels, grid or text.\n- No text, letters, signature or watermark anywhere.\n\nFrame W05 measured halfway foot target (absolute x on the1024px canvas; pelvis remains512): NEAR supporting foot's RIGHTMOST toe x=471 (allowed451-491), whole foot flat or heel just beginning to rise. FAR foot swings forward past the near leg, lifted, only near support foot touches. Preserve leg identity continuously from BOTH neighbouring keys, same foreground leg and supporting side; do not swap or mirror legs. Keep the head/face at the approved size and position. The mid-pose is a single clean drawing, no blended limbs. Do not draw coordinates, diagrams, lines or text.\n\nUse the rear half of the allowed toe window: near supporting TOE at x=480-485 (allowed451-491), heel near345-355 and ankle near400,y=1420. Not toe498 or515. The whole near foot stays flat or heel only just beginning to rise, exactly one foot touching. Far bent knee leads forward near x=620,y=1140; far ankle advances toward x=550,y=1340 and lifted toe about x=635,y=1400, midway toward W06. Do not tuck the far foot back behind the support leg. Near leg remains foreground support, far swing leg behind it at any crossing. Two complete legs, two hands, same character and head placement.\n\nThe last support toe422 was too far LEFT/back. Bring the supporting ankle and whole flat foot about50px RIGHT from that exaggerated position, aiming toe480, not an extreme backward lean. Keep the pelvis/head fixed, near leg straight, far bent leg airborne. Correct target remains451-491.",
+  "references": [
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W04.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W06.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\guides\\guide-W05.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\refs\\walk-base.png",
+    "C:\\Users\\lizi\\Desktop\\walk-kit\\out\\2-keys\\W00.png"
+  ],
+  "feet_check": {
+    "file": "out\\3-inbetweens\\attempts\\W05-try-4.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "ground": 1479,
+    "floor_runs": [
+      [
+        329,
+        478
+      ]
+    ],
+    "stance_toe": 478,
+    "stance_heel": 329,
+    "stance_width": 150,
+    "swing_toe": 574,
+    "swing_lift": 117,
+    "frame": "W05",
+    "pass": true,
+    "score": 0,
+    "fails": []
+  },
+  "visual_correct": true,
+  "status": "accepted",
+  "visual_review": "Near nearly straight leg supports flat just behind hips, far leg bends and advances in air, correct foreground layering and intact hands/feet. Swing-foot/cloth interpolation remains approximate, noted for final review."
+}

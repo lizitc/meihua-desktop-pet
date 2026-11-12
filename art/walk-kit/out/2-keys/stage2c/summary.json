@@ -1,0 +1,102 @@
+{
+  "stage": "2c",
+  "final_key_count": 8,
+  "targeted_frames_passed": 4,
+  "targeted_frame_count": 4,
+  "checker_exit_code": 0,
+  "total_generations": 12,
+  "retry_counts": {
+    "W04": 1,
+    "W10": 2,
+    "W06": 5,
+    "W14": 0
+  },
+  "final_targeted_measurements": [
+    {
+      "file": "out\\2-keys\\W04.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "ground": 1478,
+      "floor_runs": [
+        [
+          364,
+          515
+        ]
+      ],
+      "stance_toe": 515,
+      "stance_width": 152,
+      "frame": "W04",
+      "pass": true,
+      "score": 0,
+      "fails": []
+    },
+    {
+      "file": "out\\2-keys\\W06.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "ground": 1464,
+      "floor_runs": [
+        [
+          370,
+          427
+        ]
+      ],
+      "stance_toe": 427,
+      "stance_width": 58,
+      "swing_toe": 735,
+      "swing_lift": 53,
+      "frame": "W06",
+      "pass": true,
+      "score": 0,
+      "fails": []
+    },
+    {
+      "file": "out\\2-keys\\W10.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "ground": 1469,
+      "floor_runs": [
+        [
+          533,
+          678
+        ]
+      ],
+      "stance_toe": 678,
+      "stance_width": 146,
+      "frame": "W10",
+      "pass": true,
+      "score": 0,
+      "fails": []
+    },
+    {
+      "file": "out\\2-keys\\W14.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "ground": 1474,
+      "floor_runs": [
+        [
+          421,
+          474
+        ]
+      ],
+      "stance_toe": 474,
+      "stance_width": 54,
+      "swing_toe": 664,
+      "swing_lift": 55,
+      "frame": "W14",
+      "pass": true,
+      "score": 0,
+      "fails": []
+    }
+  ],
+  "preservation_verified": true,
+  "old_height_and_green_checks": "information only for Stage 2c; not used to spend generation attempts"
+}
